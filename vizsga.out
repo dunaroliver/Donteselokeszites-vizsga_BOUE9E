@@ -1,0 +1,1713 @@
+Problem:    vizsga
+Rows:       382
+Columns:    465 (465 integer, 30 binary)
+Non-zeros:  1500
+Status:     INTEGER OPTIMAL
+Objective:  profit[M] = 71347.15 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 daily_demand_sum[M,Mignon]
+                                 -10           -10             = 
+     2 daily_demand_sum[M,Mozart]
+                                 -17           -17             = 
+     3 daily_demand_sum[M,Sacher]
+                                 -30           -30             = 
+     4 daily_demand_sum[M,Schwarzwald]
+                                 -55           -55             = 
+     5 daily_demand_sum[M,Tiramisu]
+                                 -40           -40             = 
+     6 daily_demand_sum[M,Kremes]
+                                 -50           -50             = 
+     7 daily_demand_sum[M,Dobos]
+                                  -4            -4             = 
+     8 daily_demand_sum[M,Isler]
+                                 -21           -21             = 
+     9 daily_demand_sum[M,Linzer]
+                                 -16           -16             = 
+    10 daily_demand_sum[Tu,Mignon]
+                                 -10           -10             = 
+    11 daily_demand_sum[Tu,Mozart]
+                                 -17           -17             = 
+    12 daily_demand_sum[Tu,Sacher]
+                                 -30           -30             = 
+    13 daily_demand_sum[Tu,Schwarzwald]
+                                 -55           -55             = 
+    14 daily_demand_sum[Tu,Tiramisu]
+                                 -40           -40             = 
+    15 daily_demand_sum[Tu,Kremes]
+                                 -50           -50             = 
+    16 daily_demand_sum[Tu,Dobos]
+                                  -4            -4             = 
+    17 daily_demand_sum[Tu,Isler]
+                                 -21           -21             = 
+    18 daily_demand_sum[Tu,Linzer]
+                                 -16           -16             = 
+    19 daily_demand_sum[W,Mignon]
+                                 -10           -10             = 
+    20 daily_demand_sum[W,Mozart]
+                                 -17           -17             = 
+    21 daily_demand_sum[W,Sacher]
+                                 -30           -30             = 
+    22 daily_demand_sum[W,Schwarzwald]
+                                 -55           -55             = 
+    23 daily_demand_sum[W,Tiramisu]
+                                 -40           -40             = 
+    24 daily_demand_sum[W,Kremes]
+                                 -50           -50             = 
+    25 daily_demand_sum[W,Dobos]
+                                  -4            -4             = 
+    26 daily_demand_sum[W,Isler]
+                                 -21           -21             = 
+    27 daily_demand_sum[W,Linzer]
+                                 -16           -16             = 
+    28 daily_demand_sum[Th,Mignon]
+                                 -10           -10             = 
+    29 daily_demand_sum[Th,Mozart]
+                                 -17           -17             = 
+    30 daily_demand_sum[Th,Sacher]
+                                 -30           -30             = 
+    31 daily_demand_sum[Th,Schwarzwald]
+                                 -55           -55             = 
+    32 daily_demand_sum[Th,Tiramisu]
+                                 -40           -40             = 
+    33 daily_demand_sum[Th,Kremes]
+                                 -50           -50             = 
+    34 daily_demand_sum[Th,Dobos]
+                                  -4            -4             = 
+    35 daily_demand_sum[Th,Isler]
+                                 -21           -21             = 
+    36 daily_demand_sum[Th,Linzer]
+                                 -16           -16             = 
+    37 daily_demand_sum[F,Mignon]
+                                 -10           -10             = 
+    38 daily_demand_sum[F,Mozart]
+                                 -17           -17             = 
+    39 daily_demand_sum[F,Sacher]
+                                 -30           -30             = 
+    40 daily_demand_sum[F,Schwarzwald]
+                                 -55           -55             = 
+    41 daily_demand_sum[F,Tiramisu]
+                                 -40           -40             = 
+    42 daily_demand_sum[F,Kremes]
+                                 -50           -50             = 
+    43 daily_demand_sum[F,Dobos]
+                                  -4            -4             = 
+    44 daily_demand_sum[F,Isler]
+                                 -21           -21             = 
+    45 daily_demand_sum[F,Linzer]
+                                 -16           -16             = 
+    46 production_matching_demand[M,Mignon]
+                                   0            -0             = 
+    47 production_matching_demand[M,Mozart]
+                                   0            -0             = 
+    48 production_matching_demand[M,Sacher]
+                                   0            -0             = 
+    49 production_matching_demand[M,Schwarzwald]
+                                   0            -0             = 
+    50 production_matching_demand[M,Tiramisu]
+                                   0            -0             = 
+    51 production_matching_demand[M,Kremes]
+                                   0            -0             = 
+    52 production_matching_demand[M,Dobos]
+                                   0            -0             = 
+    53 production_matching_demand[M,Isler]
+                                   0            -0             = 
+    54 production_matching_demand[M,Linzer]
+                                   0            -0             = 
+    55 production_matching_demand[Tu,Mignon]
+                                   0            -0             = 
+    56 production_matching_demand[Tu,Mozart]
+                                   0            -0             = 
+    57 production_matching_demand[Tu,Sacher]
+                                   0            -0             = 
+    58 production_matching_demand[Tu,Schwarzwald]
+                                   0            -0             = 
+    59 production_matching_demand[Tu,Tiramisu]
+                                   0            -0             = 
+    60 production_matching_demand[Tu,Kremes]
+                                   0            -0             = 
+    61 production_matching_demand[Tu,Dobos]
+                                   0            -0             = 
+    62 production_matching_demand[Tu,Isler]
+                                   0            -0             = 
+    63 production_matching_demand[Tu,Linzer]
+                                   0            -0             = 
+    64 production_matching_demand[W,Mignon]
+                                   0            -0             = 
+    65 production_matching_demand[W,Mozart]
+                                   0            -0             = 
+    66 production_matching_demand[W,Sacher]
+                                   0            -0             = 
+    67 production_matching_demand[W,Schwarzwald]
+                                   0            -0             = 
+    68 production_matching_demand[W,Tiramisu]
+                                   0            -0             = 
+    69 production_matching_demand[W,Kremes]
+                                   0            -0             = 
+    70 production_matching_demand[W,Dobos]
+                                   0            -0             = 
+    71 production_matching_demand[W,Isler]
+                                   0            -0             = 
+    72 production_matching_demand[W,Linzer]
+                                   0            -0             = 
+    73 production_matching_demand[Th,Mignon]
+                                   0            -0             = 
+    74 production_matching_demand[Th,Mozart]
+                                   0            -0             = 
+    75 production_matching_demand[Th,Sacher]
+                                   0            -0             = 
+    76 production_matching_demand[Th,Schwarzwald]
+                                   0            -0             = 
+    77 production_matching_demand[Th,Tiramisu]
+                                   0            -0             = 
+    78 production_matching_demand[Th,Kremes]
+                                   0            -0             = 
+    79 production_matching_demand[Th,Dobos]
+                                   0            -0             = 
+    80 production_matching_demand[Th,Isler]
+                                   0            -0             = 
+    81 production_matching_demand[Th,Linzer]
+                                   0            -0             = 
+    82 production_matching_demand[F,Mignon]
+                                   0            -0             = 
+    83 production_matching_demand[F,Mozart]
+                                   0            -0             = 
+    84 production_matching_demand[F,Sacher]
+                                   0            -0             = 
+    85 production_matching_demand[F,Schwarzwald]
+                                   0            -0             = 
+    86 production_matching_demand[F,Tiramisu]
+                                   0            -0             = 
+    87 production_matching_demand[F,Kremes]
+                                   0            -0             = 
+    88 production_matching_demand[F,Dobos]
+                                   0            -0             = 
+    89 production_matching_demand[F,Isler]
+                                   0            -0             = 
+    90 production_matching_demand[F,Linzer]
+                                   0            -0             = 
+    91 deliveries[M,S1,Mignon]
+                                  10            10             = 
+    92 deliveries[M,S1,Mozart]
+                                   5             5             = 
+    93 deliveries[M,S1,Sacher]
+                                   5             5             = 
+    94 deliveries[M,S1,Schwarzwald]
+                                  15            15             = 
+    95 deliveries[M,S1,Tiramisu]
+                                   7             7             = 
+    96 deliveries[M,S1,Kremes]
+                                  20            20             = 
+    97 deliveries[M,S1,Dobos]
+                                   0            -0             = 
+    98 deliveries[M,S1,Isler]
+                                   4             4             = 
+    99 deliveries[M,S1,Linzer]
+                                   4             4             = 
+   100 deliveries[M,S2,Mignon]
+                                   0            -0             = 
+   101 deliveries[M,S2,Mozart]
+                                  12            12             = 
+   102 deliveries[M,S2,Sacher]
+                                  10            10             = 
+   103 deliveries[M,S2,Schwarzwald]
+                                  10            10             = 
+   104 deliveries[M,S2,Tiramisu]
+                                   8             8             = 
+   105 deliveries[M,S2,Kremes]
+                                  15            15             = 
+   106 deliveries[M,S2,Dobos]
+                                   4             4             = 
+   107 deliveries[M,S2,Isler]
+                                   5             5             = 
+   108 deliveries[M,S2,Linzer]
+                                  10            10             = 
+   109 deliveries[M,S3,Mignon]
+                                   0            -0             = 
+   110 deliveries[M,S3,Mozart]
+                                   0            -0             = 
+   111 deliveries[M,S3,Sacher]
+                                  15            15             = 
+   112 deliveries[M,S3,Schwarzwald]
+                                  30            30             = 
+   113 deliveries[M,S3,Tiramisu]
+                                  25            25             = 
+   114 deliveries[M,S3,Kremes]
+                                  15            15             = 
+   115 deliveries[M,S3,Dobos]
+                                   0            -0             = 
+   116 deliveries[M,S3,Isler]
+                                  12            12             = 
+   117 deliveries[M,S3,Linzer]
+                                   2             2             = 
+   118 deliveries[Tu,S1,Mignon]
+                                  10            10             = 
+   119 deliveries[Tu,S1,Mozart]
+                                   5             5             = 
+   120 deliveries[Tu,S1,Sacher]
+                                   5             5             = 
+   121 deliveries[Tu,S1,Schwarzwald]
+                                  15            15             = 
+   122 deliveries[Tu,S1,Tiramisu]
+                                   7             7             = 
+   123 deliveries[Tu,S1,Kremes]
+                                  20            20             = 
+   124 deliveries[Tu,S1,Dobos]
+                                   0            -0             = 
+   125 deliveries[Tu,S1,Isler]
+                                   4             4             = 
+   126 deliveries[Tu,S1,Linzer]
+                                   4             4             = 
+   127 deliveries[Tu,S2,Mignon]
+                                   0            -0             = 
+   128 deliveries[Tu,S2,Mozart]
+                                  12            12             = 
+   129 deliveries[Tu,S2,Sacher]
+                                  10            10             = 
+   130 deliveries[Tu,S2,Schwarzwald]
+                                  10            10             = 
+   131 deliveries[Tu,S2,Tiramisu]
+                                   8             8             = 
+   132 deliveries[Tu,S2,Kremes]
+                                  15            15             = 
+   133 deliveries[Tu,S2,Dobos]
+                                   4             4             = 
+   134 deliveries[Tu,S2,Isler]
+                                   5             5             = 
+   135 deliveries[Tu,S2,Linzer]
+                                  10            10             = 
+   136 deliveries[Tu,S3,Mignon]
+                                   0            -0             = 
+   137 deliveries[Tu,S3,Mozart]
+                                   0            -0             = 
+   138 deliveries[Tu,S3,Sacher]
+                                  15            15             = 
+   139 deliveries[Tu,S3,Schwarzwald]
+                                  30            30             = 
+   140 deliveries[Tu,S3,Tiramisu]
+                                  25            25             = 
+   141 deliveries[Tu,S3,Kremes]
+                                  15            15             = 
+   142 deliveries[Tu,S3,Dobos]
+                                   0            -0             = 
+   143 deliveries[Tu,S3,Isler]
+                                  12            12             = 
+   144 deliveries[Tu,S3,Linzer]
+                                   2             2             = 
+   145 deliveries[W,S1,Mignon]
+                                  10            10             = 
+   146 deliveries[W,S1,Mozart]
+                                   5             5             = 
+   147 deliveries[W,S1,Sacher]
+                                   5             5             = 
+   148 deliveries[W,S1,Schwarzwald]
+                                  15            15             = 
+   149 deliveries[W,S1,Tiramisu]
+                                   7             7             = 
+   150 deliveries[W,S1,Kremes]
+                                  20            20             = 
+   151 deliveries[W,S1,Dobos]
+                                   0            -0             = 
+   152 deliveries[W,S1,Isler]
+                                   4             4             = 
+   153 deliveries[W,S1,Linzer]
+                                   4             4             = 
+   154 deliveries[W,S2,Mignon]
+                                   0            -0             = 
+   155 deliveries[W,S2,Mozart]
+                                  12            12             = 
+   156 deliveries[W,S2,Sacher]
+                                  10            10             = 
+   157 deliveries[W,S2,Schwarzwald]
+                                  10            10             = 
+   158 deliveries[W,S2,Tiramisu]
+                                   8             8             = 
+   159 deliveries[W,S2,Kremes]
+                                  15            15             = 
+   160 deliveries[W,S2,Dobos]
+                                   4             4             = 
+   161 deliveries[W,S2,Isler]
+                                   5             5             = 
+   162 deliveries[W,S2,Linzer]
+                                  10            10             = 
+   163 deliveries[W,S3,Mignon]
+                                   0            -0             = 
+   164 deliveries[W,S3,Mozart]
+                                   0            -0             = 
+   165 deliveries[W,S3,Sacher]
+                                  15            15             = 
+   166 deliveries[W,S3,Schwarzwald]
+                                  30            30             = 
+   167 deliveries[W,S3,Tiramisu]
+                                  25            25             = 
+   168 deliveries[W,S3,Kremes]
+                                  15            15             = 
+   169 deliveries[W,S3,Dobos]
+                                   0            -0             = 
+   170 deliveries[W,S3,Isler]
+                                  12            12             = 
+   171 deliveries[W,S3,Linzer]
+                                   2             2             = 
+   172 deliveries[Th,S1,Mignon]
+                                  10            10             = 
+   173 deliveries[Th,S1,Mozart]
+                                   5             5             = 
+   174 deliveries[Th,S1,Sacher]
+                                   5             5             = 
+   175 deliveries[Th,S1,Schwarzwald]
+                                  15            15             = 
+   176 deliveries[Th,S1,Tiramisu]
+                                   7             7             = 
+   177 deliveries[Th,S1,Kremes]
+                                  20            20             = 
+   178 deliveries[Th,S1,Dobos]
+                                   0            -0             = 
+   179 deliveries[Th,S1,Isler]
+                                   4             4             = 
+   180 deliveries[Th,S1,Linzer]
+                                   4             4             = 
+   181 deliveries[Th,S2,Mignon]
+                                   0            -0             = 
+   182 deliveries[Th,S2,Mozart]
+                                  12            12             = 
+   183 deliveries[Th,S2,Sacher]
+                                  10            10             = 
+   184 deliveries[Th,S2,Schwarzwald]
+                                  10            10             = 
+   185 deliveries[Th,S2,Tiramisu]
+                                   8             8             = 
+   186 deliveries[Th,S2,Kremes]
+                                  15            15             = 
+   187 deliveries[Th,S2,Dobos]
+                                   4             4             = 
+   188 deliveries[Th,S2,Isler]
+                                   5             5             = 
+   189 deliveries[Th,S2,Linzer]
+                                  10            10             = 
+   190 deliveries[Th,S3,Mignon]
+                                   0            -0             = 
+   191 deliveries[Th,S3,Mozart]
+                                   0            -0             = 
+   192 deliveries[Th,S3,Sacher]
+                                  15            15             = 
+   193 deliveries[Th,S3,Schwarzwald]
+                                  30            30             = 
+   194 deliveries[Th,S3,Tiramisu]
+                                  25            25             = 
+   195 deliveries[Th,S3,Kremes]
+                                  15            15             = 
+   196 deliveries[Th,S3,Dobos]
+                                   0            -0             = 
+   197 deliveries[Th,S3,Isler]
+                                  12            12             = 
+   198 deliveries[Th,S3,Linzer]
+                                   2             2             = 
+   199 deliveries[F,S1,Mignon]
+                                  10            10             = 
+   200 deliveries[F,S1,Mozart]
+                                   5             5             = 
+   201 deliveries[F,S1,Sacher]
+                                   5             5             = 
+   202 deliveries[F,S1,Schwarzwald]
+                                  15            15             = 
+   203 deliveries[F,S1,Tiramisu]
+                                   7             7             = 
+   204 deliveries[F,S1,Kremes]
+                                  20            20             = 
+   205 deliveries[F,S1,Dobos]
+                                   0            -0             = 
+   206 deliveries[F,S1,Isler]
+                                   4             4             = 
+   207 deliveries[F,S1,Linzer]
+                                   4             4             = 
+   208 deliveries[F,S2,Mignon]
+                                   0            -0             = 
+   209 deliveries[F,S2,Mozart]
+                                  12            12             = 
+   210 deliveries[F,S2,Sacher]
+                                  10            10             = 
+   211 deliveries[F,S2,Schwarzwald]
+                                  10            10             = 
+   212 deliveries[F,S2,Tiramisu]
+                                   8             8             = 
+   213 deliveries[F,S2,Kremes]
+                                  15            15             = 
+   214 deliveries[F,S2,Dobos]
+                                   4             4             = 
+   215 deliveries[F,S2,Isler]
+                                   5             5             = 
+   216 deliveries[F,S2,Linzer]
+                                  10            10             = 
+   217 deliveries[F,S3,Mignon]
+                                   0            -0             = 
+   218 deliveries[F,S3,Mozart]
+                                   0            -0             = 
+   219 deliveries[F,S3,Sacher]
+                                  15            15             = 
+   220 deliveries[F,S3,Schwarzwald]
+                                  30            30             = 
+   221 deliveries[F,S3,Tiramisu]
+                                  25            25             = 
+   222 deliveries[F,S3,Kremes]
+                                  15            15             = 
+   223 deliveries[F,S3,Dobos]
+                                   0            -0             = 
+   224 deliveries[F,S3,Isler]
+                                  12            12             = 
+   225 deliveries[F,S3,Linzer]
+                                   2             2             = 
+   226 deliver_only_avalible[M,Mignon,F1]
+                                   0            -0             = 
+   227 deliver_only_avalible[M,Mignon,F2]
+                                   0            -0             = 
+   228 deliver_only_avalible[M,Mozart,F1]
+                                   0            -0             = 
+   229 deliver_only_avalible[M,Mozart,F2]
+                                   0            -0             = 
+   230 deliver_only_avalible[M,Sacher,F1]
+                                   0            -0             = 
+   231 deliver_only_avalible[M,Sacher,F2]
+                                   0            -0             = 
+   232 deliver_only_avalible[M,Schwarzwald,F1]
+                                   0            -0             = 
+   233 deliver_only_avalible[M,Schwarzwald,F2]
+                                   0            -0             = 
+   234 deliver_only_avalible[M,Tiramisu,F1]
+                                   0            -0             = 
+   235 deliver_only_avalible[M,Tiramisu,F2]
+                                   0            -0             = 
+   236 deliver_only_avalible[M,Kremes,F1]
+                                   0            -0             = 
+   237 deliver_only_avalible[M,Kremes,F2]
+                                   0            -0             = 
+   238 deliver_only_avalible[M,Dobos,F1]
+                                   0            -0             = 
+   239 deliver_only_avalible[M,Dobos,F2]
+                                   0            -0             = 
+   240 deliver_only_avalible[M,Isler,F1]
+                                   0            -0             = 
+   241 deliver_only_avalible[M,Isler,F2]
+                                   0            -0             = 
+   242 deliver_only_avalible[M,Linzer,F1]
+                                   0            -0             = 
+   243 deliver_only_avalible[M,Linzer,F2]
+                                   0            -0             = 
+   244 deliver_only_avalible[Tu,Mignon,F1]
+                                   0            -0             = 
+   245 deliver_only_avalible[Tu,Mignon,F2]
+                                   0            -0             = 
+   246 deliver_only_avalible[Tu,Mozart,F1]
+                                   0            -0             = 
+   247 deliver_only_avalible[Tu,Mozart,F2]
+                                   0            -0             = 
+   248 deliver_only_avalible[Tu,Sacher,F1]
+                                   0            -0             = 
+   249 deliver_only_avalible[Tu,Sacher,F2]
+                                   0            -0             = 
+   250 deliver_only_avalible[Tu,Schwarzwald,F1]
+                                   0            -0             = 
+   251 deliver_only_avalible[Tu,Schwarzwald,F2]
+                                   0            -0             = 
+   252 deliver_only_avalible[Tu,Tiramisu,F1]
+                                   0            -0             = 
+   253 deliver_only_avalible[Tu,Tiramisu,F2]
+                                   0            -0             = 
+   254 deliver_only_avalible[Tu,Kremes,F1]
+                                   0            -0             = 
+   255 deliver_only_avalible[Tu,Kremes,F2]
+                                   0            -0             = 
+   256 deliver_only_avalible[Tu,Dobos,F1]
+                                   0            -0             = 
+   257 deliver_only_avalible[Tu,Dobos,F2]
+                                   0            -0             = 
+   258 deliver_only_avalible[Tu,Isler,F1]
+                                   0            -0             = 
+   259 deliver_only_avalible[Tu,Isler,F2]
+                                   0            -0             = 
+   260 deliver_only_avalible[Tu,Linzer,F1]
+                                   0            -0             = 
+   261 deliver_only_avalible[Tu,Linzer,F2]
+                                   0            -0             = 
+   262 deliver_only_avalible[W,Mignon,F1]
+                                   0            -0             = 
+   263 deliver_only_avalible[W,Mignon,F2]
+                                   0            -0             = 
+   264 deliver_only_avalible[W,Mozart,F1]
+                                   0            -0             = 
+   265 deliver_only_avalible[W,Mozart,F2]
+                                   0            -0             = 
+   266 deliver_only_avalible[W,Sacher,F1]
+                                   0            -0             = 
+   267 deliver_only_avalible[W,Sacher,F2]
+                                   0            -0             = 
+   268 deliver_only_avalible[W,Schwarzwald,F1]
+                                   0            -0             = 
+   269 deliver_only_avalible[W,Schwarzwald,F2]
+                                   0            -0             = 
+   270 deliver_only_avalible[W,Tiramisu,F1]
+                                   0            -0             = 
+   271 deliver_only_avalible[W,Tiramisu,F2]
+                                   0            -0             = 
+   272 deliver_only_avalible[W,Kremes,F1]
+                                   0            -0             = 
+   273 deliver_only_avalible[W,Kremes,F2]
+                                   0            -0             = 
+   274 deliver_only_avalible[W,Dobos,F1]
+                                   0            -0             = 
+   275 deliver_only_avalible[W,Dobos,F2]
+                                   0            -0             = 
+   276 deliver_only_avalible[W,Isler,F1]
+                                   0            -0             = 
+   277 deliver_only_avalible[W,Isler,F2]
+                                   0            -0             = 
+   278 deliver_only_avalible[W,Linzer,F1]
+                                   0            -0             = 
+   279 deliver_only_avalible[W,Linzer,F2]
+                                   0            -0             = 
+   280 deliver_only_avalible[Th,Mignon,F1]
+                                   0            -0             = 
+   281 deliver_only_avalible[Th,Mignon,F2]
+                                   0            -0             = 
+   282 deliver_only_avalible[Th,Mozart,F1]
+                                   0            -0             = 
+   283 deliver_only_avalible[Th,Mozart,F2]
+                                   0            -0             = 
+   284 deliver_only_avalible[Th,Sacher,F1]
+                                   0            -0             = 
+   285 deliver_only_avalible[Th,Sacher,F2]
+                                   0            -0             = 
+   286 deliver_only_avalible[Th,Schwarzwald,F1]
+                                   0            -0             = 
+   287 deliver_only_avalible[Th,Schwarzwald,F2]
+                                   0            -0             = 
+   288 deliver_only_avalible[Th,Tiramisu,F1]
+                                   0            -0             = 
+   289 deliver_only_avalible[Th,Tiramisu,F2]
+                                   0            -0             = 
+   290 deliver_only_avalible[Th,Kremes,F1]
+                                   0            -0             = 
+   291 deliver_only_avalible[Th,Kremes,F2]
+                                   0            -0             = 
+   292 deliver_only_avalible[Th,Dobos,F1]
+                                   0            -0             = 
+   293 deliver_only_avalible[Th,Dobos,F2]
+                                   0            -0             = 
+   294 deliver_only_avalible[Th,Isler,F1]
+                                   0            -0             = 
+   295 deliver_only_avalible[Th,Isler,F2]
+                                   0            -0             = 
+   296 deliver_only_avalible[Th,Linzer,F1]
+                                   0            -0             = 
+   297 deliver_only_avalible[Th,Linzer,F2]
+                                   0            -0             = 
+   298 deliver_only_avalible[F,Mignon,F1]
+                                   0            -0             = 
+   299 deliver_only_avalible[F,Mignon,F2]
+                                   0            -0             = 
+   300 deliver_only_avalible[F,Mozart,F1]
+                                   0            -0             = 
+   301 deliver_only_avalible[F,Mozart,F2]
+                                   0            -0             = 
+   302 deliver_only_avalible[F,Sacher,F1]
+                                   0            -0             = 
+   303 deliver_only_avalible[F,Sacher,F2]
+                                   0            -0             = 
+   304 deliver_only_avalible[F,Schwarzwald,F1]
+                                   0            -0             = 
+   305 deliver_only_avalible[F,Schwarzwald,F2]
+                                   0            -0             = 
+   306 deliver_only_avalible[F,Tiramisu,F1]
+                                   0            -0             = 
+   307 deliver_only_avalible[F,Tiramisu,F2]
+                                   0            -0             = 
+   308 deliver_only_avalible[F,Kremes,F1]
+                                   0            -0             = 
+   309 deliver_only_avalible[F,Kremes,F2]
+                                   0            -0             = 
+   310 deliver_only_avalible[F,Dobos,F1]
+                                   0            -0             = 
+   311 deliver_only_avalible[F,Dobos,F2]
+                                   0            -0             = 
+   312 deliver_only_avalible[F,Isler,F1]
+                                   0            -0             = 
+   313 deliver_only_avalible[F,Isler,F2]
+                                   0            -0             = 
+   314 deliver_only_avalible[F,Linzer,F1]
+                                   0            -0             = 
+   315 deliver_only_avalible[F,Linzer,F2]
+                                   0            -0             = 
+   316 daily_delivery_sum[M,F1,S1]
+                                   0            -0             = 
+   317 daily_delivery_sum[M,F1,S2]
+                                   0            -0             = 
+   318 daily_delivery_sum[M,F1,S3]
+                                   0            -0             = 
+   319 daily_delivery_sum[M,F2,S1]
+                                   0            -0             = 
+   320 daily_delivery_sum[M,F2,S2]
+                                   0            -0             = 
+   321 daily_delivery_sum[M,F2,S3]
+                                   0            -0             = 
+   322 daily_delivery_sum[Tu,F1,S1]
+                                   0            -0             = 
+   323 daily_delivery_sum[Tu,F1,S2]
+                                   0            -0             = 
+   324 daily_delivery_sum[Tu,F1,S3]
+                                   0            -0             = 
+   325 daily_delivery_sum[Tu,F2,S1]
+                                   0            -0             = 
+   326 daily_delivery_sum[Tu,F2,S2]
+                                   0            -0             = 
+   327 daily_delivery_sum[Tu,F2,S3]
+                                   0            -0             = 
+   328 daily_delivery_sum[W,F1,S1]
+                                   0            -0             = 
+   329 daily_delivery_sum[W,F1,S2]
+                                   0            -0             = 
+   330 daily_delivery_sum[W,F1,S3]
+                                   0            -0             = 
+   331 daily_delivery_sum[W,F2,S1]
+                                   0            -0             = 
+   332 daily_delivery_sum[W,F2,S2]
+                                   0            -0             = 
+   333 daily_delivery_sum[W,F2,S3]
+                                   0            -0             = 
+   334 daily_delivery_sum[Th,F1,S1]
+                                   0            -0             = 
+   335 daily_delivery_sum[Th,F1,S2]
+                                   0            -0             = 
+   336 daily_delivery_sum[Th,F1,S3]
+                                   0            -0             = 
+   337 daily_delivery_sum[Th,F2,S1]
+                                   0            -0             = 
+   338 daily_delivery_sum[Th,F2,S2]
+                                   0            -0             = 
+   339 daily_delivery_sum[Th,F2,S3]
+                                   0            -0             = 
+   340 daily_delivery_sum[F,F1,S1]
+                                   0            -0             = 
+   341 daily_delivery_sum[F,F1,S2]
+                                   0            -0             = 
+   342 daily_delivery_sum[F,F1,S3]
+                                   0            -0             = 
+   343 daily_delivery_sum[F,F2,S1]
+                                   0            -0             = 
+   344 daily_delivery_sum[F,F2,S2]
+                                   0            -0             = 
+   345 daily_delivery_sum[F,F2,S3]
+                                   0            -0             = 
+   346 delivery_routes[M,F1,S1]
+                                   0            -0               
+   347 delivery_routes[M,F1,S2]
+                                   0            -0               
+   348 delivery_routes[M,F1,S3]
+                                   0            -0               
+   349 delivery_routes[M,F2,S1]
+                                   0            -0               
+   350 delivery_routes[M,F2,S2]
+                                   0            -0               
+   351 delivery_routes[M,F2,S3]
+                                   0            -0               
+   352 delivery_routes[Tu,F1,S1]
+                                   0            -0               
+   353 delivery_routes[Tu,F1,S2]
+                                   0            -0               
+   354 delivery_routes[Tu,F1,S3]
+                                   0            -0               
+   355 delivery_routes[Tu,F2,S1]
+                                  70            -0               
+   356 delivery_routes[Tu,F2,S2]
+                                  74            -0               
+   357 delivery_routes[Tu,F2,S3]
+                                  99            -0               
+   358 delivery_routes[W,F1,S1]
+                                   0            -0               
+   359 delivery_routes[W,F1,S2]
+                                   0            -0               
+   360 delivery_routes[W,F1,S3]
+                                   0            -0               
+   361 delivery_routes[W,F2,S1]
+                                  70            -0               
+   362 delivery_routes[W,F2,S2]
+                                  74            -0               
+   363 delivery_routes[W,F2,S3]
+                                   0            -0               
+   364 delivery_routes[Th,F1,S1]
+                                   0            -0               
+   365 delivery_routes[Th,F1,S2]
+                                   0            -0               
+   366 delivery_routes[Th,F1,S3]
+                                   0            -0               
+   367 delivery_routes[Th,F2,S1]
+                                   0            -0               
+   368 delivery_routes[Th,F2,S2]
+                                   0            -0               
+   369 delivery_routes[Th,F2,S3]
+                                   0            -0               
+   370 delivery_routes[F,F1,S1]
+                                   0            -0               
+   371 delivery_routes[F,F1,S2]
+                                   0            -0               
+   372 delivery_routes[F,F1,S3]
+                                   0            -0               
+   373 delivery_routes[F,F2,S1]
+                                   0            -0               
+   374 delivery_routes[F,F2,S2]
+                                   0            -0               
+   375 delivery_routes[F,F2,S3]
+                                   0            -0               
+   376 one_delivery_min[F1]
+                                  14             5               
+   377 one_delivery_min[F2]
+                                   6             5               
+   378 profit[M]             71347.2                             
+   379 profit[Tu]            70803.3                             
+   380 profit[W]             70901.3                             
+   381 profit[Th]            71241.8                             
+   382 profit[F]             71241.8                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Produce[M,F1,Mignon]
+                    *            -89                             
+     2 Produce[M,F2,Mignon]
+                    *             99                             
+     3 Produce[M,F1,Mozart]
+                    *             17                             
+     4 Produce[M,F2,Mozart]
+                    *              0                             
+     5 Produce[M,F1,Sacher]
+                    *             30                             
+     6 Produce[M,F2,Sacher]
+                    *              0                             
+     7 Produce[M,F1,Schwarzwald]
+                    *             55                             
+     8 Produce[M,F2,Schwarzwald]
+                    *              0                             
+     9 Produce[M,F1,Tiramisu]
+                    *             40                             
+    10 Produce[M,F2,Tiramisu]
+                    *              0                             
+    11 Produce[M,F1,Kremes]
+                    *             50                             
+    12 Produce[M,F2,Kremes]
+                    *              0                             
+    13 Produce[M,F1,Dobos]
+                    *              4                             
+    14 Produce[M,F2,Dobos]
+                    *              0                             
+    15 Produce[M,F1,Isler]
+                    *             21                             
+    16 Produce[M,F2,Isler]
+                    *              0                             
+    17 Produce[M,F1,Linzer]
+                    *             16                             
+    18 Produce[M,F2,Linzer]
+                    *              0                             
+    19 Produce[Tu,F1,Mignon]
+                    *             10                             
+    20 Produce[Tu,F2,Mignon]
+                    *              0                             
+    21 Produce[Tu,F1,Mozart]
+                    *             17                             
+    22 Produce[Tu,F2,Mozart]
+                    *              0                             
+    23 Produce[Tu,F1,Sacher]
+                    *             30                             
+    24 Produce[Tu,F2,Sacher]
+                    *              0                             
+    25 Produce[Tu,F1,Schwarzwald]
+                    *             55                             
+    26 Produce[Tu,F2,Schwarzwald]
+                    *              0                             
+    27 Produce[Tu,F1,Tiramisu]
+                    *             40                             
+    28 Produce[Tu,F2,Tiramisu]
+                    *              0                             
+    29 Produce[Tu,F1,Kremes]
+                    *             50                             
+    30 Produce[Tu,F2,Kremes]
+                    *              0                             
+    31 Produce[Tu,F1,Dobos]
+                    *              4                             
+    32 Produce[Tu,F2,Dobos]
+                    *              0                             
+    33 Produce[Tu,F1,Isler]
+                    *             21                             
+    34 Produce[Tu,F2,Isler]
+                    *              0                             
+    35 Produce[Tu,F1,Linzer]
+                    *             16                             
+    36 Produce[Tu,F2,Linzer]
+                    *              0                             
+    37 Produce[W,F1,Mignon]
+                    *             10                             
+    38 Produce[W,F2,Mignon]
+                    *              0                             
+    39 Produce[W,F1,Mozart]
+                    *             17                             
+    40 Produce[W,F2,Mozart]
+                    *              0                             
+    41 Produce[W,F1,Sacher]
+                    *             30                             
+    42 Produce[W,F2,Sacher]
+                    *              0                             
+    43 Produce[W,F1,Schwarzwald]
+                    *             55                             
+    44 Produce[W,F2,Schwarzwald]
+                    *              0                             
+    45 Produce[W,F1,Tiramisu]
+                    *             40                             
+    46 Produce[W,F2,Tiramisu]
+                    *              0                             
+    47 Produce[W,F1,Kremes]
+                    *             50                             
+    48 Produce[W,F2,Kremes]
+                    *              0                             
+    49 Produce[W,F1,Dobos]
+                    *              4                             
+    50 Produce[W,F2,Dobos]
+                    *              0                             
+    51 Produce[W,F1,Isler]
+                    *             21                             
+    52 Produce[W,F2,Isler]
+                    *              0                             
+    53 Produce[W,F1,Linzer]
+                    *             16                             
+    54 Produce[W,F2,Linzer]
+                    *              0                             
+    55 Produce[Th,F1,Mignon]
+                    *             10                             
+    56 Produce[Th,F2,Mignon]
+                    *              0                             
+    57 Produce[Th,F1,Mozart]
+                    *             17                             
+    58 Produce[Th,F2,Mozart]
+                    *              0                             
+    59 Produce[Th,F1,Sacher]
+                    *             30                             
+    60 Produce[Th,F2,Sacher]
+                    *              0                             
+    61 Produce[Th,F1,Schwarzwald]
+                    *             55                             
+    62 Produce[Th,F2,Schwarzwald]
+                    *              0                             
+    63 Produce[Th,F1,Tiramisu]
+                    *             40                             
+    64 Produce[Th,F2,Tiramisu]
+                    *              0                             
+    65 Produce[Th,F1,Kremes]
+                    *             50                             
+    66 Produce[Th,F2,Kremes]
+                    *              0                             
+    67 Produce[Th,F1,Dobos]
+                    *              4                             
+    68 Produce[Th,F2,Dobos]
+                    *              0                             
+    69 Produce[Th,F1,Isler]
+                    *             21                             
+    70 Produce[Th,F2,Isler]
+                    *              0                             
+    71 Produce[Th,F1,Linzer]
+                    *             16                             
+    72 Produce[Th,F2,Linzer]
+                    *              0                             
+    73 Produce[F,F1,Mignon]
+                    *             10                             
+    74 Produce[F,F2,Mignon]
+                    *              0                             
+    75 Produce[F,F1,Mozart]
+                    *             17                             
+    76 Produce[F,F2,Mozart]
+                    *              0                             
+    77 Produce[F,F1,Sacher]
+                    *             30                             
+    78 Produce[F,F2,Sacher]
+                    *              0                             
+    79 Produce[F,F1,Schwarzwald]
+                    *             55                             
+    80 Produce[F,F2,Schwarzwald]
+                    *              0                             
+    81 Produce[F,F1,Tiramisu]
+                    *             40                             
+    82 Produce[F,F2,Tiramisu]
+                    *              0                             
+    83 Produce[F,F1,Kremes]
+                    *             50                             
+    84 Produce[F,F2,Kremes]
+                    *              0                             
+    85 Produce[F,F1,Dobos]
+                    *              4                             
+    86 Produce[F,F2,Dobos]
+                    *              0                             
+    87 Produce[F,F1,Isler]
+                    *             21                             
+    88 Produce[F,F2,Isler]
+                    *              0                             
+    89 Produce[F,F1,Linzer]
+                    *             16                             
+    90 Produce[F,F2,Linzer]
+                    *              0                             
+    91 Deliver[M,F2,S1,Mignon]
+                    *              0                             
+    92 Deliver[M,F1,S1,Mignon]
+                    *             10                             
+    93 Deliver[M,F2,S1,Mozart]
+                    *              0                             
+    94 Deliver[M,F1,S1,Mozart]
+                    *              5                             
+    95 Deliver[M,F2,S1,Sacher]
+                    *              0                             
+    96 Deliver[M,F1,S1,Sacher]
+                    *              5                             
+    97 Deliver[M,F2,S1,Schwarzwald]
+                    *              0                             
+    98 Deliver[M,F1,S1,Schwarzwald]
+                    *             15                             
+    99 Deliver[M,F2,S1,Tiramisu]
+                    *              0                             
+   100 Deliver[M,F1,S1,Tiramisu]
+                    *              7                             
+   101 Deliver[M,F2,S1,Kremes]
+                    *              0                             
+   102 Deliver[M,F1,S1,Kremes]
+                    *             20                             
+   103 Deliver[M,F2,S1,Dobos]
+                    *              0                             
+   104 Deliver[M,F1,S1,Dobos]
+                    *              0                             
+   105 Deliver[M,F2,S1,Isler]
+                    *              0                             
+   106 Deliver[M,F1,S1,Isler]
+                    *              4                             
+   107 Deliver[M,F2,S1,Linzer]
+                    *              0                             
+   108 Deliver[M,F1,S1,Linzer]
+                    *              4                             
+   109 Deliver[M,F2,S2,Mignon]
+                    *              0                             
+   110 Deliver[M,F1,S2,Mignon]
+                    *              0                             
+   111 Deliver[M,F2,S2,Mozart]
+                    *              0                             
+   112 Deliver[M,F1,S2,Mozart]
+                    *             12                             
+   113 Deliver[M,F2,S2,Sacher]
+                    *              0                             
+   114 Deliver[M,F1,S2,Sacher]
+                    *             10                             
+   115 Deliver[M,F2,S2,Schwarzwald]
+                    *              0                             
+   116 Deliver[M,F1,S2,Schwarzwald]
+                    *             10                             
+   117 Deliver[M,F2,S2,Tiramisu]
+                    *              0                             
+   118 Deliver[M,F1,S2,Tiramisu]
+                    *              8                             
+   119 Deliver[M,F2,S2,Kremes]
+                    *              0                             
+   120 Deliver[M,F1,S2,Kremes]
+                    *             15                             
+   121 Deliver[M,F2,S2,Dobos]
+                    *              0                             
+   122 Deliver[M,F1,S2,Dobos]
+                    *              4                             
+   123 Deliver[M,F2,S2,Isler]
+                    *              0                             
+   124 Deliver[M,F1,S2,Isler]
+                    *              5                             
+   125 Deliver[M,F2,S2,Linzer]
+                    *              0                             
+   126 Deliver[M,F1,S2,Linzer]
+                    *             10                             
+   127 Deliver[M,F2,S3,Mignon]
+                    *             99                             
+   128 Deliver[M,F1,S3,Mignon]
+                    *            -99                             
+   129 Deliver[M,F2,S3,Mozart]
+                    *              0                             
+   130 Deliver[M,F1,S3,Mozart]
+                    *              0                             
+   131 Deliver[M,F2,S3,Sacher]
+                    *              0                             
+   132 Deliver[M,F1,S3,Sacher]
+                    *             15                             
+   133 Deliver[M,F2,S3,Schwarzwald]
+                    *              0                             
+   134 Deliver[M,F1,S3,Schwarzwald]
+                    *             30                             
+   135 Deliver[M,F2,S3,Tiramisu]
+                    *              0                             
+   136 Deliver[M,F1,S3,Tiramisu]
+                    *             25                             
+   137 Deliver[M,F2,S3,Kremes]
+                    *              0                             
+   138 Deliver[M,F1,S3,Kremes]
+                    *             15                             
+   139 Deliver[M,F2,S3,Dobos]
+                    *              0                             
+   140 Deliver[M,F1,S3,Dobos]
+                    *              0                             
+   141 Deliver[M,F2,S3,Isler]
+                    *              0                             
+   142 Deliver[M,F1,S3,Isler]
+                    *             12                             
+   143 Deliver[M,F2,S3,Linzer]
+                    *              0                             
+   144 Deliver[M,F1,S3,Linzer]
+                    *              2                             
+   145 Deliver[Tu,F2,S1,Mignon]
+                    *              0                             
+   146 Deliver[Tu,F1,S1,Mignon]
+                    *             10                             
+   147 Deliver[Tu,F2,S1,Mozart]
+                    *              0                             
+   148 Deliver[Tu,F1,S1,Mozart]
+                    *              5                             
+   149 Deliver[Tu,F2,S1,Sacher]
+                    *              0                             
+   150 Deliver[Tu,F1,S1,Sacher]
+                    *              5                             
+   151 Deliver[Tu,F2,S1,Schwarzwald]
+                    *              0                             
+   152 Deliver[Tu,F1,S1,Schwarzwald]
+                    *             15                             
+   153 Deliver[Tu,F2,S1,Tiramisu]
+                    *              0                             
+   154 Deliver[Tu,F1,S1,Tiramisu]
+                    *              7                             
+   155 Deliver[Tu,F2,S1,Kremes]
+                    *              0                             
+   156 Deliver[Tu,F1,S1,Kremes]
+                    *             20                             
+   157 Deliver[Tu,F2,S1,Dobos]
+                    *              0                             
+   158 Deliver[Tu,F1,S1,Dobos]
+                    *              0                             
+   159 Deliver[Tu,F2,S1,Isler]
+                    *              0                             
+   160 Deliver[Tu,F1,S1,Isler]
+                    *              4                             
+   161 Deliver[Tu,F2,S1,Linzer]
+                    *              0                             
+   162 Deliver[Tu,F1,S1,Linzer]
+                    *              4                             
+   163 Deliver[Tu,F2,S2,Mignon]
+                    *              0                             
+   164 Deliver[Tu,F1,S2,Mignon]
+                    *              0                             
+   165 Deliver[Tu,F2,S2,Mozart]
+                    *              0                             
+   166 Deliver[Tu,F1,S2,Mozart]
+                    *             12                             
+   167 Deliver[Tu,F2,S2,Sacher]
+                    *              0                             
+   168 Deliver[Tu,F1,S2,Sacher]
+                    *             10                             
+   169 Deliver[Tu,F2,S2,Schwarzwald]
+                    *              0                             
+   170 Deliver[Tu,F1,S2,Schwarzwald]
+                    *             10                             
+   171 Deliver[Tu,F2,S2,Tiramisu]
+                    *              0                             
+   172 Deliver[Tu,F1,S2,Tiramisu]
+                    *              8                             
+   173 Deliver[Tu,F2,S2,Kremes]
+                    *              0                             
+   174 Deliver[Tu,F1,S2,Kremes]
+                    *             15                             
+   175 Deliver[Tu,F2,S2,Dobos]
+                    *              0                             
+   176 Deliver[Tu,F1,S2,Dobos]
+                    *              4                             
+   177 Deliver[Tu,F2,S2,Isler]
+                    *              0                             
+   178 Deliver[Tu,F1,S2,Isler]
+                    *              5                             
+   179 Deliver[Tu,F2,S2,Linzer]
+                    *              0                             
+   180 Deliver[Tu,F1,S2,Linzer]
+                    *             10                             
+   181 Deliver[Tu,F2,S3,Mignon]
+                    *              0                             
+   182 Deliver[Tu,F1,S3,Mignon]
+                    *              0                             
+   183 Deliver[Tu,F2,S3,Mozart]
+                    *              0                             
+   184 Deliver[Tu,F1,S3,Mozart]
+                    *              0                             
+   185 Deliver[Tu,F2,S3,Sacher]
+                    *              0                             
+   186 Deliver[Tu,F1,S3,Sacher]
+                    *             15                             
+   187 Deliver[Tu,F2,S3,Schwarzwald]
+                    *              0                             
+   188 Deliver[Tu,F1,S3,Schwarzwald]
+                    *             30                             
+   189 Deliver[Tu,F2,S3,Tiramisu]
+                    *              0                             
+   190 Deliver[Tu,F1,S3,Tiramisu]
+                    *             25                             
+   191 Deliver[Tu,F2,S3,Kremes]
+                    *              0                             
+   192 Deliver[Tu,F1,S3,Kremes]
+                    *             15                             
+   193 Deliver[Tu,F2,S3,Dobos]
+                    *              0                             
+   194 Deliver[Tu,F1,S3,Dobos]
+                    *              0                             
+   195 Deliver[Tu,F2,S3,Isler]
+                    *              0                             
+   196 Deliver[Tu,F1,S3,Isler]
+                    *             12                             
+   197 Deliver[Tu,F2,S3,Linzer]
+                    *              0                             
+   198 Deliver[Tu,F1,S3,Linzer]
+                    *              2                             
+   199 Deliver[W,F2,S1,Mignon]
+                    *              0                             
+   200 Deliver[W,F1,S1,Mignon]
+                    *             10                             
+   201 Deliver[W,F2,S1,Mozart]
+                    *              0                             
+   202 Deliver[W,F1,S1,Mozart]
+                    *              5                             
+   203 Deliver[W,F2,S1,Sacher]
+                    *              0                             
+   204 Deliver[W,F1,S1,Sacher]
+                    *              5                             
+   205 Deliver[W,F2,S1,Schwarzwald]
+                    *              0                             
+   206 Deliver[W,F1,S1,Schwarzwald]
+                    *             15                             
+   207 Deliver[W,F2,S1,Tiramisu]
+                    *              0                             
+   208 Deliver[W,F1,S1,Tiramisu]
+                    *              7                             
+   209 Deliver[W,F2,S1,Kremes]
+                    *              0                             
+   210 Deliver[W,F1,S1,Kremes]
+                    *             20                             
+   211 Deliver[W,F2,S1,Dobos]
+                    *              0                             
+   212 Deliver[W,F1,S1,Dobos]
+                    *              0                             
+   213 Deliver[W,F2,S1,Isler]
+                    *              0                             
+   214 Deliver[W,F1,S1,Isler]
+                    *              4                             
+   215 Deliver[W,F2,S1,Linzer]
+                    *              0                             
+   216 Deliver[W,F1,S1,Linzer]
+                    *              4                             
+   217 Deliver[W,F2,S2,Mignon]
+                    *              0                             
+   218 Deliver[W,F1,S2,Mignon]
+                    *              0                             
+   219 Deliver[W,F2,S2,Mozart]
+                    *              0                             
+   220 Deliver[W,F1,S2,Mozart]
+                    *             12                             
+   221 Deliver[W,F2,S2,Sacher]
+                    *              0                             
+   222 Deliver[W,F1,S2,Sacher]
+                    *             10                             
+   223 Deliver[W,F2,S2,Schwarzwald]
+                    *              0                             
+   224 Deliver[W,F1,S2,Schwarzwald]
+                    *             10                             
+   225 Deliver[W,F2,S2,Tiramisu]
+                    *              0                             
+   226 Deliver[W,F1,S2,Tiramisu]
+                    *              8                             
+   227 Deliver[W,F2,S2,Kremes]
+                    *              0                             
+   228 Deliver[W,F1,S2,Kremes]
+                    *             15                             
+   229 Deliver[W,F2,S2,Dobos]
+                    *              0                             
+   230 Deliver[W,F1,S2,Dobos]
+                    *              4                             
+   231 Deliver[W,F2,S2,Isler]
+                    *              0                             
+   232 Deliver[W,F1,S2,Isler]
+                    *              5                             
+   233 Deliver[W,F2,S2,Linzer]
+                    *              0                             
+   234 Deliver[W,F1,S2,Linzer]
+                    *             10                             
+   235 Deliver[W,F2,S3,Mignon]
+                    *              0                             
+   236 Deliver[W,F1,S3,Mignon]
+                    *              0                             
+   237 Deliver[W,F2,S3,Mozart]
+                    *              0                             
+   238 Deliver[W,F1,S3,Mozart]
+                    *              0                             
+   239 Deliver[W,F2,S3,Sacher]
+                    *              0                             
+   240 Deliver[W,F1,S3,Sacher]
+                    *             15                             
+   241 Deliver[W,F2,S3,Schwarzwald]
+                    *              0                             
+   242 Deliver[W,F1,S3,Schwarzwald]
+                    *             30                             
+   243 Deliver[W,F2,S3,Tiramisu]
+                    *              0                             
+   244 Deliver[W,F1,S3,Tiramisu]
+                    *             25                             
+   245 Deliver[W,F2,S3,Kremes]
+                    *              0                             
+   246 Deliver[W,F1,S3,Kremes]
+                    *             15                             
+   247 Deliver[W,F2,S3,Dobos]
+                    *              0                             
+   248 Deliver[W,F1,S3,Dobos]
+                    *              0                             
+   249 Deliver[W,F2,S3,Isler]
+                    *              0                             
+   250 Deliver[W,F1,S3,Isler]
+                    *             12                             
+   251 Deliver[W,F2,S3,Linzer]
+                    *              0                             
+   252 Deliver[W,F1,S3,Linzer]
+                    *              2                             
+   253 Deliver[Th,F2,S1,Mignon]
+                    *              0                             
+   254 Deliver[Th,F1,S1,Mignon]
+                    *             10                             
+   255 Deliver[Th,F2,S1,Mozart]
+                    *              0                             
+   256 Deliver[Th,F1,S1,Mozart]
+                    *              5                             
+   257 Deliver[Th,F2,S1,Sacher]
+                    *              0                             
+   258 Deliver[Th,F1,S1,Sacher]
+                    *              5                             
+   259 Deliver[Th,F2,S1,Schwarzwald]
+                    *              0                             
+   260 Deliver[Th,F1,S1,Schwarzwald]
+                    *             15                             
+   261 Deliver[Th,F2,S1,Tiramisu]
+                    *              0                             
+   262 Deliver[Th,F1,S1,Tiramisu]
+                    *              7                             
+   263 Deliver[Th,F2,S1,Kremes]
+                    *              0                             
+   264 Deliver[Th,F1,S1,Kremes]
+                    *             20                             
+   265 Deliver[Th,F2,S1,Dobos]
+                    *              0                             
+   266 Deliver[Th,F1,S1,Dobos]
+                    *              0                             
+   267 Deliver[Th,F2,S1,Isler]
+                    *              0                             
+   268 Deliver[Th,F1,S1,Isler]
+                    *              4                             
+   269 Deliver[Th,F2,S1,Linzer]
+                    *              0                             
+   270 Deliver[Th,F1,S1,Linzer]
+                    *              4                             
+   271 Deliver[Th,F2,S2,Mignon]
+                    *              0                             
+   272 Deliver[Th,F1,S2,Mignon]
+                    *              0                             
+   273 Deliver[Th,F2,S2,Mozart]
+                    *              0                             
+   274 Deliver[Th,F1,S2,Mozart]
+                    *             12                             
+   275 Deliver[Th,F2,S2,Sacher]
+                    *              0                             
+   276 Deliver[Th,F1,S2,Sacher]
+                    *             10                             
+   277 Deliver[Th,F2,S2,Schwarzwald]
+                    *              0                             
+   278 Deliver[Th,F1,S2,Schwarzwald]
+                    *             10                             
+   279 Deliver[Th,F2,S2,Tiramisu]
+                    *              0                             
+   280 Deliver[Th,F1,S2,Tiramisu]
+                    *              8                             
+   281 Deliver[Th,F2,S2,Kremes]
+                    *              0                             
+   282 Deliver[Th,F1,S2,Kremes]
+                    *             15                             
+   283 Deliver[Th,F2,S2,Dobos]
+                    *              0                             
+   284 Deliver[Th,F1,S2,Dobos]
+                    *              4                             
+   285 Deliver[Th,F2,S2,Isler]
+                    *              0                             
+   286 Deliver[Th,F1,S2,Isler]
+                    *              5                             
+   287 Deliver[Th,F2,S2,Linzer]
+                    *              0                             
+   288 Deliver[Th,F1,S2,Linzer]
+                    *             10                             
+   289 Deliver[Th,F2,S3,Mignon]
+                    *              0                             
+   290 Deliver[Th,F1,S3,Mignon]
+                    *              0                             
+   291 Deliver[Th,F2,S3,Mozart]
+                    *              0                             
+   292 Deliver[Th,F1,S3,Mozart]
+                    *              0                             
+   293 Deliver[Th,F2,S3,Sacher]
+                    *              0                             
+   294 Deliver[Th,F1,S3,Sacher]
+                    *             15                             
+   295 Deliver[Th,F2,S3,Schwarzwald]
+                    *              0                             
+   296 Deliver[Th,F1,S3,Schwarzwald]
+                    *             30                             
+   297 Deliver[Th,F2,S3,Tiramisu]
+                    *              0                             
+   298 Deliver[Th,F1,S3,Tiramisu]
+                    *             25                             
+   299 Deliver[Th,F2,S3,Kremes]
+                    *              0                             
+   300 Deliver[Th,F1,S3,Kremes]
+                    *             15                             
+   301 Deliver[Th,F2,S3,Dobos]
+                    *              0                             
+   302 Deliver[Th,F1,S3,Dobos]
+                    *              0                             
+   303 Deliver[Th,F2,S3,Isler]
+                    *              0                             
+   304 Deliver[Th,F1,S3,Isler]
+                    *             12                             
+   305 Deliver[Th,F2,S3,Linzer]
+                    *              0                             
+   306 Deliver[Th,F1,S3,Linzer]
+                    *              2                             
+   307 Deliver[F,F2,S1,Mignon]
+                    *              0                             
+   308 Deliver[F,F1,S1,Mignon]
+                    *             10                             
+   309 Deliver[F,F2,S1,Mozart]
+                    *              0                             
+   310 Deliver[F,F1,S1,Mozart]
+                    *              5                             
+   311 Deliver[F,F2,S1,Sacher]
+                    *              0                             
+   312 Deliver[F,F1,S1,Sacher]
+                    *              5                             
+   313 Deliver[F,F2,S1,Schwarzwald]
+                    *              0                             
+   314 Deliver[F,F1,S1,Schwarzwald]
+                    *             15                             
+   315 Deliver[F,F2,S1,Tiramisu]
+                    *              0                             
+   316 Deliver[F,F1,S1,Tiramisu]
+                    *              7                             
+   317 Deliver[F,F2,S1,Kremes]
+                    *              0                             
+   318 Deliver[F,F1,S1,Kremes]
+                    *             20                             
+   319 Deliver[F,F2,S1,Dobos]
+                    *              0                             
+   320 Deliver[F,F1,S1,Dobos]
+                    *              0                             
+   321 Deliver[F,F2,S1,Isler]
+                    *              0                             
+   322 Deliver[F,F1,S1,Isler]
+                    *              4                             
+   323 Deliver[F,F2,S1,Linzer]
+                    *              0                             
+   324 Deliver[F,F1,S1,Linzer]
+                    *              4                             
+   325 Deliver[F,F2,S2,Mignon]
+                    *              0                             
+   326 Deliver[F,F1,S2,Mignon]
+                    *              0                             
+   327 Deliver[F,F2,S2,Mozart]
+                    *              0                             
+   328 Deliver[F,F1,S2,Mozart]
+                    *             12                             
+   329 Deliver[F,F2,S2,Sacher]
+                    *              0                             
+   330 Deliver[F,F1,S2,Sacher]
+                    *             10                             
+   331 Deliver[F,F2,S2,Schwarzwald]
+                    *              0                             
+   332 Deliver[F,F1,S2,Schwarzwald]
+                    *             10                             
+   333 Deliver[F,F2,S2,Tiramisu]
+                    *              0                             
+   334 Deliver[F,F1,S2,Tiramisu]
+                    *              8                             
+   335 Deliver[F,F2,S2,Kremes]
+                    *              0                             
+   336 Deliver[F,F1,S2,Kremes]
+                    *             15                             
+   337 Deliver[F,F2,S2,Dobos]
+                    *              0                             
+   338 Deliver[F,F1,S2,Dobos]
+                    *              4                             
+   339 Deliver[F,F2,S2,Isler]
+                    *              0                             
+   340 Deliver[F,F1,S2,Isler]
+                    *              5                             
+   341 Deliver[F,F2,S2,Linzer]
+                    *              0                             
+   342 Deliver[F,F1,S2,Linzer]
+                    *             10                             
+   343 Deliver[F,F2,S3,Mignon]
+                    *              0                             
+   344 Deliver[F,F1,S3,Mignon]
+                    *              0                             
+   345 Deliver[F,F2,S3,Mozart]
+                    *              0                             
+   346 Deliver[F,F1,S3,Mozart]
+                    *              0                             
+   347 Deliver[F,F2,S3,Sacher]
+                    *              0                             
+   348 Deliver[F,F1,S3,Sacher]
+                    *             15                             
+   349 Deliver[F,F2,S3,Schwarzwald]
+                    *              0                             
+   350 Deliver[F,F1,S3,Schwarzwald]
+                    *             30                             
+   351 Deliver[F,F2,S3,Tiramisu]
+                    *              0                             
+   352 Deliver[F,F1,S3,Tiramisu]
+                    *             25                             
+   353 Deliver[F,F2,S3,Kremes]
+                    *              0                             
+   354 Deliver[F,F1,S3,Kremes]
+                    *             15                             
+   355 Deliver[F,F2,S3,Dobos]
+                    *              0                             
+   356 Deliver[F,F1,S3,Dobos]
+                    *              0                             
+   357 Deliver[F,F2,S3,Isler]
+                    *              0                             
+   358 Deliver[F,F1,S3,Isler]
+                    *             12                             
+   359 Deliver[F,F2,S3,Linzer]
+                    *              0                             
+   360 Deliver[F,F1,S3,Linzer]
+                    *              2                             
+   361 DailyDelivery[M,F1,S1]
+                    *             70                             
+   362 DailyDelivery[M,F1,S2]
+                    *             74                             
+   363 DailyDelivery[M,F1,S3]
+                    *              0                             
+   364 DailyDelivery[M,F2,S1]
+                    *              0                             
+   365 DailyDelivery[M,F2,S2]
+                    *              0                             
+   366 DailyDelivery[M,F2,S3]
+                    *             99                             
+   367 DailyDelivery[Tu,F1,S1]
+                    *             70                             
+   368 DailyDelivery[Tu,F1,S2]
+                    *             74                             
+   369 DailyDelivery[Tu,F1,S3]
+                    *             99                             
+   370 DailyDelivery[Tu,F2,S1]
+                    *              0                             
+   371 DailyDelivery[Tu,F2,S2]
+                    *              0                             
+   372 DailyDelivery[Tu,F2,S3]
+                    *              0                             
+   373 DailyDelivery[W,F1,S1]
+                    *             70                             
+   374 DailyDelivery[W,F1,S2]
+                    *             74                             
+   375 DailyDelivery[W,F1,S3]
+                    *             99                             
+   376 DailyDelivery[W,F2,S1]
+                    *              0                             
+   377 DailyDelivery[W,F2,S2]
+                    *              0                             
+   378 DailyDelivery[W,F2,S3]
+                    *              0                             
+   379 DailyDelivery[Th,F1,S1]
+                    *             70                             
+   380 DailyDelivery[Th,F1,S2]
+                    *             74                             
+   381 DailyDelivery[Th,F1,S3]
+                    *             99                             
+   382 DailyDelivery[Th,F2,S1]
+                    *              0                             
+   383 DailyDelivery[Th,F2,S2]
+                    *              0                             
+   384 DailyDelivery[Th,F2,S3]
+                    *              0                             
+   385 DailyDelivery[F,F1,S1]
+                    *             70                             
+   386 DailyDelivery[F,F1,S2]
+                    *             74                             
+   387 DailyDelivery[F,F1,S3]
+                    *             99                             
+   388 DailyDelivery[F,F2,S1]
+                    *              0                             
+   389 DailyDelivery[F,F2,S2]
+                    *              0                             
+   390 DailyDelivery[F,F2,S3]
+                    *              0                             
+   391 DailyDemand[M,Mignon]
+                    *             10                             
+   392 DailyDemand[M,Mozart]
+                    *             17                             
+   393 DailyDemand[M,Sacher]
+                    *             30                             
+   394 DailyDemand[M,Schwarzwald]
+                    *             55                             
+   395 DailyDemand[M,Tiramisu]
+                    *             40                             
+   396 DailyDemand[M,Kremes]
+                    *             50                             
+   397 DailyDemand[M,Dobos]
+                    *              4                             
+   398 DailyDemand[M,Isler]
+                    *             21                             
+   399 DailyDemand[M,Linzer]
+                    *             16                             
+   400 DailyDemand[Tu,Mignon]
+                    *             10                             
+   401 DailyDemand[Tu,Mozart]
+                    *             17                             
+   402 DailyDemand[Tu,Sacher]
+                    *             30                             
+   403 DailyDemand[Tu,Schwarzwald]
+                    *             55                             
+   404 DailyDemand[Tu,Tiramisu]
+                    *             40                             
+   405 DailyDemand[Tu,Kremes]
+                    *             50                             
+   406 DailyDemand[Tu,Dobos]
+                    *              4                             
+   407 DailyDemand[Tu,Isler]
+                    *             21                             
+   408 DailyDemand[Tu,Linzer]
+                    *             16                             
+   409 DailyDemand[W,Mignon]
+                    *             10                             
+   410 DailyDemand[W,Mozart]
+                    *             17                             
+   411 DailyDemand[W,Sacher]
+                    *             30                             
+   412 DailyDemand[W,Schwarzwald]
+                    *             55                             
+   413 DailyDemand[W,Tiramisu]
+                    *             40                             
+   414 DailyDemand[W,Kremes]
+                    *             50                             
+   415 DailyDemand[W,Dobos]
+                    *              4                             
+   416 DailyDemand[W,Isler]
+                    *             21                             
+   417 DailyDemand[W,Linzer]
+                    *             16                             
+   418 DailyDemand[Th,Mignon]
+                    *             10                             
+   419 DailyDemand[Th,Mozart]
+                    *             17                             
+   420 DailyDemand[Th,Sacher]
+                    *             30                             
+   421 DailyDemand[Th,Schwarzwald]
+                    *             55                             
+   422 DailyDemand[Th,Tiramisu]
+                    *             40                             
+   423 DailyDemand[Th,Kremes]
+                    *             50                             
+   424 DailyDemand[Th,Dobos]
+                    *              4                             
+   425 DailyDemand[Th,Isler]
+                    *             21                             
+   426 DailyDemand[Th,Linzer]
+                    *             16                             
+   427 DailyDemand[F,Mignon]
+                    *             10                             
+   428 DailyDemand[F,Mozart]
+                    *             17                             
+   429 DailyDemand[F,Sacher]
+                    *             30                             
+   430 DailyDemand[F,Schwarzwald]
+                    *             55                             
+   431 DailyDemand[F,Tiramisu]
+                    *             40                             
+   432 DailyDemand[F,Kremes]
+                    *             50                             
+   433 DailyDemand[F,Dobos]
+                    *              4                             
+   434 DailyDemand[F,Isler]
+                    *             21                             
+   435 DailyDemand[F,Linzer]
+                    *             16                             
+   436 ExistingDelivery[M,F1,S1]
+                    *              1             0             1 
+   437 ExistingDelivery[M,F1,S2]
+                    *              1             0             1 
+   438 ExistingDelivery[M,F1,S3]
+                    *              0             0             1 
+   439 ExistingDelivery[M,F2,S1]
+                    *              0             0             1 
+   440 ExistingDelivery[M,F2,S2]
+                    *              0             0             1 
+   441 ExistingDelivery[M,F2,S3]
+                    *              1             0             1 
+   442 ExistingDelivery[Tu,F1,S1]
+                    *              1             0             1 
+   443 ExistingDelivery[Tu,F1,S2]
+                    *              1             0             1 
+   444 ExistingDelivery[Tu,F1,S3]
+                    *              1             0             1 
+   445 ExistingDelivery[Tu,F2,S1]
+                    *              1             0             1 
+   446 ExistingDelivery[Tu,F2,S2]
+                    *              1             0             1 
+   447 ExistingDelivery[Tu,F2,S3]
+                    *              1             0             1 
+   448 ExistingDelivery[W,F1,S1]
+                    *              1             0             1 
+   449 ExistingDelivery[W,F1,S2]
+                    *              1             0             1 
+   450 ExistingDelivery[W,F1,S3]
+                    *              1             0             1 
+   451 ExistingDelivery[W,F2,S1]
+                    *              1             0             1 
+   452 ExistingDelivery[W,F2,S2]
+                    *              1             0             1 
+   453 ExistingDelivery[W,F2,S3]
+                    *              0             0             1 
+   454 ExistingDelivery[Th,F1,S1]
+                    *              1             0             1 
+   455 ExistingDelivery[Th,F1,S2]
+                    *              1             0             1 
+   456 ExistingDelivery[Th,F1,S3]
+                    *              1             0             1 
+   457 ExistingDelivery[Th,F2,S1]
+                    *              0             0             1 
+   458 ExistingDelivery[Th,F2,S2]
+                    *              0             0             1 
+   459 ExistingDelivery[Th,F2,S3]
+                    *              0             0             1 
+   460 ExistingDelivery[F,F1,S1]
+                    *              1             0             1 
+   461 ExistingDelivery[F,F1,S2]
+                    *              1             0             1 
+   462 ExistingDelivery[F,F1,S3]
+                    *              1             0             1 
+   463 ExistingDelivery[F,F2,S1]
+                    *              0             0             1 
+   464 ExistingDelivery[F,F2,S2]
+                    *              0             0             1 
+   465 ExistingDelivery[F,F2,S3]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
