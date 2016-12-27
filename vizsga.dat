@@ -57,3 +57,15 @@ param DailyMultiplier:=
 
 param Consumption:=7;
 param FuelCost:=350;
+
+param ProductionTime:=
+	Mignon	0.05
+	Mozart	0.0416
+	Sacher	0.0333
+	Schwarzwald	0.0333
+	Tiramisu	0.025
+	Kremes	0.01666
+	Dobos	0.025
+	Isler	0.0125
+	Linzer	0.01
+	;

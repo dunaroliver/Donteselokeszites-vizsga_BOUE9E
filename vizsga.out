@@ -1,7 +1,7 @@
 Problem:    vizsga
-Rows:       382
+Rows:       380
 Columns:    465 (465 integer, 30 binary)
-Non-zeros:  1500
+Non-zeros:  1470
 Status:     INTEGER OPTIMAL
 Objective:  profit[M] = 71347.15 (MAXimum)
 
@@ -716,11 +716,11 @@ Objective:  profit[M] = 71347.15 (MAXimum)
    354 delivery_routes[Tu,F1,S3]
                                    0            -0               
    355 delivery_routes[Tu,F2,S1]
-                                  70            -0               
+                                   0            -0               
    356 delivery_routes[Tu,F2,S2]
-                                  74            -0               
+                                   0            -0               
    357 delivery_routes[Tu,F2,S3]
-                                  99            -0               
+                                   0            -0               
    358 delivery_routes[W,F1,S1]
                                    0            -0               
    359 delivery_routes[W,F1,S2]
@@ -728,9 +728,9 @@ Objective:  profit[M] = 71347.15 (MAXimum)
    360 delivery_routes[W,F1,S3]
                                    0            -0               
    361 delivery_routes[W,F2,S1]
-                                  70            -0               
+                                   0            -0               
    362 delivery_routes[W,F2,S2]
-                                  74            -0               
+                                   0            -0               
    363 delivery_routes[W,F2,S3]
                                    0            -0               
    364 delivery_routes[Th,F1,S1]
@@ -757,54 +757,50 @@ Objective:  profit[M] = 71347.15 (MAXimum)
                                    0            -0               
    375 delivery_routes[F,F2,S3]
                                    0            -0               
-   376 one_delivery_min[F1]
-                                  14             5               
-   377 one_delivery_min[F2]
-                                   6             5               
-   378 profit[M]             71347.2                             
-   379 profit[Tu]            70803.3                             
-   380 profit[W]             70901.3                             
-   381 profit[Th]            71241.8                             
-   382 profit[F]             71241.8                             
+   376 profit[M]             71347.2                             
+   377 profit[Tu]            71241.8                             
+   378 profit[W]             71241.8                             
+   379 profit[Th]            71241.8                             
+   380 profit[F]             71241.8                             
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 Produce[M,F1,Mignon]
-                    *            -89                             
+                    *             10                             
      2 Produce[M,F2,Mignon]
-                    *             99                             
+                    *              0                             
      3 Produce[M,F1,Mozart]
                     *             17                             
      4 Produce[M,F2,Mozart]
                     *              0                             
      5 Produce[M,F1,Sacher]
-                    *             30                             
+                    *             15                             
      6 Produce[M,F2,Sacher]
-                    *              0                             
+                    *             15                             
      7 Produce[M,F1,Schwarzwald]
-                    *             55                             
+                    *             25                             
      8 Produce[M,F2,Schwarzwald]
-                    *              0                             
+                    *             30                             
      9 Produce[M,F1,Tiramisu]
-                    *             40                             
+                    *             15                             
     10 Produce[M,F2,Tiramisu]
-                    *              0                             
+                    *             25                             
     11 Produce[M,F1,Kremes]
-                    *             50                             
+                    *             35                             
     12 Produce[M,F2,Kremes]
-                    *              0                             
+                    *             15                             
     13 Produce[M,F1,Dobos]
                     *              4                             
     14 Produce[M,F2,Dobos]
                     *              0                             
     15 Produce[M,F1,Isler]
-                    *             21                             
+                    *              9                             
     16 Produce[M,F2,Isler]
-                    *              0                             
+                    *             12                             
     17 Produce[M,F1,Linzer]
-                    *             16                             
+                    *             14                             
     18 Produce[M,F2,Linzer]
-                    *              0                             
+                    *              2                             
     19 Produce[Tu,F1,Mignon]
                     *             10                             
     20 Produce[Tu,F2,Mignon]
@@ -950,545 +946,545 @@ Objective:  profit[M] = 71347.15 (MAXimum)
     90 Produce[F,F2,Linzer]
                     *              0                             
     91 Deliver[M,F2,S1,Mignon]
-                    *              0                             
+                    *              0             0               
     92 Deliver[M,F1,S1,Mignon]
-                    *             10                             
+                    *             10             0               
     93 Deliver[M,F2,S1,Mozart]
-                    *              0                             
+                    *              0             0               
     94 Deliver[M,F1,S1,Mozart]
-                    *              5                             
+                    *              5             0               
     95 Deliver[M,F2,S1,Sacher]
-                    *              0                             
+                    *              0             0               
     96 Deliver[M,F1,S1,Sacher]
-                    *              5                             
+                    *              5             0               
     97 Deliver[M,F2,S1,Schwarzwald]
-                    *              0                             
+                    *              0             0               
     98 Deliver[M,F1,S1,Schwarzwald]
-                    *             15                             
+                    *             15             0               
     99 Deliver[M,F2,S1,Tiramisu]
-                    *              0                             
+                    *              0             0               
    100 Deliver[M,F1,S1,Tiramisu]
-                    *              7                             
+                    *              7             0               
    101 Deliver[M,F2,S1,Kremes]
-                    *              0                             
+                    *              0             0               
    102 Deliver[M,F1,S1,Kremes]
-                    *             20                             
+                    *             20             0               
    103 Deliver[M,F2,S1,Dobos]
-                    *              0                             
+                    *              0             0               
    104 Deliver[M,F1,S1,Dobos]
-                    *              0                             
+                    *              0             0               
    105 Deliver[M,F2,S1,Isler]
-                    *              0                             
+                    *              0             0               
    106 Deliver[M,F1,S1,Isler]
-                    *              4                             
+                    *              4             0               
    107 Deliver[M,F2,S1,Linzer]
-                    *              0                             
+                    *              0             0               
    108 Deliver[M,F1,S1,Linzer]
-                    *              4                             
+                    *              4             0               
    109 Deliver[M,F2,S2,Mignon]
-                    *              0                             
+                    *              0             0               
    110 Deliver[M,F1,S2,Mignon]
-                    *              0                             
+                    *              0             0               
    111 Deliver[M,F2,S2,Mozart]
-                    *              0                             
+                    *              0             0               
    112 Deliver[M,F1,S2,Mozart]
-                    *             12                             
+                    *             12             0               
    113 Deliver[M,F2,S2,Sacher]
-                    *              0                             
+                    *              0             0               
    114 Deliver[M,F1,S2,Sacher]
-                    *             10                             
+                    *             10             0               
    115 Deliver[M,F2,S2,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    116 Deliver[M,F1,S2,Schwarzwald]
-                    *             10                             
+                    *             10             0               
    117 Deliver[M,F2,S2,Tiramisu]
-                    *              0                             
+                    *              0             0               
    118 Deliver[M,F1,S2,Tiramisu]
-                    *              8                             
+                    *              8             0               
    119 Deliver[M,F2,S2,Kremes]
-                    *              0                             
+                    *              0             0               
    120 Deliver[M,F1,S2,Kremes]
-                    *             15                             
+                    *             15             0               
    121 Deliver[M,F2,S2,Dobos]
-                    *              0                             
+                    *              0             0               
    122 Deliver[M,F1,S2,Dobos]
-                    *              4                             
+                    *              4             0               
    123 Deliver[M,F2,S2,Isler]
-                    *              0                             
+                    *              0             0               
    124 Deliver[M,F1,S2,Isler]
-                    *              5                             
+                    *              5             0               
    125 Deliver[M,F2,S2,Linzer]
-                    *              0                             
+                    *              0             0               
    126 Deliver[M,F1,S2,Linzer]
-                    *             10                             
+                    *             10             0               
    127 Deliver[M,F2,S3,Mignon]
-                    *             99                             
+                    *              0             0               
    128 Deliver[M,F1,S3,Mignon]
-                    *            -99                             
+                    *              0             0               
    129 Deliver[M,F2,S3,Mozart]
-                    *              0                             
+                    *              0             0               
    130 Deliver[M,F1,S3,Mozart]
-                    *              0                             
+                    *              0             0               
    131 Deliver[M,F2,S3,Sacher]
-                    *              0                             
+                    *             15             0               
    132 Deliver[M,F1,S3,Sacher]
-                    *             15                             
+                    *              0             0               
    133 Deliver[M,F2,S3,Schwarzwald]
-                    *              0                             
+                    *             30             0               
    134 Deliver[M,F1,S3,Schwarzwald]
-                    *             30                             
+                    *              0             0               
    135 Deliver[M,F2,S3,Tiramisu]
-                    *              0                             
+                    *             25             0               
    136 Deliver[M,F1,S3,Tiramisu]
-                    *             25                             
+                    *              0             0               
    137 Deliver[M,F2,S3,Kremes]
-                    *              0                             
+                    *             15             0               
    138 Deliver[M,F1,S3,Kremes]
-                    *             15                             
+                    *              0             0               
    139 Deliver[M,F2,S3,Dobos]
-                    *              0                             
+                    *              0             0               
    140 Deliver[M,F1,S3,Dobos]
-                    *              0                             
+                    *              0             0               
    141 Deliver[M,F2,S3,Isler]
-                    *              0                             
+                    *             12             0               
    142 Deliver[M,F1,S3,Isler]
-                    *             12                             
+                    *              0             0               
    143 Deliver[M,F2,S3,Linzer]
-                    *              0                             
+                    *              2             0               
    144 Deliver[M,F1,S3,Linzer]
-                    *              2                             
+                    *              0             0               
    145 Deliver[Tu,F2,S1,Mignon]
-                    *              0                             
+                    *              0             0               
    146 Deliver[Tu,F1,S1,Mignon]
-                    *             10                             
+                    *             10             0               
    147 Deliver[Tu,F2,S1,Mozart]
-                    *              0                             
+                    *              0             0               
    148 Deliver[Tu,F1,S1,Mozart]
-                    *              5                             
+                    *              5             0               
    149 Deliver[Tu,F2,S1,Sacher]
-                    *              0                             
+                    *              0             0               
    150 Deliver[Tu,F1,S1,Sacher]
-                    *              5                             
+                    *              5             0               
    151 Deliver[Tu,F2,S1,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    152 Deliver[Tu,F1,S1,Schwarzwald]
-                    *             15                             
+                    *             15             0               
    153 Deliver[Tu,F2,S1,Tiramisu]
-                    *              0                             
+                    *              0             0               
    154 Deliver[Tu,F1,S1,Tiramisu]
-                    *              7                             
+                    *              7             0               
    155 Deliver[Tu,F2,S1,Kremes]
-                    *              0                             
+                    *              0             0               
    156 Deliver[Tu,F1,S1,Kremes]
-                    *             20                             
+                    *             20             0               
    157 Deliver[Tu,F2,S1,Dobos]
-                    *              0                             
+                    *              0             0               
    158 Deliver[Tu,F1,S1,Dobos]
-                    *              0                             
+                    *              0             0               
    159 Deliver[Tu,F2,S1,Isler]
-                    *              0                             
+                    *              0             0               
    160 Deliver[Tu,F1,S1,Isler]
-                    *              4                             
+                    *              4             0               
    161 Deliver[Tu,F2,S1,Linzer]
-                    *              0                             
+                    *              0             0               
    162 Deliver[Tu,F1,S1,Linzer]
-                    *              4                             
+                    *              4             0               
    163 Deliver[Tu,F2,S2,Mignon]
-                    *              0                             
+                    *              0             0               
    164 Deliver[Tu,F1,S2,Mignon]
-                    *              0                             
+                    *              0             0               
    165 Deliver[Tu,F2,S2,Mozart]
-                    *              0                             
+                    *              0             0               
    166 Deliver[Tu,F1,S2,Mozart]
-                    *             12                             
+                    *             12             0               
    167 Deliver[Tu,F2,S2,Sacher]
-                    *              0                             
+                    *              0             0               
    168 Deliver[Tu,F1,S2,Sacher]
-                    *             10                             
+                    *             10             0               
    169 Deliver[Tu,F2,S2,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    170 Deliver[Tu,F1,S2,Schwarzwald]
-                    *             10                             
+                    *             10             0               
    171 Deliver[Tu,F2,S2,Tiramisu]
-                    *              0                             
+                    *              0             0               
    172 Deliver[Tu,F1,S2,Tiramisu]
-                    *              8                             
+                    *              8             0               
    173 Deliver[Tu,F2,S2,Kremes]
-                    *              0                             
+                    *              0             0               
    174 Deliver[Tu,F1,S2,Kremes]
-                    *             15                             
+                    *             15             0               
    175 Deliver[Tu,F2,S2,Dobos]
-                    *              0                             
+                    *              0             0               
    176 Deliver[Tu,F1,S2,Dobos]
-                    *              4                             
+                    *              4             0               
    177 Deliver[Tu,F2,S2,Isler]
-                    *              0                             
+                    *              0             0               
    178 Deliver[Tu,F1,S2,Isler]
-                    *              5                             
+                    *              5             0               
    179 Deliver[Tu,F2,S2,Linzer]
-                    *              0                             
+                    *              0             0               
    180 Deliver[Tu,F1,S2,Linzer]
-                    *             10                             
+                    *             10             0               
    181 Deliver[Tu,F2,S3,Mignon]
-                    *              0                             
+                    *              0             0               
    182 Deliver[Tu,F1,S3,Mignon]
-                    *              0                             
+                    *              0             0               
    183 Deliver[Tu,F2,S3,Mozart]
-                    *              0                             
+                    *              0             0               
    184 Deliver[Tu,F1,S3,Mozart]
-                    *              0                             
+                    *              0             0               
    185 Deliver[Tu,F2,S3,Sacher]
-                    *              0                             
+                    *              0             0               
    186 Deliver[Tu,F1,S3,Sacher]
-                    *             15                             
+                    *             15             0               
    187 Deliver[Tu,F2,S3,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    188 Deliver[Tu,F1,S3,Schwarzwald]
-                    *             30                             
+                    *             30             0               
    189 Deliver[Tu,F2,S3,Tiramisu]
-                    *              0                             
+                    *              0             0               
    190 Deliver[Tu,F1,S3,Tiramisu]
-                    *             25                             
+                    *             25             0               
    191 Deliver[Tu,F2,S3,Kremes]
-                    *              0                             
+                    *              0             0               
    192 Deliver[Tu,F1,S3,Kremes]
-                    *             15                             
+                    *             15             0               
    193 Deliver[Tu,F2,S3,Dobos]
-                    *              0                             
+                    *              0             0               
    194 Deliver[Tu,F1,S3,Dobos]
-                    *              0                             
+                    *              0             0               
    195 Deliver[Tu,F2,S3,Isler]
-                    *              0                             
+                    *              0             0               
    196 Deliver[Tu,F1,S3,Isler]
-                    *             12                             
+                    *             12             0               
    197 Deliver[Tu,F2,S3,Linzer]
-                    *              0                             
+                    *              0             0               
    198 Deliver[Tu,F1,S3,Linzer]
-                    *              2                             
+                    *              2             0               
    199 Deliver[W,F2,S1,Mignon]
-                    *              0                             
+                    *              0             0               
    200 Deliver[W,F1,S1,Mignon]
-                    *             10                             
+                    *             10             0               
    201 Deliver[W,F2,S1,Mozart]
-                    *              0                             
+                    *              0             0               
    202 Deliver[W,F1,S1,Mozart]
-                    *              5                             
+                    *              5             0               
    203 Deliver[W,F2,S1,Sacher]
-                    *              0                             
+                    *              0             0               
    204 Deliver[W,F1,S1,Sacher]
-                    *              5                             
+                    *              5             0               
    205 Deliver[W,F2,S1,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    206 Deliver[W,F1,S1,Schwarzwald]
-                    *             15                             
+                    *             15             0               
    207 Deliver[W,F2,S1,Tiramisu]
-                    *              0                             
+                    *              0             0               
    208 Deliver[W,F1,S1,Tiramisu]
-                    *              7                             
+                    *              7             0               
    209 Deliver[W,F2,S1,Kremes]
-                    *              0                             
+                    *              0             0               
    210 Deliver[W,F1,S1,Kremes]
-                    *             20                             
+                    *             20             0               
    211 Deliver[W,F2,S1,Dobos]
-                    *              0                             
+                    *              0             0               
    212 Deliver[W,F1,S1,Dobos]
-                    *              0                             
+                    *              0             0               
    213 Deliver[W,F2,S1,Isler]
-                    *              0                             
+                    *              0             0               
    214 Deliver[W,F1,S1,Isler]
-                    *              4                             
+                    *              4             0               
    215 Deliver[W,F2,S1,Linzer]
-                    *              0                             
+                    *              0             0               
    216 Deliver[W,F1,S1,Linzer]
-                    *              4                             
+                    *              4             0               
    217 Deliver[W,F2,S2,Mignon]
-                    *              0                             
+                    *              0             0               
    218 Deliver[W,F1,S2,Mignon]
-                    *              0                             
+                    *              0             0               
    219 Deliver[W,F2,S2,Mozart]
-                    *              0                             
+                    *              0             0               
    220 Deliver[W,F1,S2,Mozart]
-                    *             12                             
+                    *             12             0               
    221 Deliver[W,F2,S2,Sacher]
-                    *              0                             
+                    *              0             0               
    222 Deliver[W,F1,S2,Sacher]
-                    *             10                             
+                    *             10             0               
    223 Deliver[W,F2,S2,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    224 Deliver[W,F1,S2,Schwarzwald]
-                    *             10                             
+                    *             10             0               
    225 Deliver[W,F2,S2,Tiramisu]
-                    *              0                             
+                    *              0             0               
    226 Deliver[W,F1,S2,Tiramisu]
-                    *              8                             
+                    *              8             0               
    227 Deliver[W,F2,S2,Kremes]
-                    *              0                             
+                    *              0             0               
    228 Deliver[W,F1,S2,Kremes]
-                    *             15                             
+                    *             15             0               
    229 Deliver[W,F2,S2,Dobos]
-                    *              0                             
+                    *              0             0               
    230 Deliver[W,F1,S2,Dobos]
-                    *              4                             
+                    *              4             0               
    231 Deliver[W,F2,S2,Isler]
-                    *              0                             
+                    *              0             0               
    232 Deliver[W,F1,S2,Isler]
-                    *              5                             
+                    *              5             0               
    233 Deliver[W,F2,S2,Linzer]
-                    *              0                             
+                    *              0             0               
    234 Deliver[W,F1,S2,Linzer]
-                    *             10                             
+                    *             10             0               
    235 Deliver[W,F2,S3,Mignon]
-                    *              0                             
+                    *              0             0               
    236 Deliver[W,F1,S3,Mignon]
-                    *              0                             
+                    *              0             0               
    237 Deliver[W,F2,S3,Mozart]
-                    *              0                             
+                    *              0             0               
    238 Deliver[W,F1,S3,Mozart]
-                    *              0                             
+                    *              0             0               
    239 Deliver[W,F2,S3,Sacher]
-                    *              0                             
+                    *              0             0               
    240 Deliver[W,F1,S3,Sacher]
-                    *             15                             
+                    *             15             0               
    241 Deliver[W,F2,S3,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    242 Deliver[W,F1,S3,Schwarzwald]
-                    *             30                             
+                    *             30             0               
    243 Deliver[W,F2,S3,Tiramisu]
-                    *              0                             
+                    *              0             0               
    244 Deliver[W,F1,S3,Tiramisu]
-                    *             25                             
+                    *             25             0               
    245 Deliver[W,F2,S3,Kremes]
-                    *              0                             
+                    *              0             0               
    246 Deliver[W,F1,S3,Kremes]
-                    *             15                             
+                    *             15             0               
    247 Deliver[W,F2,S3,Dobos]
-                    *              0                             
+                    *              0             0               
    248 Deliver[W,F1,S3,Dobos]
-                    *              0                             
+                    *              0             0               
    249 Deliver[W,F2,S3,Isler]
-                    *              0                             
+                    *              0             0               
    250 Deliver[W,F1,S3,Isler]
-                    *             12                             
+                    *             12             0               
    251 Deliver[W,F2,S3,Linzer]
-                    *              0                             
+                    *              0             0               
    252 Deliver[W,F1,S3,Linzer]
-                    *              2                             
+                    *              2             0               
    253 Deliver[Th,F2,S1,Mignon]
-                    *              0                             
+                    *              0             0               
    254 Deliver[Th,F1,S1,Mignon]
-                    *             10                             
+                    *             10             0               
    255 Deliver[Th,F2,S1,Mozart]
-                    *              0                             
+                    *              0             0               
    256 Deliver[Th,F1,S1,Mozart]
-                    *              5                             
+                    *              5             0               
    257 Deliver[Th,F2,S1,Sacher]
-                    *              0                             
+                    *              0             0               
    258 Deliver[Th,F1,S1,Sacher]
-                    *              5                             
+                    *              5             0               
    259 Deliver[Th,F2,S1,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    260 Deliver[Th,F1,S1,Schwarzwald]
-                    *             15                             
+                    *             15             0               
    261 Deliver[Th,F2,S1,Tiramisu]
-                    *              0                             
+                    *              0             0               
    262 Deliver[Th,F1,S1,Tiramisu]
-                    *              7                             
+                    *              7             0               
    263 Deliver[Th,F2,S1,Kremes]
-                    *              0                             
+                    *              0             0               
    264 Deliver[Th,F1,S1,Kremes]
-                    *             20                             
+                    *             20             0               
    265 Deliver[Th,F2,S1,Dobos]
-                    *              0                             
+                    *              0             0               
    266 Deliver[Th,F1,S1,Dobos]
-                    *              0                             
+                    *              0             0               
    267 Deliver[Th,F2,S1,Isler]
-                    *              0                             
+                    *              0             0               
    268 Deliver[Th,F1,S1,Isler]
-                    *              4                             
+                    *              4             0               
    269 Deliver[Th,F2,S1,Linzer]
-                    *              0                             
+                    *              0             0               
    270 Deliver[Th,F1,S1,Linzer]
-                    *              4                             
+                    *              4             0               
    271 Deliver[Th,F2,S2,Mignon]
-                    *              0                             
+                    *              0             0               
    272 Deliver[Th,F1,S2,Mignon]
-                    *              0                             
+                    *              0             0               
    273 Deliver[Th,F2,S2,Mozart]
-                    *              0                             
+                    *              0             0               
    274 Deliver[Th,F1,S2,Mozart]
-                    *             12                             
+                    *             12             0               
    275 Deliver[Th,F2,S2,Sacher]
-                    *              0                             
+                    *              0             0               
    276 Deliver[Th,F1,S2,Sacher]
-                    *             10                             
+                    *             10             0               
    277 Deliver[Th,F2,S2,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    278 Deliver[Th,F1,S2,Schwarzwald]
-                    *             10                             
+                    *             10             0               
    279 Deliver[Th,F2,S2,Tiramisu]
-                    *              0                             
+                    *              0             0               
    280 Deliver[Th,F1,S2,Tiramisu]
-                    *              8                             
+                    *              8             0               
    281 Deliver[Th,F2,S2,Kremes]
-                    *              0                             
+                    *              0             0               
    282 Deliver[Th,F1,S2,Kremes]
-                    *             15                             
+                    *             15             0               
    283 Deliver[Th,F2,S2,Dobos]
-                    *              0                             
+                    *              0             0               
    284 Deliver[Th,F1,S2,Dobos]
-                    *              4                             
+                    *              4             0               
    285 Deliver[Th,F2,S2,Isler]
-                    *              0                             
+                    *              0             0               
    286 Deliver[Th,F1,S2,Isler]
-                    *              5                             
+                    *              5             0               
    287 Deliver[Th,F2,S2,Linzer]
-                    *              0                             
+                    *              0             0               
    288 Deliver[Th,F1,S2,Linzer]
-                    *             10                             
+                    *             10             0               
    289 Deliver[Th,F2,S3,Mignon]
-                    *              0                             
+                    *              0             0               
    290 Deliver[Th,F1,S3,Mignon]
-                    *              0                             
+                    *              0             0               
    291 Deliver[Th,F2,S3,Mozart]
-                    *              0                             
+                    *              0             0               
    292 Deliver[Th,F1,S3,Mozart]
-                    *              0                             
+                    *              0             0               
    293 Deliver[Th,F2,S3,Sacher]
-                    *              0                             
+                    *              0             0               
    294 Deliver[Th,F1,S3,Sacher]
-                    *             15                             
+                    *             15             0               
    295 Deliver[Th,F2,S3,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    296 Deliver[Th,F1,S3,Schwarzwald]
-                    *             30                             
+                    *             30             0               
    297 Deliver[Th,F2,S3,Tiramisu]
-                    *              0                             
+                    *              0             0               
    298 Deliver[Th,F1,S3,Tiramisu]
-                    *             25                             
+                    *             25             0               
    299 Deliver[Th,F2,S3,Kremes]
-                    *              0                             
+                    *              0             0               
    300 Deliver[Th,F1,S3,Kremes]
-                    *             15                             
+                    *             15             0               
    301 Deliver[Th,F2,S3,Dobos]
-                    *              0                             
+                    *              0             0               
    302 Deliver[Th,F1,S3,Dobos]
-                    *              0                             
+                    *              0             0               
    303 Deliver[Th,F2,S3,Isler]
-                    *              0                             
+                    *              0             0               
    304 Deliver[Th,F1,S3,Isler]
-                    *             12                             
+                    *             12             0               
    305 Deliver[Th,F2,S3,Linzer]
-                    *              0                             
+                    *              0             0               
    306 Deliver[Th,F1,S3,Linzer]
-                    *              2                             
+                    *              2             0               
    307 Deliver[F,F2,S1,Mignon]
-                    *              0                             
+                    *              0             0               
    308 Deliver[F,F1,S1,Mignon]
-                    *             10                             
+                    *             10             0               
    309 Deliver[F,F2,S1,Mozart]
-                    *              0                             
+                    *              0             0               
    310 Deliver[F,F1,S1,Mozart]
-                    *              5                             
+                    *              5             0               
    311 Deliver[F,F2,S1,Sacher]
-                    *              0                             
+                    *              0             0               
    312 Deliver[F,F1,S1,Sacher]
-                    *              5                             
+                    *              5             0               
    313 Deliver[F,F2,S1,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    314 Deliver[F,F1,S1,Schwarzwald]
-                    *             15                             
+                    *             15             0               
    315 Deliver[F,F2,S1,Tiramisu]
-                    *              0                             
+                    *              0             0               
    316 Deliver[F,F1,S1,Tiramisu]
-                    *              7                             
+                    *              7             0               
    317 Deliver[F,F2,S1,Kremes]
-                    *              0                             
+                    *              0             0               
    318 Deliver[F,F1,S1,Kremes]
-                    *             20                             
+                    *             20             0               
    319 Deliver[F,F2,S1,Dobos]
-                    *              0                             
+                    *              0             0               
    320 Deliver[F,F1,S1,Dobos]
-                    *              0                             
+                    *              0             0               
    321 Deliver[F,F2,S1,Isler]
-                    *              0                             
+                    *              0             0               
    322 Deliver[F,F1,S1,Isler]
-                    *              4                             
+                    *              4             0               
    323 Deliver[F,F2,S1,Linzer]
-                    *              0                             
+                    *              0             0               
    324 Deliver[F,F1,S1,Linzer]
-                    *              4                             
+                    *              4             0               
    325 Deliver[F,F2,S2,Mignon]
-                    *              0                             
+                    *              0             0               
    326 Deliver[F,F1,S2,Mignon]
-                    *              0                             
+                    *              0             0               
    327 Deliver[F,F2,S2,Mozart]
-                    *              0                             
+                    *              0             0               
    328 Deliver[F,F1,S2,Mozart]
-                    *             12                             
+                    *             12             0               
    329 Deliver[F,F2,S2,Sacher]
-                    *              0                             
+                    *              0             0               
    330 Deliver[F,F1,S2,Sacher]
-                    *             10                             
+                    *             10             0               
    331 Deliver[F,F2,S2,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    332 Deliver[F,F1,S2,Schwarzwald]
-                    *             10                             
+                    *             10             0               
    333 Deliver[F,F2,S2,Tiramisu]
-                    *              0                             
+                    *              0             0               
    334 Deliver[F,F1,S2,Tiramisu]
-                    *              8                             
+                    *              8             0               
    335 Deliver[F,F2,S2,Kremes]
-                    *              0                             
+                    *              0             0               
    336 Deliver[F,F1,S2,Kremes]
-                    *             15                             
+                    *             15             0               
    337 Deliver[F,F2,S2,Dobos]
-                    *              0                             
+                    *              0             0               
    338 Deliver[F,F1,S2,Dobos]
-                    *              4                             
+                    *              4             0               
    339 Deliver[F,F2,S2,Isler]
-                    *              0                             
+                    *              0             0               
    340 Deliver[F,F1,S2,Isler]
-                    *              5                             
+                    *              5             0               
    341 Deliver[F,F2,S2,Linzer]
-                    *              0                             
+                    *              0             0               
    342 Deliver[F,F1,S2,Linzer]
-                    *             10                             
+                    *             10             0               
    343 Deliver[F,F2,S3,Mignon]
-                    *              0                             
+                    *              0             0               
    344 Deliver[F,F1,S3,Mignon]
-                    *              0                             
+                    *              0             0               
    345 Deliver[F,F2,S3,Mozart]
-                    *              0                             
+                    *              0             0               
    346 Deliver[F,F1,S3,Mozart]
-                    *              0                             
+                    *              0             0               
    347 Deliver[F,F2,S3,Sacher]
-                    *              0                             
+                    *              0             0               
    348 Deliver[F,F1,S3,Sacher]
-                    *             15                             
+                    *             15             0               
    349 Deliver[F,F2,S3,Schwarzwald]
-                    *              0                             
+                    *              0             0               
    350 Deliver[F,F1,S3,Schwarzwald]
-                    *             30                             
+                    *             30             0               
    351 Deliver[F,F2,S3,Tiramisu]
-                    *              0                             
+                    *              0             0               
    352 Deliver[F,F1,S3,Tiramisu]
-                    *             25                             
+                    *             25             0               
    353 Deliver[F,F2,S3,Kremes]
-                    *              0                             
+                    *              0             0               
    354 Deliver[F,F1,S3,Kremes]
-                    *             15                             
+                    *             15             0               
    355 Deliver[F,F2,S3,Dobos]
-                    *              0                             
+                    *              0             0               
    356 Deliver[F,F1,S3,Dobos]
-                    *              0                             
+                    *              0             0               
    357 Deliver[F,F2,S3,Isler]
-                    *              0                             
+                    *              0             0               
    358 Deliver[F,F1,S3,Isler]
-                    *             12                             
+                    *             12             0               
    359 Deliver[F,F2,S3,Linzer]
-                    *              0                             
+                    *              0             0               
    360 Deliver[F,F1,S3,Linzer]
-                    *              2                             
+                    *              2             0               
    361 DailyDelivery[M,F1,S1]
                     *             70                             
    362 DailyDelivery[M,F1,S2]
@@ -1658,11 +1654,11 @@ Objective:  profit[M] = 71347.15 (MAXimum)
    444 ExistingDelivery[Tu,F1,S3]
                     *              1             0             1 
    445 ExistingDelivery[Tu,F2,S1]
-                    *              1             0             1 
+                    *              0             0             1 
    446 ExistingDelivery[Tu,F2,S2]
-                    *              1             0             1 
+                    *              0             0             1 
    447 ExistingDelivery[Tu,F2,S3]
-                    *              1             0             1 
+                    *              0             0             1 
    448 ExistingDelivery[W,F1,S1]
                     *              1             0             1 
    449 ExistingDelivery[W,F1,S2]
@@ -1670,9 +1666,9 @@ Objective:  profit[M] = 71347.15 (MAXimum)
    450 ExistingDelivery[W,F1,S3]
                     *              1             0             1 
    451 ExistingDelivery[W,F2,S1]
-                    *              1             0             1 
+                    *              0             0             1 
    452 ExistingDelivery[W,F2,S2]
-                    *              1             0             1 
+                    *              0             0             1 
    453 ExistingDelivery[W,F2,S3]
                     *              0             0             1 
    454 ExistingDelivery[Th,F1,S1]
