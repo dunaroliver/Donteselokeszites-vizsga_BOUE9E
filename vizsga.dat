@@ -15,11 +15,11 @@ param OpeningTimes:
 
 param WorkStarting:
 		F1	F2:=
-	M	3	4
+	M	4	4
 	Tu	4	4
-	W	5	4
+	W	3	5
 	Th	4	3
-	F	5	4
+	F	3	5
 	;
 
 param Price:=

@@ -12,7 +12,7 @@ param DailyDemand{P in Products}; /*Napi kereslet termékfajtánként*/
 param Consumption; /*Autó fogyasztása*/
 param FuelCost; /*Üzemanyag aktuális ára*/
 param ProductionTime{P in Products}; /*Egy termék elõállításának idõtartama*/
-param BigM:=150; /*Csak paraméterként tudtam NON LINEAR miatt.*/
+param BigM:=150; 
 
 
 var Produce{D in Days,F in Factories,P in Products},integer; /*Adott napon adott üzem adott termékbõl mennyit gyárt*/
@@ -64,10 +64,8 @@ s.t. production_time_per_factory{D in Days,F in Factories}:
 	sum{P in Products}(ProductionTimeProductSum[D,P,F])=ProductionTimeFactorySum[D,F];/*Üzemenkénti összes termelés idõtartama.*/
 
 s.t. deliver_in_time{D in Days,F in Factories,S in Shops}:
-	ExistingDelivery[D,F,S]*ProductionTimeFactorySum[D,F]<=OpeningTimes[D,S]-WorkStarting[D,F];
-/*Abban az esetben, ha az adott üzem szállít adott boltba, akkor az összes termeléssel el kell készülnünk az elõtt, hogy a bolt kinyitna.
-?????????????????????????????????????????????????????????????????????????
-*/
+	WorkStarting[D,F]+ProductionTimeFactorySum[D,F]<=OpeningTimes[D,S]+BigM*(1-ExistingDelivery[D,F,S]);
+/*Abban az esetben, ha az adott üzem szállít adott boltba, akkor az összes termeléssel el kell készülnünk az elõtt, hogy a bolt kinyitna.*/
 
 maximize profit{D in Days}: sum{P in Products,F in Factories,S in Shops}(Deliver[D,F,S,P]*Price[P])-sum{F in Factories,S in Shops}(ExistingDelivery[D,F,S])*Distance[F,S]*(Consumption/100)*FuelCost;
 
