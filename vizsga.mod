@@ -11,6 +11,7 @@ param Demand{S in Shops,P in Products}; /*Boltok kereslete*/
 param Consumption; /*Autó fogyasztása*/
 param FuelCost; /*Üzemanyag aktuális ára*/
 param ProductionTime{P in Products}; /*Egy termék elõállításának idõtartama*/
+param AvgSpeed;
 param BigM:=150; 
 
 
@@ -63,14 +64,14 @@ s.t. production_time_per_factory{D in Days,F in Factories}:
 	sum{P in Products}(ProductionTimeProductSum[D,P,F])=ProductionTimeFactorySum[D,F];/*Üzemenkénti összes termelés idõtartama.*/
 
 s.t. deliver_in_time{D in Days,F in Factories,S in Shops}:
-	WorkStarting[D,F]+ProductionTimeFactorySum[D,F]<=OpeningTimes[D,S]+BigM*(1-ExistingDelivery[D,F,S]);
-/*Abban az esetben, ha az adott üzem szállít adott boltba, akkor az összes termeléssel el kell készülnünk az elõtt, hogy a bolt kinyitna.*/
+	WorkStarting[D,F]+ProductionTimeFactorySum[D,F]+(Distance[F,S]/AvgSpeed)<=OpeningTimes[D,S]+BigM*(1-ExistingDelivery[D,F,S]);
+/*Abban az esetben, ha az adott üzem szállít adott boltba, akkor az összes termeléssel és szállítással el kell készülnünk az elõtt, hogy a bolt kinyitna.*/
 
-maximize profit{D in Days}: sum{P in Products,F in Factories,S in Shops}(Deliver[D,F,S,P]*Price[P])-sum{F in Factories,S in Shops}(ExistingDelivery[D,F,S])*Distance[F,S]*(Consumption/100)*FuelCost;
+maximize profit{D in Days}: sum{P in Products,F in Factories,S in Shops}(Deliver[D,F,S,P]*Price[P])-sum{F in Factories,S in Shops}(ExistingDelivery[D,F,S]*Distance[F,S]*(Consumption/100)*FuelCost);
 
 solve;
 
-
+printf "\n\nDaily Product Deliveries:\n\n";
 for {D in Days}{
 	printf "%4s\n",D;
 	printf "---------------------------------------\n";
@@ -85,6 +86,7 @@ for {D in Days}{
 	printf "---------------------------------------\n\n";
 }
 
+printf "\n\nDaily Deliveries:\n\n";
 for {D in Days}{
 	printf "%4s\n",D;
 	printf "---------------------------------------\n";
@@ -99,9 +101,10 @@ for {D in Days}{
 	printf "---------------------------------------\n\n";
 }
 
+printf "\n\nDaily Deliveries Per Product:\n\n";
 for {D in Days}{
 	printf "%4s\n",D;
-	printf "/-*-\/-*-\/-*-\/-*-\/-*-\/-*-\/-*-\/-*-\\\n";
+	printf "*************************************************\n";
 	for {P in Products}{
 		printf "%4s\n",P;
 		printf "---------------------------------------\n";
@@ -110,9 +113,24 @@ for {D in Days}{
 		printf "\n";
 		for {F in Factories}{
 			printf "%s",F;
-			for {S in Shops} printf "%12d\t",Deliver['M',F,S,P];
+			for {S in Shops} printf "%12d\t",Deliver[D,F,S,P];
 			printf "\n";
 		}
 		printf "---------------------------------------\n\n";
 	}
+}
+
+printf "\n\nDaily Production Per Product:\n\n";
+for {P in Products}{
+	printf "%4s\n",P;
+	printf "*************************************************\n";
+	printf "           ";
+	for{D in Days} printf"%s\t   ",D;
+	printf "\n";
+	for {F in Factories}{
+		printf "%s",F;
+		for{D in Days} printf "\t %4d",Produce[D,F,P];
+		printf "\n";
+	}
+	printf "---------------------------------------\n\n";
 }

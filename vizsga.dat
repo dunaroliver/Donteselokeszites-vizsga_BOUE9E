@@ -61,3 +61,5 @@ param ProductionTime:=
 	Isler	0.0125
 	Linzer	0.01
 	;
+
+param AvgSpeed:=40;

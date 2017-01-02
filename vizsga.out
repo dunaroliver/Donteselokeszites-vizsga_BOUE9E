@@ -612,35 +612,35 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    302 delivery_routes[M,F1,S2]
                                    0            -0               
    303 delivery_routes[M,F1,S3]
-                                  13            -0               
+                                  19            -0               
    304 delivery_routes[M,F2,S1]
                                    0            -0               
    305 delivery_routes[M,F2,S2]
                                    0            -0               
    306 delivery_routes[M,F2,S3]
-                                  86            -0               
+                                  80            -0               
    307 delivery_routes[Tu,F1,S1]
-                                   1            -0               
+                                   2            -0               
    308 delivery_routes[Tu,F1,S2]
                                    0            -0               
    309 delivery_routes[Tu,F1,S3]
                                    0            -0               
    310 delivery_routes[Tu,F2,S1]
-                                  69            -0               
+                                  68            -0               
    311 delivery_routes[Tu,F2,S2]
                                    0            -0               
    312 delivery_routes[Tu,F2,S3]
                                    0            -0               
    313 delivery_routes[W,F1,S1]
-                                  17            -0               
+                                  28            -0               
    314 delivery_routes[W,F1,S2]
-                                  24            -0               
+                                  30            -0               
    315 delivery_routes[W,F1,S3]
                                    0            -0               
    316 delivery_routes[W,F2,S1]
-                                  53            -0               
+                                  42            -0               
    317 delivery_routes[W,F2,S2]
-                                  50            -0               
+                                  44            -0               
    318 delivery_routes[W,F2,S3]
                                    0            -0               
    319 delivery_routes[Th,F1,S1]
@@ -656,15 +656,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    324 delivery_routes[Th,F2,S3]
                                    0            -0               
    325 delivery_routes[F,F1,S1]
-                                   0            -0               
-   326 delivery_routes[F,F1,S2]
                                    1            -0               
+   326 delivery_routes[F,F1,S2]
+                                   0            -0               
    327 delivery_routes[F,F1,S3]
                                    0            -0               
    328 delivery_routes[F,F2,S1]
-                                   0            -0               
+                                  69            -0               
    329 delivery_routes[F,F2,S2]
-                                  73            -0               
+                                   0            -0               
    330 delivery_routes[F,F2,S3]
                                    0            -0               
    331 allocation[M,Mignon]
@@ -676,7 +676,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    334 allocation[M,Schwarzwald]
                                  110            55               
    335 allocation[M,Tiramisu]
-                                  40            40               
+                                  80            40               
    336 allocation[M,Kremes]
                                   50            50               
    337 allocation[M,Dobos]
@@ -686,7 +686,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    339 allocation[M,Linzer]
                                   16            16               
    340 allocation[Tu,Mignon]
-                                  10            10               
+                                  20            10               
    341 allocation[Tu,Mozart]
                                   34            17               
    342 allocation[Tu,Sacher]
@@ -696,7 +696,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    344 allocation[Tu,Tiramisu]
                                   80            40               
    345 allocation[Tu,Kremes]
-                                  50            50               
+                                 100            50               
    346 allocation[Tu,Dobos]
                                    4             4               
    347 allocation[Tu,Isler]
@@ -708,7 +708,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    350 allocation[W,Mozart]
                                   34            17               
    351 allocation[W,Sacher]
-                                  60            30               
+                                  30            30               
    352 allocation[W,Schwarzwald]
                                   55            55               
    353 allocation[W,Tiramisu]
@@ -766,15 +766,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    379 production_matching_allocation[M,Mozart,F2]
                                   -5                          -0 
    380 production_matching_allocation[M,Sacher,F1]
-                                 -11                          -0 
+                                  -9                          -0 
    381 production_matching_allocation[M,Sacher,F2]
-                                 -17                          -0 
+                                 -19                          -0 
    382 production_matching_allocation[M,Schwarzwald,F1]
-                                 -39                          -0 
+                                 -35                          -0 
    383 production_matching_allocation[M,Schwarzwald,F2]
-                                 -14                          -0 
+                                 -18                          -0 
    384 production_matching_allocation[M,Tiramisu,F1]
-                                 -33                          -0 
+                                 -32                          -0 
    385 production_matching_allocation[M,Tiramisu,F2]
                                   -6                          -0 
    386 production_matching_allocation[M,Kremes,F1]
@@ -794,7 +794,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    393 production_matching_allocation[M,Linzer,F2]
                                   -4                          -0 
    394 production_matching_allocation[Tu,Mignon,F1]
-                                  -9                          -0 
+                                  -8                          -0 
    395 production_matching_allocation[Tu,Mignon,F2]
                                    0                          -0 
    396 production_matching_allocation[Tu,Mozart,F1]
@@ -814,7 +814,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    403 production_matching_allocation[Tu,Tiramisu,F2]
                                  -24                          -0 
    404 production_matching_allocation[Tu,Kremes,F1]
-                                 -35                          -0 
+                                 -34                          -0 
    405 production_matching_allocation[Tu,Kremes,F2]
                                  -14                          -0 
    406 production_matching_allocation[Tu,Dobos,F1]
@@ -830,17 +830,17 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    411 production_matching_allocation[Tu,Linzer,F2]
                                   -2                          -0 
    412 production_matching_allocation[W,Mignon,F1]
-                                  -6                          -0 
+                                   0                          -0 
    413 production_matching_allocation[W,Mignon,F2]
-                                  -3                          -0 
+                                  -9                          -0 
    414 production_matching_allocation[W,Mozart,F1]
                                    0                          -0 
    415 production_matching_allocation[W,Mozart,F2]
                                  -15                          -0 
    416 production_matching_allocation[W,Sacher,F1]
-                                 -14                          -0 
+                                 -29                          -0 
    417 production_matching_allocation[W,Sacher,F2]
-                                 -14                          -0 
+                                   0                          -0 
    418 production_matching_allocation[W,Schwarzwald,F1]
                                  -54                          -0 
    419 production_matching_allocation[W,Schwarzwald,F2]
@@ -850,21 +850,21 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    421 production_matching_allocation[W,Tiramisu,F2]
                                    0                          -0 
    422 production_matching_allocation[W,Kremes,F1]
-                                 -49                          -0 
+                                 -36                          -0 
    423 production_matching_allocation[W,Kremes,F2]
-                                   0                          -0 
+                                 -13                          -0 
    424 production_matching_allocation[W,Dobos,F1]
                                   -1                          -0 
    425 production_matching_allocation[W,Dobos,F2]
                                   -2                          -0 
    426 production_matching_allocation[W,Isler,F1]
-                                 -16                          -0 
+                                 -11                          -0 
    427 production_matching_allocation[W,Isler,F2]
-                                  -4                          -0 
+                                  -9                          -0 
    428 production_matching_allocation[W,Linzer,F1]
-                                 -15                          -0 
+                                  -8                          -0 
    429 production_matching_allocation[W,Linzer,F2]
-                                   0                          -0 
+                                  -7                          -0 
    430 production_matching_allocation[Th,Mignon,F1]
                                    0                          -0 
    431 production_matching_allocation[Th,Mignon,F2]
@@ -1124,7 +1124,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    558 sequencing[M,F1,Mignon,Schwarzwald]
                                   -1            -1               
    559 sequencing[M,F1,Mignon,Tiramisu]
-                                   0            -1               
+                                  -1            -1               
    560 sequencing[M,F1,Mignon,Kremes]
                                    0            -1               
    561 sequencing[M,F1,Mignon,Dobos]
@@ -1140,7 +1140,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    566 sequencing[M,F1,Mozart,Schwarzwald]
                                   -1            -1               
    567 sequencing[M,F1,Mozart,Tiramisu]
-                                   0            -1               
+                                  -1            -1               
    568 sequencing[M,F1,Mozart,Kremes]
                                    0            -1               
    569 sequencing[M,F1,Mozart,Dobos]
@@ -1156,7 +1156,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    574 sequencing[M,F1,Sacher,Schwarzwald]
                                   -1            -1               
    575 sequencing[M,F1,Sacher,Tiramisu]
-                                   0            -1               
+                                  -1            -1               
    576 sequencing[M,F1,Sacher,Kremes]
                                    0            -1               
    577 sequencing[M,F1,Sacher,Dobos]
@@ -1172,7 +1172,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    582 sequencing[M,F1,Schwarzwald,Sacher]
                                   -1            -1               
    583 sequencing[M,F1,Schwarzwald,Tiramisu]
-                                   0            -1               
+                                  -1            -1               
    584 sequencing[M,F1,Schwarzwald,Kremes]
                                    0            -1               
    585 sequencing[M,F1,Schwarzwald,Dobos]
@@ -1182,17 +1182,17 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    587 sequencing[M,F1,Schwarzwald,Linzer]
                                   -1            -1               
    588 sequencing[M,F1,Tiramisu,Mignon]
-                                   0            -1               
+                                  -1            -1               
    589 sequencing[M,F1,Tiramisu,Mozart]
-                                   0            -1               
+                                  -1            -1               
    590 sequencing[M,F1,Tiramisu,Sacher]
-                                   0            -1               
+                                  -1            -1               
    591 sequencing[M,F1,Tiramisu,Schwarzwald]
-                                   0            -1               
+                                  -1            -1               
    592 sequencing[M,F1,Tiramisu,Kremes]
                                    0            -1               
    593 sequencing[M,F1,Tiramisu,Dobos]
-                                   0            -1               
+                                  -1            -1               
    594 sequencing[M,F1,Tiramisu,Isler]
                                   -1            -1               
    595 sequencing[M,F1,Tiramisu,Linzer]
@@ -1222,7 +1222,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    607 sequencing[M,F1,Dobos,Schwarzwald]
                                   -1            -1               
    608 sequencing[M,F1,Dobos,Tiramisu]
-                                   0            -1               
+                                  -1            -1               
    609 sequencing[M,F1,Dobos,Kremes]
                                    0            -1               
    610 sequencing[M,F1,Dobos,Isler]
@@ -1322,9 +1322,9 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    657 sequencing[M,F2,Schwarzwald,Dobos]
                                   -1            -1               
    658 sequencing[M,F2,Schwarzwald,Isler]
-                                  -1            -1               
+                                   0            -1               
    659 sequencing[M,F2,Schwarzwald,Linzer]
-                                  -1            -1               
+                                   0            -1               
    660 sequencing[M,F2,Tiramisu,Mignon]
                                   -1            -1               
    661 sequencing[M,F2,Tiramisu,Mozart]
@@ -1380,7 +1380,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    686 sequencing[M,F2,Isler,Sacher]
                                    0            -1               
    687 sequencing[M,F2,Isler,Schwarzwald]
-                                  -1            -1               
+                                   0            -1               
    688 sequencing[M,F2,Isler,Tiramisu]
                                   -1            -1               
    689 sequencing[M,F2,Isler,Kremes]
@@ -1396,7 +1396,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    694 sequencing[M,F2,Linzer,Sacher]
                                    0            -1               
    695 sequencing[M,F2,Linzer,Schwarzwald]
-                                  -1            -1               
+                                   0            -1               
    696 sequencing[M,F2,Linzer,Tiramisu]
                                   -1            -1               
    697 sequencing[M,F2,Linzer,Kremes]
@@ -1414,7 +1414,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    703 sequencing[Tu,F1,Mignon,Tiramisu]
                                   -1            -1               
    704 sequencing[Tu,F1,Mignon,Kremes]
-                                   0            -1               
+                                  -1            -1               
    705 sequencing[Tu,F1,Mignon,Dobos]
                                   -1            -1               
    706 sequencing[Tu,F1,Mignon,Isler]
@@ -1430,7 +1430,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    711 sequencing[Tu,F1,Mozart,Tiramisu]
                                   -1            -1               
    712 sequencing[Tu,F1,Mozart,Kremes]
-                                   0            -1               
+                                  -1            -1               
    713 sequencing[Tu,F1,Mozart,Dobos]
                                   -1            -1               
    714 sequencing[Tu,F1,Mozart,Isler]
@@ -1446,7 +1446,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    719 sequencing[Tu,F1,Sacher,Tiramisu]
                                   -1            -1               
    720 sequencing[Tu,F1,Sacher,Kremes]
-                                   0            -1               
+                                  -1            -1               
    721 sequencing[Tu,F1,Sacher,Dobos]
                                   -1            -1               
    722 sequencing[Tu,F1,Sacher,Isler]
@@ -1462,7 +1462,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    727 sequencing[Tu,F1,Schwarzwald,Tiramisu]
                                   -1            -1               
    728 sequencing[Tu,F1,Schwarzwald,Kremes]
-                                   0            -1               
+                                  -1            -1               
    729 sequencing[Tu,F1,Schwarzwald,Dobos]
                                   -1            -1               
    730 sequencing[Tu,F1,Schwarzwald,Isler]
@@ -1478,7 +1478,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    735 sequencing[Tu,F1,Tiramisu,Schwarzwald]
                                   -1            -1               
    736 sequencing[Tu,F1,Tiramisu,Kremes]
-                                   0            -1               
+                                  -1            -1               
    737 sequencing[Tu,F1,Tiramisu,Dobos]
                                   -1            -1               
    738 sequencing[Tu,F1,Tiramisu,Isler]
@@ -1486,15 +1486,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    739 sequencing[Tu,F1,Tiramisu,Linzer]
                                   -1            -1               
    740 sequencing[Tu,F1,Kremes,Mignon]
-                                   0            -1               
+                                  -1            -1               
    741 sequencing[Tu,F1,Kremes,Mozart]
-                                   0            -1               
+                                  -1            -1               
    742 sequencing[Tu,F1,Kremes,Sacher]
-                                   0            -1               
+                                  -1            -1               
    743 sequencing[Tu,F1,Kremes,Schwarzwald]
-                                   0            -1               
+                                  -1            -1               
    744 sequencing[Tu,F1,Kremes,Tiramisu]
-                                   0            -1               
+                                  -1            -1               
    745 sequencing[Tu,F1,Kremes,Dobos]
                                   -1            -1               
    746 sequencing[Tu,F1,Kremes,Isler]
@@ -1626,9 +1626,9 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    809 sequencing[Tu,F2,Tiramisu,Dobos]
                                    0            -1               
    810 sequencing[Tu,F2,Tiramisu,Isler]
-                                  -1            -1               
+                                   0            -1               
    811 sequencing[Tu,F2,Tiramisu,Linzer]
-                                  -1            -1               
+                                   0            -1               
    812 sequencing[Tu,F2,Kremes,Mignon]
                                   -1            -1               
    813 sequencing[Tu,F2,Kremes,Mozart]
@@ -1670,7 +1670,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    831 sequencing[Tu,F2,Isler,Schwarzwald]
                                    0            -1               
    832 sequencing[Tu,F2,Isler,Tiramisu]
-                                  -1            -1               
+                                   0            -1               
    833 sequencing[Tu,F2,Isler,Kremes]
                                   -1            -1               
    834 sequencing[Tu,F2,Isler,Dobos]
@@ -1686,7 +1686,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    839 sequencing[Tu,F2,Linzer,Schwarzwald]
                                    0            -1               
    840 sequencing[Tu,F2,Linzer,Tiramisu]
-                                  -1            -1               
+                                   0            -1               
    841 sequencing[Tu,F2,Linzer,Kremes]
                                   -1            -1               
    842 sequencing[Tu,F2,Linzer,Dobos]
@@ -1702,7 +1702,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    847 sequencing[W,F1,Mignon,Tiramisu]
                                   -1            -1               
    848 sequencing[W,F1,Mignon,Kremes]
-                                  -1            -1               
+                                   0            -1               
    849 sequencing[W,F1,Mignon,Dobos]
                                    0            -1               
    850 sequencing[W,F1,Mignon,Isler]
@@ -1718,7 +1718,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    855 sequencing[W,F1,Mozart,Tiramisu]
                                   -1            -1               
    856 sequencing[W,F1,Mozart,Kremes]
-                                  -1            -1               
+                                   0            -1               
    857 sequencing[W,F1,Mozart,Dobos]
                                    0            -1               
    858 sequencing[W,F1,Mozart,Isler]
@@ -1734,7 +1734,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    863 sequencing[W,F1,Sacher,Tiramisu]
                                   -1            -1               
    864 sequencing[W,F1,Sacher,Kremes]
-                                  -1            -1               
+                                   0            -1               
    865 sequencing[W,F1,Sacher,Dobos]
                                    0            -1               
    866 sequencing[W,F1,Sacher,Isler]
@@ -1750,7 +1750,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    871 sequencing[W,F1,Schwarzwald,Tiramisu]
                                   -1            -1               
    872 sequencing[W,F1,Schwarzwald,Kremes]
-                                  -1            -1               
+                                   0            -1               
    873 sequencing[W,F1,Schwarzwald,Dobos]
                                    0            -1               
    874 sequencing[W,F1,Schwarzwald,Isler]
@@ -1766,7 +1766,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    879 sequencing[W,F1,Tiramisu,Schwarzwald]
                                   -1            -1               
    880 sequencing[W,F1,Tiramisu,Kremes]
-                                  -1            -1               
+                                   0            -1               
    881 sequencing[W,F1,Tiramisu,Dobos]
                                    0            -1               
    882 sequencing[W,F1,Tiramisu,Isler]
@@ -1774,15 +1774,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    883 sequencing[W,F1,Tiramisu,Linzer]
                                   -1            -1               
    884 sequencing[W,F1,Kremes,Mignon]
-                                  -1            -1               
+                                   0            -1               
    885 sequencing[W,F1,Kremes,Mozart]
-                                  -1            -1               
+                                   0            -1               
    886 sequencing[W,F1,Kremes,Sacher]
-                                  -1            -1               
+                                   0            -1               
    887 sequencing[W,F1,Kremes,Schwarzwald]
-                                  -1            -1               
+                                   0            -1               
    888 sequencing[W,F1,Kremes,Tiramisu]
-                                  -1            -1               
+                                   0            -1               
    889 sequencing[W,F1,Kremes,Dobos]
                                    0            -1               
    890 sequencing[W,F1,Kremes,Isler]
@@ -1840,13 +1840,13 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    916 sequencing[W,F2,Mignon,Mozart]
                                   -1            -1               
    917 sequencing[W,F2,Mignon,Sacher]
-                                  -1            -1               
+                                   0            -1               
    918 sequencing[W,F2,Mignon,Schwarzwald]
                                    0            -1               
    919 sequencing[W,F2,Mignon,Tiramisu]
                                    0            -1               
    920 sequencing[W,F2,Mignon,Kremes]
-                                   0            -1               
+                                  -1            -1               
    921 sequencing[W,F2,Mignon,Dobos]
                                   -1            -1               
    922 sequencing[W,F2,Mignon,Isler]
@@ -1866,35 +1866,35 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    929 sequencing[W,F2,Mozart,Dobos]
                                   -1            -1               
    930 sequencing[W,F2,Mozart,Isler]
-                                   0            -1               
-   931 sequencing[W,F2,Mozart,Linzer]
-                                   0            -1               
-   932 sequencing[W,F2,Sacher,Mignon]
                                   -1            -1               
+   931 sequencing[W,F2,Mozart,Linzer]
+                                  -1            -1               
+   932 sequencing[W,F2,Sacher,Mignon]
+                                   0            -1               
    933 sequencing[W,F2,Sacher,Mozart]
                                   -1            -1               
    934 sequencing[W,F2,Sacher,Schwarzwald]
-                                  -1            -1               
+                                   0            -1               
    935 sequencing[W,F2,Sacher,Tiramisu]
-                                  -1            -1               
+                                   0            -1               
    936 sequencing[W,F2,Sacher,Kremes]
                                   -1            -1               
    937 sequencing[W,F2,Sacher,Dobos]
                                   -1            -1               
    938 sequencing[W,F2,Sacher,Isler]
-                                  -1            -1               
+                                   0            -1               
    939 sequencing[W,F2,Sacher,Linzer]
-                                  -1            -1               
+                                   0            -1               
    940 sequencing[W,F2,Schwarzwald,Mignon]
                                    0            -1               
    941 sequencing[W,F2,Schwarzwald,Mozart]
                                   -1            -1               
    942 sequencing[W,F2,Schwarzwald,Sacher]
-                                  -1            -1               
+                                   0            -1               
    943 sequencing[W,F2,Schwarzwald,Tiramisu]
                                    0            -1               
    944 sequencing[W,F2,Schwarzwald,Kremes]
-                                   0            -1               
+                                  -1            -1               
    945 sequencing[W,F2,Schwarzwald,Dobos]
                                   -1            -1               
    946 sequencing[W,F2,Schwarzwald,Isler]
@@ -1906,11 +1906,11 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    949 sequencing[W,F2,Tiramisu,Mozart]
                                   -1            -1               
    950 sequencing[W,F2,Tiramisu,Sacher]
-                                  -1            -1               
+                                   0            -1               
    951 sequencing[W,F2,Tiramisu,Schwarzwald]
                                    0            -1               
    952 sequencing[W,F2,Tiramisu,Kremes]
-                                   0            -1               
+                                  -1            -1               
    953 sequencing[W,F2,Tiramisu,Dobos]
                                   -1            -1               
    954 sequencing[W,F2,Tiramisu,Isler]
@@ -1918,21 +1918,21 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    955 sequencing[W,F2,Tiramisu,Linzer]
                                    0            -1               
    956 sequencing[W,F2,Kremes,Mignon]
-                                   0            -1               
+                                  -1            -1               
    957 sequencing[W,F2,Kremes,Mozart]
                                   -1            -1               
    958 sequencing[W,F2,Kremes,Sacher]
                                   -1            -1               
    959 sequencing[W,F2,Kremes,Schwarzwald]
-                                   0            -1               
+                                  -1            -1               
    960 sequencing[W,F2,Kremes,Tiramisu]
-                                   0            -1               
+                                  -1            -1               
    961 sequencing[W,F2,Kremes,Dobos]
                                   -1            -1               
    962 sequencing[W,F2,Kremes,Isler]
-                                   0            -1               
+                                  -1            -1               
    963 sequencing[W,F2,Kremes,Linzer]
-                                   0            -1               
+                                  -1            -1               
    964 sequencing[W,F2,Dobos,Mignon]
                                   -1            -1               
    965 sequencing[W,F2,Dobos,Mozart]
@@ -1952,15 +1952,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    972 sequencing[W,F2,Isler,Mignon]
                                    0            -1               
    973 sequencing[W,F2,Isler,Mozart]
-                                   0            -1               
-   974 sequencing[W,F2,Isler,Sacher]
                                   -1            -1               
+   974 sequencing[W,F2,Isler,Sacher]
+                                   0            -1               
    975 sequencing[W,F2,Isler,Schwarzwald]
                                    0            -1               
    976 sequencing[W,F2,Isler,Tiramisu]
                                    0            -1               
    977 sequencing[W,F2,Isler,Kremes]
-                                   0            -1               
+                                  -1            -1               
    978 sequencing[W,F2,Isler,Dobos]
                                   -1            -1               
    979 sequencing[W,F2,Isler,Linzer]
@@ -1968,15 +1968,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    980 sequencing[W,F2,Linzer,Mignon]
                                    0            -1               
    981 sequencing[W,F2,Linzer,Mozart]
-                                   0            -1               
-   982 sequencing[W,F2,Linzer,Sacher]
                                   -1            -1               
+   982 sequencing[W,F2,Linzer,Sacher]
+                                   0            -1               
    983 sequencing[W,F2,Linzer,Schwarzwald]
                                    0            -1               
    984 sequencing[W,F2,Linzer,Tiramisu]
                                    0            -1               
    985 sequencing[W,F2,Linzer,Kremes]
-                                   0            -1               
+                                  -1            -1               
    986 sequencing[W,F2,Linzer,Dobos]
                                   -1            -1               
    987 sequencing[W,F2,Linzer,Isler]
@@ -2440,7 +2440,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1216 sequencing[F,F2,Mozart,Kremes]
                                   -1            -1               
   1217 sequencing[F,F2,Mozart,Dobos]
-                                  -1            -1               
+                                   0            -1               
   1218 sequencing[F,F2,Mozart,Isler]
                                    0            -1               
   1219 sequencing[F,F2,Mozart,Linzer]
@@ -2512,7 +2512,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1252 sequencing[F,F2,Dobos,Mignon]
                                    0            -1               
   1253 sequencing[F,F2,Dobos,Mozart]
-                                  -1            -1               
+                                   0            -1               
   1254 sequencing[F,F2,Dobos,Sacher]
                                   -1            -1               
   1255 sequencing[F,F2,Dobos,Schwarzwald]
@@ -2560,93 +2560,93 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1276 timing[M,F1,Mignon,Mozart]
                              -0.4992          -150               
   1277 timing[M,F1,Mignon,Sacher]
-                             -0.8988          -150               
+                             -0.8322          -150               
   1278 timing[M,F1,Mignon,Schwarzwald]
-                             -2.2308          -150               
+                              -2.031          -150               
   1279 timing[M,F1,Mignon,Tiramisu]
-                             -3.0558          -150               
+                              -2.856          -150               
   1280 timing[M,F1,Mignon,Kremes]
-                             -3.0558          -150               
+                             -3.3558          -150               
   1281 timing[M,F1,Mignon,Dobos]
-                             -3.1558          -150               
+                             -3.4558          -150               
   1282 timing[M,F1,Mignon,Isler]
-                             -3.3683          -150               
+                             -3.6683          -150               
   1283 timing[M,F1,Mignon,Linzer]
-                             -3.4883          -150               
+                             -3.7883          -150               
   1284 timing[M,F1,Mozart,Mignon]
                                 -150          -150               
   1285 timing[M,F1,Mozart,Sacher]
-                             -0.8988          -150               
+                             -0.8322          -150               
   1286 timing[M,F1,Mozart,Schwarzwald]
-                             -2.2308          -150               
+                              -2.031          -150               
   1287 timing[M,F1,Mozart,Tiramisu]
-                             -3.0558          -150               
+                              -2.856          -150               
   1288 timing[M,F1,Mozart,Kremes]
-                             -3.0558          -150               
+                             -3.3558          -150               
   1289 timing[M,F1,Mozart,Dobos]
-                             -3.1558          -150               
+                             -3.4558          -150               
   1290 timing[M,F1,Mozart,Isler]
-                             -3.3683          -150               
+                             -3.6683          -150               
   1291 timing[M,F1,Mozart,Linzer]
-                             -3.4883          -150               
+                             -3.7883          -150               
   1292 timing[M,F1,Sacher,Mignon]
                               0.4992          -150               
   1293 timing[M,F1,Sacher,Mozart]
                                 -150          -150               
   1294 timing[M,F1,Sacher,Schwarzwald]
-                             -1.7316          -150               
+                             -1.5318          -150               
   1295 timing[M,F1,Sacher,Tiramisu]
-                             -2.5566          -150               
+                             -2.3568          -150               
   1296 timing[M,F1,Sacher,Kremes]
-                             -2.5566          -150               
+                             -2.8566          -150               
   1297 timing[M,F1,Sacher,Dobos]
-                             -2.6566          -150               
+                             -2.9566          -150               
   1298 timing[M,F1,Sacher,Isler]
-                             -2.8691          -150               
+                             -3.1691          -150               
   1299 timing[M,F1,Sacher,Linzer]
-                             -2.9891          -150               
+                             -3.2891          -150               
   1300 timing[M,F1,Schwarzwald,Mignon]
-                              0.8988          -150               
+                              0.8322          -150               
   1301 timing[M,F1,Schwarzwald,Mozart]
-                              -149.6          -150               
+                            -149.667          -150               
   1302 timing[M,F1,Schwarzwald,Sacher]
                                 -150          -150               
   1303 timing[M,F1,Schwarzwald,Tiramisu]
-                              -2.157          -150               
+                             -2.0238          -150               
   1304 timing[M,F1,Schwarzwald,Kremes]
-                              -2.157          -150               
+                             -2.5236          -150               
   1305 timing[M,F1,Schwarzwald,Dobos]
-                              -2.257          -150               
+                             -2.6236          -150               
   1306 timing[M,F1,Schwarzwald,Isler]
-                             -2.4695          -150               
+                             -2.8361          -150               
   1307 timing[M,F1,Schwarzwald,Linzer]
-                             -2.5895          -150               
+                             -2.9561          -150               
   1308 timing[M,F1,Tiramisu,Mignon]
-                              2.2308          -150               
+                               2.031          -150               
   1309 timing[M,F1,Tiramisu,Mozart]
-                            -148.268          -150               
+                            -148.468          -150               
   1310 timing[M,F1,Tiramisu,Sacher]
-                            -148.668          -150               
+                            -148.801          -150               
   1311 timing[M,F1,Tiramisu,Schwarzwald]
                                 -150          -150               
   1312 timing[M,F1,Tiramisu,Kremes]
-                              -0.825          -150               
+                             -1.3248          -150               
   1313 timing[M,F1,Tiramisu,Dobos]
-                              -0.925          -150               
+                             -1.4248          -150               
   1314 timing[M,F1,Tiramisu,Isler]
-                             -1.1375          -150               
+                             -1.6373          -150               
   1315 timing[M,F1,Tiramisu,Linzer]
-                             -1.2575          -150               
+                             -1.7573          -150               
   1316 timing[M,F1,Kremes,Mignon]
-                               2.556          -150               
+                               2.856          -150               
   1317 timing[M,F1,Kremes,Mozart]
-                            -147.943          -150               
+                            -147.643          -150               
   1318 timing[M,F1,Kremes,Sacher]
-                            -148.343          -150               
+                            -147.976          -150               
   1319 timing[M,F1,Kremes,Schwarzwald]
-                            -149.675          -150               
+                            -149.175          -150               
   1320 timing[M,F1,Kremes,Tiramisu]
-                             -0.4998          -150               
+                                -150          -150               
   1321 timing[M,F1,Kremes,Dobos]
                              -0.5998          -150               
   1322 timing[M,F1,Kremes,Isler]
@@ -2654,15 +2654,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1323 timing[M,F1,Kremes,Linzer]
                              -0.9323          -150               
   1324 timing[M,F1,Dobos,Mignon]
-                            -146.944          -150               
+                            -146.644          -150               
   1325 timing[M,F1,Dobos,Mozart]
-                            -147.443          -150               
+                            -147.143          -150               
   1326 timing[M,F1,Dobos,Sacher]
-                            -147.843          -150               
+                            -147.476          -150               
   1327 timing[M,F1,Dobos,Schwarzwald]
-                            -149.175          -150               
+                            -148.675          -150               
   1328 timing[M,F1,Dobos,Tiramisu]
-                                -150          -150               
+                              -149.5          -150               
   1329 timing[M,F1,Dobos,Kremes]
                                 -150          -150               
   1330 timing[M,F1,Dobos,Isler]
@@ -2670,15 +2670,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1331 timing[M,F1,Dobos,Linzer]
                              -0.4325          -150               
   1332 timing[M,F1,Isler,Mignon]
-                              3.1558          -150               
+                              3.4558          -150               
   1333 timing[M,F1,Isler,Mozart]
-                            -147.343          -150               
+                            -147.043          -150               
   1334 timing[M,F1,Isler,Sacher]
-                            -147.743          -150               
+                            -147.376          -150               
   1335 timing[M,F1,Isler,Schwarzwald]
-                            -149.075          -150               
+                            -148.575          -150               
   1336 timing[M,F1,Isler,Tiramisu]
-                                 0.1          -150               
+                              -149.4          -150               
   1337 timing[M,F1,Isler,Kremes]
                                  0.1          -150               
   1338 timing[M,F1,Isler,Dobos]
@@ -2686,15 +2686,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1339 timing[M,F1,Isler,Linzer]
                              -0.3325          -150               
   1340 timing[M,F1,Linzer,Mignon]
-                              3.3683          -150               
+                              3.6683          -150               
   1341 timing[M,F1,Linzer,Mozart]
-                            -147.131          -150               
+                            -146.831          -150               
   1342 timing[M,F1,Linzer,Sacher]
-                             -147.53          -150               
+                            -147.164          -150               
   1343 timing[M,F1,Linzer,Schwarzwald]
-                            -148.863          -150               
+                            -148.363          -150               
   1344 timing[M,F1,Linzer,Tiramisu]
-                              0.3125          -150               
+                            -149.188          -150               
   1345 timing[M,F1,Linzer,Kremes]
                               0.3125          -150               
   1346 timing[M,F1,Linzer,Dobos]
@@ -2702,25 +2702,25 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1347 timing[M,F1,Linzer,Isler]
                                 -150          -150               
   1348 timing[M,F2,Mignon,Mozart]
-                             -2.1071          -150               
+                             -2.3069          -150               
   1349 timing[M,F2,Mignon,Sacher]
-                             -1.0994          -150               
+                              -1.166          -150               
   1350 timing[M,F2,Mignon,Schwarzwald]
-                             -1.5989          -150               
+                             -1.7987          -150               
   1351 timing[M,F2,Mignon,Tiramisu]
-                             -1.7739          -150               
+                             -1.9737          -150               
   1352 timing[M,F2,Mignon,Kremes]
-                             -2.1071          -150               
+                             -2.3069          -150               
   1353 timing[M,F2,Mignon,Dobos]
-                             -2.1071          -150               
+                             -2.3069          -150               
   1354 timing[M,F2,Mignon,Isler]
-                             -2.1071          -150               
+                             -2.3069          -150               
   1355 timing[M,F2,Mignon,Linzer]
-                             -2.1071          -150               
+                             -2.3069          -150               
   1356 timing[M,F2,Mozart,Mignon]
-                              1.3991          -150               
+                              1.5989          -150               
   1357 timing[M,F2,Mozart,Sacher]
-                              0.7997          -150               
+                              0.9329          -150               
   1358 timing[M,F2,Mozart,Schwarzwald]
                               0.3002          -150               
   1359 timing[M,F2,Mozart,Tiramisu]
@@ -2736,41 +2736,41 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1364 timing[M,F2,Sacher,Mignon]
                                 -150          -150               
   1365 timing[M,F2,Sacher,Mozart]
-                             -1.6071          -150               
+                             -1.8069          -150               
   1366 timing[M,F2,Sacher,Schwarzwald]
-                             -1.0989          -150               
+                             -1.2987          -150               
   1367 timing[M,F2,Sacher,Tiramisu]
-                             -1.2739          -150               
+                             -1.4737          -150               
   1368 timing[M,F2,Sacher,Kremes]
-                             -1.6071          -150               
+                             -1.8069          -150               
   1369 timing[M,F2,Sacher,Dobos]
-                             -1.6071          -150               
+                             -1.8069          -150               
   1370 timing[M,F2,Sacher,Isler]
-                             -1.6071          -150               
+                             -1.8069          -150               
   1371 timing[M,F2,Sacher,Linzer]
-                             -1.6071          -150               
+                             -1.8069          -150               
   1372 timing[M,F2,Schwarzwald,Mignon]
-                            -149.401          -150               
+                            -149.334          -150               
   1373 timing[M,F2,Schwarzwald,Mozart]
-                             -1.0077          -150               
+                             -1.1409          -150               
   1374 timing[M,F2,Schwarzwald,Sacher]
                                 -150          -150               
   1375 timing[M,F2,Schwarzwald,Tiramisu]
-                             -0.6745          -150               
+                             -0.8077          -150               
   1376 timing[M,F2,Schwarzwald,Kremes]
-                             -1.0077          -150               
+                             -1.1409          -150               
   1377 timing[M,F2,Schwarzwald,Dobos]
-                             -1.0077          -150               
+                             -1.1409          -150               
   1378 timing[M,F2,Schwarzwald,Isler]
-                             -1.0077          -150               
+                             -1.1409          -150               
   1379 timing[M,F2,Schwarzwald,Linzer]
-                             -1.0077          -150               
+                             -1.1409          -150               
   1380 timing[M,F2,Tiramisu,Mignon]
-                            -148.901          -150               
+                            -148.701          -150               
   1381 timing[M,F2,Tiramisu,Mozart]
                              -0.5082          -150               
   1382 timing[M,F2,Tiramisu,Sacher]
-                              -149.5          -150               
+                            -149.367          -150               
   1383 timing[M,F2,Tiramisu,Schwarzwald]
                                 -150          -150               
   1384 timing[M,F2,Tiramisu,Kremes]
@@ -2782,11 +2782,11 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1387 timing[M,F2,Tiramisu,Linzer]
                              -0.5082          -150               
   1388 timing[M,F2,Kremes,Mignon]
-                            -148.726          -150               
+                            -148.526          -150               
   1389 timing[M,F2,Kremes,Mozart]
                              -0.3332          -150               
   1390 timing[M,F2,Kremes,Sacher]
-                            -149.326          -150               
+                            -149.192          -150               
   1391 timing[M,F2,Kremes,Schwarzwald]
                             -149.825          -150               
   1392 timing[M,F2,Kremes,Tiramisu]
@@ -2798,11 +2798,11 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1395 timing[M,F2,Kremes,Linzer]
                              -0.3332          -150               
   1396 timing[M,F2,Dobos,Mignon]
-                              1.6071          -150               
+                              1.8069          -150               
   1397 timing[M,F2,Dobos,Mozart]
                                    0          -150               
   1398 timing[M,F2,Dobos,Sacher]
-                              1.0077          -150               
+                              1.1409          -150               
   1399 timing[M,F2,Dobos,Schwarzwald]
                               0.5082          -150               
   1400 timing[M,F2,Dobos,Tiramisu]
@@ -2814,13 +2814,13 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1403 timing[M,F2,Dobos,Linzer]
                                    0          -150               
   1404 timing[M,F2,Isler,Mignon]
-                            -148.443          -150               
+                            -148.243          -150               
   1405 timing[M,F2,Isler,Mozart]
                                -0.05          -150               
   1406 timing[M,F2,Isler,Sacher]
-                            -149.042          -150               
+                            -148.909          -150               
   1407 timing[M,F2,Isler,Schwarzwald]
-                              0.4582          -150               
+                            -149.542          -150               
   1408 timing[M,F2,Isler,Tiramisu]
                               0.2832          -150               
   1409 timing[M,F2,Isler,Kremes]
@@ -2830,13 +2830,13 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1411 timing[M,F2,Isler,Linzer]
                                -0.05          -150               
   1412 timing[M,F2,Linzer,Mignon]
-                            -148.433          -150               
+                            -148.233          -150               
   1413 timing[M,F2,Linzer,Mozart]
                                -0.04          -150               
   1414 timing[M,F2,Linzer,Sacher]
-                            -149.032          -150               
+                            -148.899          -150               
   1415 timing[M,F2,Linzer,Schwarzwald]
-                              0.4682          -150               
+                            -149.532          -150               
   1416 timing[M,F2,Linzer,Tiramisu]
                               0.2932          -150               
   1417 timing[M,F2,Linzer,Kremes]
@@ -2846,21 +2846,21 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1419 timing[M,F2,Linzer,Isler]
                                -0.04          -150               
   1420 timing[Tu,F1,Mignon,Mozart]
-                             -1.1656          -150               
+                             -1.1156          -150               
   1421 timing[Tu,F1,Mignon,Sacher]
-                             -1.6651          -150               
+                             -1.6151          -150               
   1422 timing[Tu,F1,Mignon,Schwarzwald]
-                             -2.4976          -150               
+                             -2.4476          -150               
   1423 timing[Tu,F1,Mignon,Tiramisu]
-                             -2.8726          -150               
+                             -2.8226          -150               
   1424 timing[Tu,F1,Mignon,Kremes]
-                             -3.4557          -150               
+                             -3.4057          -150               
   1425 timing[Tu,F1,Mignon,Dobos]
-                             -3.2032          -150               
+                             -3.5057          -150               
   1426 timing[Tu,F1,Mignon,Isler]
-                             -3.3157          -150               
+                             -3.6182          -150               
   1427 timing[Tu,F1,Mignon,Linzer]
-                             -3.4557          -150               
+                             -3.7582          -150               
   1428 timing[Tu,F1,Mozart,Mignon]
                                 -150          -150               
   1429 timing[Tu,F1,Mozart,Sacher]
@@ -2872,11 +2872,11 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1432 timing[Tu,F1,Mozart,Kremes]
                              -2.9557          -150               
   1433 timing[Tu,F1,Mozart,Dobos]
-                             -2.7032          -150               
+                             -3.0557          -150               
   1434 timing[Tu,F1,Mozart,Isler]
-                             -2.8157          -150               
+                             -3.1682          -150               
   1435 timing[Tu,F1,Mozart,Linzer]
-                             -2.9557          -150               
+                             -3.3082          -150               
   1436 timing[Tu,F1,Sacher,Mignon]
                             -149.334          -150               
   1437 timing[Tu,F1,Sacher,Mozart]
@@ -2888,11 +2888,11 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1440 timing[Tu,F1,Sacher,Kremes]
                              -2.2901          -150               
   1441 timing[Tu,F1,Sacher,Dobos]
-                             -2.0376          -150               
+                             -2.3901          -150               
   1442 timing[Tu,F1,Sacher,Isler]
-                             -2.1501          -150               
+                             -2.5026          -150               
   1443 timing[Tu,F1,Sacher,Linzer]
-                             -2.2901          -150               
+                             -2.6426          -150               
   1444 timing[Tu,F1,Schwarzwald,Mignon]
                             -148.835          -150               
   1445 timing[Tu,F1,Schwarzwald,Mozart]
@@ -2904,11 +2904,11 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1448 timing[Tu,F1,Schwarzwald,Kremes]
                              -1.7906          -150               
   1449 timing[Tu,F1,Schwarzwald,Dobos]
-                             -1.5381          -150               
+                             -1.8906          -150               
   1450 timing[Tu,F1,Schwarzwald,Isler]
-                             -1.6506          -150               
+                             -2.0031          -150               
   1451 timing[Tu,F1,Schwarzwald,Linzer]
-                             -1.7906          -150               
+                             -2.1431          -150               
   1452 timing[Tu,F1,Tiramisu,Mignon]
                             -148.002          -150               
   1453 timing[Tu,F1,Tiramisu,Mozart]
@@ -2920,11 +2920,11 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1456 timing[Tu,F1,Tiramisu,Kremes]
                              -0.9581          -150               
   1457 timing[Tu,F1,Tiramisu,Dobos]
-                             -0.7056          -150               
+                             -1.0581          -150               
   1458 timing[Tu,F1,Tiramisu,Isler]
-                             -0.8181          -150               
+                             -1.1706          -150               
   1459 timing[Tu,F1,Tiramisu,Linzer]
-                             -0.9581          -150               
+                             -1.3106          -150               
   1460 timing[Tu,F1,Kremes,Mignon]
                             -147.627          -150               
   1461 timing[Tu,F1,Kremes,Mozart]
@@ -2936,77 +2936,77 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1464 timing[Tu,F1,Kremes,Tiramisu]
                                 -150          -150               
   1465 timing[Tu,F1,Kremes,Dobos]
-                             -0.3306          -150               
+                             -0.6831          -150               
   1466 timing[Tu,F1,Kremes,Isler]
-                             -0.4431          -150               
+                             -0.7956          -150               
   1467 timing[Tu,F1,Kremes,Linzer]
-                             -0.5831          -150               
+                             -0.9356          -150               
   1468 timing[Tu,F1,Dobos,Mignon]
-                            -147.397          -150               
+                            -147.044          -150               
   1469 timing[Tu,F1,Dobos,Mozart]
-                            -148.062          -150               
+                             -147.71          -150               
   1470 timing[Tu,F1,Dobos,Sacher]
-                            -148.562          -150               
+                            -148.209          -150               
   1471 timing[Tu,F1,Dobos,Schwarzwald]
-                            -149.394          -150               
+                            -149.042          -150               
   1472 timing[Tu,F1,Dobos,Tiramisu]
-                            -149.769          -150               
+                            -149.417          -150               
   1473 timing[Tu,F1,Dobos,Kremes]
-                             -0.3525          -150               
+                                -150          -150               
   1474 timing[Tu,F1,Dobos,Isler]
                              -0.2125          -150               
   1475 timing[Tu,F1,Dobos,Linzer]
                              -0.3525          -150               
   1476 timing[Tu,F1,Isler,Mignon]
-                            -147.297          -150               
+                            -146.944          -150               
   1477 timing[Tu,F1,Isler,Mozart]
-                            -147.962          -150               
+                             -147.61          -150               
   1478 timing[Tu,F1,Isler,Sacher]
-                            -148.462          -150               
+                            -148.109          -150               
   1479 timing[Tu,F1,Isler,Schwarzwald]
-                            -149.294          -150               
+                            -148.942          -150               
   1480 timing[Tu,F1,Isler,Tiramisu]
-                            -149.669          -150               
+                            -149.317          -150               
   1481 timing[Tu,F1,Isler,Kremes]
-                             -0.2525          -150               
+                              -149.9          -150               
   1482 timing[Tu,F1,Isler,Dobos]
                                 -150          -150               
   1483 timing[Tu,F1,Isler,Linzer]
                              -0.2525          -150               
   1484 timing[Tu,F1,Linzer,Mignon]
-                            -147.184          -150               
+                            -146.832          -150               
   1485 timing[Tu,F1,Linzer,Mozart]
-                             -147.85          -150               
+                            -147.497          -150               
   1486 timing[Tu,F1,Linzer,Sacher]
-                            -148.349          -150               
+                            -147.997          -150               
   1487 timing[Tu,F1,Linzer,Schwarzwald]
-                            -149.182          -150               
+                            -148.829          -150               
   1488 timing[Tu,F1,Linzer,Tiramisu]
-                            -149.557          -150               
+                            -149.204          -150               
   1489 timing[Tu,F1,Linzer,Kremes]
-                               -0.14          -150               
+                            -149.787          -150               
   1490 timing[Tu,F1,Linzer,Dobos]
                             -149.887          -150               
   1491 timing[Tu,F1,Linzer,Isler]
                                 -150          -150               
   1492 timing[Tu,F2,Mignon,Mozart]
-                              2.3734          -150               
+                             -0.0916          -150               
   1493 timing[Tu,F2,Mignon,Sacher]
-                              1.8739          -150               
+                             -0.5911          -150               
   1494 timing[Tu,F2,Mignon,Schwarzwald]
-                              0.8749          -150               
+                             -1.5901          -150               
   1495 timing[Tu,F2,Mignon,Tiramisu]
-                              0.2499          -150               
+                             -2.2151          -150               
   1496 timing[Tu,F2,Mignon,Kremes]
-                                   0          -150               
+                              -2.465          -150               
   1497 timing[Tu,F2,Mignon,Dobos]
-                                   0          -150               
+                              -2.465          -150               
   1498 timing[Tu,F2,Mignon,Isler]
-                                   0          -150               
+                              -2.465          -150               
   1499 timing[Tu,F2,Mignon,Linzer]
-                                   0          -150               
+                              -2.465          -150               
   1500 timing[Tu,F2,Mozart,Mignon]
-                              -2.415          -150               
+                                -150          -150               
   1501 timing[Tu,F2,Mozart,Sacher]
                              -0.5411          -150               
   1502 timing[Tu,F2,Mozart,Schwarzwald]
@@ -3022,7 +3022,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1507 timing[Tu,F2,Mozart,Linzer]
                               -2.415          -150               
   1508 timing[Tu,F2,Sacher,Mignon]
-                             -2.3734          -150               
+                            -149.958          -150               
   1509 timing[Tu,F2,Sacher,Mozart]
                                 -150          -150               
   1510 timing[Tu,F2,Sacher,Schwarzwald]
@@ -3038,7 +3038,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1515 timing[Tu,F2,Sacher,Linzer]
                              -2.3734          -150               
   1516 timing[Tu,F2,Schwarzwald,Mignon]
-                             -1.8739          -150               
+                            -149.459          -150               
   1517 timing[Tu,F2,Schwarzwald,Mozart]
                               -149.5          -150               
   1518 timing[Tu,F2,Schwarzwald,Sacher]
@@ -3054,7 +3054,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1523 timing[Tu,F2,Schwarzwald,Linzer]
                              -1.8739          -150               
   1524 timing[Tu,F2,Tiramisu,Mignon]
-                             -0.8749          -150               
+                             -148.46          -150               
   1525 timing[Tu,F2,Tiramisu,Mozart]
                             -148.501          -150               
   1526 timing[Tu,F2,Tiramisu,Sacher]
@@ -3070,7 +3070,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1531 timing[Tu,F2,Tiramisu,Linzer]
                              -0.8749          -150               
   1532 timing[Tu,F2,Kremes,Mignon]
-                             -0.2499          -150               
+                            -147.835          -150               
   1533 timing[Tu,F2,Kremes,Mozart]
                             -147.876          -150               
   1534 timing[Tu,F2,Kremes,Sacher]
@@ -3086,7 +3086,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1539 timing[Tu,F2,Kremes,Linzer]
                              -0.2499          -150               
   1540 timing[Tu,F2,Dobos,Mignon]
-                                   0          -150               
+                            -147.585          -150               
   1541 timing[Tu,F2,Dobos,Mozart]
                             -147.627          -150               
   1542 timing[Tu,F2,Dobos,Sacher]
@@ -3102,7 +3102,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1547 timing[Tu,F2,Dobos,Linzer]
                                    0          -150               
   1548 timing[Tu,F2,Isler,Mignon]
-                               -0.15          -150               
+                            -147.735          -150               
   1549 timing[Tu,F2,Isler,Mozart]
                             -147.777          -150               
   1550 timing[Tu,F2,Isler,Sacher]
@@ -3110,7 +3110,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1551 timing[Tu,F2,Isler,Schwarzwald]
                             -149.275          -150               
   1552 timing[Tu,F2,Isler,Tiramisu]
-                              0.0999          -150               
+                              -149.9          -150               
   1553 timing[Tu,F2,Isler,Kremes]
                                -0.15          -150               
   1554 timing[Tu,F2,Isler,Dobos]
@@ -3118,7 +3118,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1555 timing[Tu,F2,Isler,Linzer]
                                -0.15          -150               
   1556 timing[Tu,F2,Linzer,Mignon]
-                               -0.02          -150               
+                            -147.605          -150               
   1557 timing[Tu,F2,Linzer,Mozart]
                             -147.647          -150               
   1558 timing[Tu,F2,Linzer,Sacher]
@@ -3126,7 +3126,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1559 timing[Tu,F2,Linzer,Schwarzwald]
                             -149.145          -150               
   1560 timing[Tu,F2,Linzer,Tiramisu]
-                              0.2299          -150               
+                             -149.77          -150               
   1561 timing[Tu,F2,Linzer,Kremes]
                                -0.02          -150               
   1562 timing[Tu,F2,Linzer,Dobos]
@@ -3134,89 +3134,89 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1563 timing[Tu,F2,Linzer,Isler]
                                -0.02          -150               
   1564 timing[W,F1,Mignon,Mozart]
-                             -0.3916          -150               
+                             -0.0916          -150               
   1565 timing[W,F1,Mignon,Sacher]
-                             -0.8911          -150               
+                             -1.0906          -150               
   1566 timing[W,F1,Mignon,Schwarzwald]
-                             -2.7226          -150               
+                             -2.9221          -150               
   1567 timing[W,F1,Mignon,Tiramisu]
-                             -3.7226          -150               
+                             -3.9221          -150               
   1568 timing[W,F1,Mignon,Kremes]
-                             -4.5556          -150               
+                            -4.52186          -150               
   1569 timing[W,F1,Mignon,Dobos]
-                             -4.9281          -150               
+                            -4.52186          -150               
   1570 timing[W,F1,Mignon,Isler]
-                             -4.7681          -150               
+                            -4.43186          -150               
   1571 timing[W,F1,Mignon,Linzer]
-                             -4.9281          -150               
+                            -4.52186          -150               
   1572 timing[W,F1,Mozart,Mignon]
                                 -150          -150               
   1573 timing[W,F1,Mozart,Sacher]
-                             -0.5411          -150               
+                             -1.0406          -150               
   1574 timing[W,F1,Mozart,Schwarzwald]
-                             -2.3726          -150               
+                             -2.8721          -150               
   1575 timing[W,F1,Mozart,Tiramisu]
-                             -3.3726          -150               
+                             -3.8721          -150               
   1576 timing[W,F1,Mozart,Kremes]
-                             -4.2056          -150               
+                            -4.47186          -150               
   1577 timing[W,F1,Mozart,Dobos]
-                             -4.5781          -150               
+                            -4.47186          -150               
   1578 timing[W,F1,Mozart,Isler]
-                             -4.4181          -150               
+                            -4.38186          -150               
   1579 timing[W,F1,Mozart,Linzer]
-                             -4.5781          -150               
+                            -4.47186          -150               
   1580 timing[W,F1,Sacher,Mignon]
                             -149.958          -150               
   1581 timing[W,F1,Sacher,Mozart]
                                 -150          -150               
   1582 timing[W,F1,Sacher,Schwarzwald]
-                              -2.331          -150               
+                             -2.8305          -150               
   1583 timing[W,F1,Sacher,Tiramisu]
-                              -3.331          -150               
+                             -3.8305          -150               
   1584 timing[W,F1,Sacher,Kremes]
-                              -4.164          -150               
+                            -4.43026          -150               
   1585 timing[W,F1,Sacher,Dobos]
-                             -4.5365          -150               
+                            -4.43026          -150               
   1586 timing[W,F1,Sacher,Isler]
-                             -4.3765          -150               
+                            -4.34026          -150               
   1587 timing[W,F1,Sacher,Linzer]
-                             -4.5365          -150               
+                            -4.43026          -150               
   1588 timing[W,F1,Schwarzwald,Mignon]
-                            -149.459          -150               
+                            -148.959          -150               
   1589 timing[W,F1,Schwarzwald,Mozart]
-                              -149.5          -150               
+                            -149.001          -150               
   1590 timing[W,F1,Schwarzwald,Sacher]
                                 -150          -150               
   1591 timing[W,F1,Schwarzwald,Tiramisu]
                              -2.8315          -150               
   1592 timing[W,F1,Schwarzwald,Kremes]
-                             -3.6645          -150               
+                            -3.43126          -150               
   1593 timing[W,F1,Schwarzwald,Dobos]
-                              -4.037          -150               
+                            -3.43126          -150               
   1594 timing[W,F1,Schwarzwald,Isler]
-                              -3.877          -150               
+                            -3.34126          -150               
   1595 timing[W,F1,Schwarzwald,Linzer]
-                              -4.037          -150               
+                            -3.43126          -150               
   1596 timing[W,F1,Tiramisu,Mignon]
-                            -147.627          -150               
+                            -147.128          -150               
   1597 timing[W,F1,Tiramisu,Mozart]
-                            -147.669          -150               
+                            -147.169          -150               
   1598 timing[W,F1,Tiramisu,Sacher]
                             -148.168          -150               
   1599 timing[W,F1,Tiramisu,Schwarzwald]
                                 -150          -150               
   1600 timing[W,F1,Tiramisu,Kremes]
-                              -1.833          -150               
+                            -1.59976          -150               
   1601 timing[W,F1,Tiramisu,Dobos]
-                             -2.2055          -150               
+                            -1.59976          -150               
   1602 timing[W,F1,Tiramisu,Isler]
-                             -2.0455          -150               
+                            -1.50976          -150               
   1603 timing[W,F1,Tiramisu,Linzer]
-                             -2.2055          -150               
+                            -1.59976          -150               
   1604 timing[W,F1,Kremes,Mignon]
-                            -146.627          -150               
+                            -146.128          -150               
   1605 timing[W,F1,Kremes,Mozart]
-                            -146.669          -150               
+                            -146.169          -150               
   1606 timing[W,F1,Kremes,Sacher]
                             -147.168          -150               
   1607 timing[W,F1,Kremes,Schwarzwald]
@@ -3224,117 +3224,117 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1608 timing[W,F1,Kremes,Tiramisu]
                                 -150          -150               
   1609 timing[W,F1,Kremes,Dobos]
-                             -1.2055          -150               
+                            -0.59976          -150               
   1610 timing[W,F1,Kremes,Isler]
-                             -1.0455          -150               
+                            -0.50976          -150               
   1611 timing[W,F1,Kremes,Linzer]
-                             -1.2055          -150               
+                            -0.59976          -150               
   1612 timing[W,F1,Dobos,Mignon]
-                            -145.447          -150               
+                            -145.553          -150               
   1613 timing[W,F1,Dobos,Mozart]
-                            -145.488          -150               
+                            -145.595          -150               
   1614 timing[W,F1,Dobos,Sacher]
-                            -145.988          -150               
+                            -146.594          -150               
   1615 timing[W,F1,Dobos,Schwarzwald]
-                             -147.82          -150               
+                            -148.425          -150               
   1616 timing[W,F1,Dobos,Tiramisu]
-                             -148.82          -150               
+                            -149.425          -150               
   1617 timing[W,F1,Dobos,Kremes]
-                            -149.653          -150               
+                              -0.025          -150               
   1618 timing[W,F1,Dobos,Isler]
-                               0.135          -150               
+                               0.065          -150               
   1619 timing[W,F1,Dobos,Linzer]
                               -0.025          -150               
   1620 timing[W,F1,Isler,Mignon]
-                            -145.794          -150               
+                            -145.768          -150               
   1621 timing[W,F1,Isler,Mozart]
-                            -145.836          -150               
+                             -145.81          -150               
   1622 timing[W,F1,Isler,Sacher]
-                            -146.335          -150               
+                            -146.809          -150               
   1623 timing[W,F1,Isler,Schwarzwald]
-                            -148.167          -150               
+                             -148.64          -150               
   1624 timing[W,F1,Isler,Tiramisu]
-                            -149.167          -150               
+                             -149.64          -150               
   1625 timing[W,F1,Isler,Kremes]
-                                -150          -150               
+                               -0.24          -150               
   1626 timing[W,F1,Isler,Dobos]
-                             -0.3725          -150               
+                               -0.24          -150               
   1627 timing[W,F1,Isler,Linzer]
-                             -0.3725          -150               
+                               -0.24          -150               
   1628 timing[W,F1,Linzer,Mignon]
-                            -145.582          -150               
+                            -145.618          -150               
   1629 timing[W,F1,Linzer,Mozart]
-                            -145.624          -150               
+                             -145.66          -150               
   1630 timing[W,F1,Linzer,Sacher]
-                            -146.123          -150               
+                            -146.659          -150               
   1631 timing[W,F1,Linzer,Schwarzwald]
-                            -147.954          -150               
+                             -148.49          -150               
   1632 timing[W,F1,Linzer,Tiramisu]
-                            -148.954          -150               
+                             -149.49          -150               
   1633 timing[W,F1,Linzer,Kremes]
-                            -149.787          -150               
+                               -0.09          -150               
   1634 timing[W,F1,Linzer,Dobos]
-                               -0.16          -150               
+                               -0.09          -150               
   1635 timing[W,F1,Linzer,Isler]
                                 -150          -150               
   1636 timing[W,F2,Mignon,Mozart]
-                              0.4245          -150               
+                            -0.14176          -150               
   1637 timing[W,F2,Mignon,Sacher]
-                              -0.075          -150               
+                               -0.45          -150               
   1638 timing[W,F2,Mignon,Schwarzwald]
-                               -0.15          -150               
+                               -0.45          -150               
   1639 timing[W,F2,Mignon,Tiramisu]
-                               -0.15          -150               
+                               -0.45          -150               
   1640 timing[W,F2,Mignon,Kremes]
-                               -0.15          -150               
+                              -0.375          -150               
   1641 timing[W,F2,Mignon,Dobos]
-                               -0.15          -150               
+                               -0.45          -150               
   1642 timing[W,F2,Mignon,Isler]
-                               -0.15          -150               
+                               -0.45          -150               
   1643 timing[W,F2,Mignon,Linzer]
-                               -0.15          -150               
+                               -0.45          -150               
   1644 timing[W,F2,Mozart,Mignon]
-                             -1.2401          -150               
+                            -0.97384          -150               
   1645 timing[W,F2,Mozart,Sacher]
-                             -1.1651          -150               
+                            -0.97384          -150               
   1646 timing[W,F2,Mozart,Schwarzwald]
-                             -1.2401          -150               
+                            -0.97384          -150               
   1647 timing[W,F2,Mozart,Tiramisu]
-                             -1.2401          -150               
+                            -0.97384          -150               
   1648 timing[W,F2,Mozart,Kremes]
-                             -1.2401          -150               
+                            -0.89884          -150               
   1649 timing[W,F2,Mozart,Dobos]
-                             -1.2401          -150               
+                            -0.97384          -150               
   1650 timing[W,F2,Mozart,Isler]
-                             -1.2401          -150               
+                            -0.97384          -150               
   1651 timing[W,F2,Mozart,Linzer]
-                             -1.2401          -150               
+                            -0.97384          -150               
   1652 timing[W,F2,Sacher,Mignon]
-                             -0.5745          -150               
+                                   0          -150               
   1653 timing[W,F2,Sacher,Mozart]
-                                -150          -150               
+                             0.30824          -150               
   1654 timing[W,F2,Sacher,Schwarzwald]
-                             -0.5745          -150               
+                                   0          -150               
   1655 timing[W,F2,Sacher,Tiramisu]
-                             -0.5745          -150               
+                                   0          -150               
   1656 timing[W,F2,Sacher,Kremes]
-                             -0.5745          -150               
+                               0.075          -150               
   1657 timing[W,F2,Sacher,Dobos]
-                             -0.5745          -150               
+                                   0          -150               
   1658 timing[W,F2,Sacher,Isler]
-                             -0.5745          -150               
+                                   0          -150               
   1659 timing[W,F2,Sacher,Linzer]
-                             -0.5745          -150               
+                                   0          -150               
   1660 timing[W,F2,Schwarzwald,Mignon]
                                    0          -150               
   1661 timing[W,F2,Schwarzwald,Mozart]
-                              0.5745          -150               
+                             0.30824          -150               
   1662 timing[W,F2,Schwarzwald,Sacher]
-                               0.075          -150               
+                                   0          -150               
   1663 timing[W,F2,Schwarzwald,Tiramisu]
                                    0          -150               
   1664 timing[W,F2,Schwarzwald,Kremes]
-                                   0          -150               
+                               0.075          -150               
   1665 timing[W,F2,Schwarzwald,Dobos]
                                    0          -150               
   1666 timing[W,F2,Schwarzwald,Isler]
@@ -3344,13 +3344,13 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1668 timing[W,F2,Tiramisu,Mignon]
                                    0          -150               
   1669 timing[W,F2,Tiramisu,Mozart]
-                              0.5745          -150               
+                             0.30824          -150               
   1670 timing[W,F2,Tiramisu,Sacher]
-                               0.075          -150               
+                                   0          -150               
   1671 timing[W,F2,Tiramisu,Schwarzwald]
                                    0          -150               
   1672 timing[W,F2,Tiramisu,Kremes]
-                                   0          -150               
+                               0.075          -150               
   1673 timing[W,F2,Tiramisu,Dobos]
                                    0          -150               
   1674 timing[W,F2,Tiramisu,Isler]
@@ -3358,69 +3358,69 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1675 timing[W,F2,Tiramisu,Linzer]
                                    0          -150               
   1676 timing[W,F2,Kremes,Mignon]
-                                   0          -150               
+                            -0.30824          -150               
   1677 timing[W,F2,Kremes,Mozart]
-                              0.5745          -150               
+                                -150          -150               
   1678 timing[W,F2,Kremes,Sacher]
-                               0.075          -150               
+                            -0.30824          -150               
   1679 timing[W,F2,Kremes,Schwarzwald]
-                                   0          -150               
+                            -0.30824          -150               
   1680 timing[W,F2,Kremes,Tiramisu]
-                                   0          -150               
+                            -0.30824          -150               
   1681 timing[W,F2,Kremes,Dobos]
-                                   0          -150               
+                            -0.30824          -150               
   1682 timing[W,F2,Kremes,Isler]
-                                   0          -150               
+                            -0.30824          -150               
   1683 timing[W,F2,Kremes,Linzer]
-                                   0          -150               
+                            -0.30824          -150               
   1684 timing[W,F2,Dobos,Mignon]
                               -0.075          -150               
   1685 timing[W,F2,Dobos,Mozart]
-                              -149.5          -150               
+                            -149.767          -150               
   1686 timing[W,F2,Dobos,Sacher]
-                                -150          -150               
+                              -0.075          -150               
   1687 timing[W,F2,Dobos,Schwarzwald]
                               -0.075          -150               
   1688 timing[W,F2,Dobos,Tiramisu]
                               -0.075          -150               
   1689 timing[W,F2,Dobos,Kremes]
-                              -0.075          -150               
+                                -150          -150               
   1690 timing[W,F2,Dobos,Isler]
                               -0.075          -150               
   1691 timing[W,F2,Dobos,Linzer]
                               -0.075          -150               
   1692 timing[W,F2,Isler,Mignon]
-                               -0.05          -150               
+                             -0.1125          -150               
   1693 timing[W,F2,Isler,Mozart]
-                            -149.476          -150               
+                             0.19574          -150               
   1694 timing[W,F2,Isler,Sacher]
-                               0.025          -150               
+                             -0.1125          -150               
   1695 timing[W,F2,Isler,Schwarzwald]
-                               -0.05          -150               
+                             -0.1125          -150               
   1696 timing[W,F2,Isler,Tiramisu]
-                               -0.05          -150               
+                             -0.1125          -150               
   1697 timing[W,F2,Isler,Kremes]
-                               -0.05          -150               
+                             -0.0375          -150               
   1698 timing[W,F2,Isler,Dobos]
-                               -0.05          -150               
+                             -0.1125          -150               
   1699 timing[W,F2,Isler,Linzer]
-                               -0.05          -150               
+                             -0.1125          -150               
   1700 timing[W,F2,Linzer,Mignon]
-                                   0          -150               
+                               -0.07          -150               
   1701 timing[W,F2,Linzer,Mozart]
-                            -149.425          -150               
+                             0.23824          -150               
   1702 timing[W,F2,Linzer,Sacher]
-                               0.075          -150               
+                               -0.07          -150               
   1703 timing[W,F2,Linzer,Schwarzwald]
-                                   0          -150               
+                               -0.07          -150               
   1704 timing[W,F2,Linzer,Tiramisu]
-                                   0          -150               
+                               -0.07          -150               
   1705 timing[W,F2,Linzer,Kremes]
-                                   0          -150               
+                               0.005          -150               
   1706 timing[W,F2,Linzer,Dobos]
-                                   0          -150               
+                               -0.07          -150               
   1707 timing[W,F2,Linzer,Isler]
-                                   0          -150               
+                               -0.07          -150               
   1708 timing[Th,F1,Mignon,Mozart]
                              -0.7156          -150               
   1709 timing[Th,F1,Mignon,Sacher]
@@ -3952,7 +3952,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1972 timing[F,F2,Dobos,Mignon]
                                    0          -150               
   1973 timing[F,F2,Dobos,Mozart]
-                              2.3734          -150               
+                            -147.627          -150               
   1974 timing[F,F2,Dobos,Sacher]
                               1.8739          -150               
   1975 timing[F,F2,Dobos,Schwarzwald]
@@ -4198,70 +4198,70 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   2095 production_time_per_factory[F,F2]
                                    0            -0             = 
   2096 deliver_in_time[M,F1,S1]
-                              3.9881                         153 
+                              3.7883                      152.92 
   2097 deliver_in_time[M,F1,S2]
-                             153.988                         154 
+                             153.788                     153.947 
   2098 deliver_in_time[M,F1,S3]
-                             153.988                         154 
+                             153.788                     153.792 
   2099 deliver_in_time[M,F2,S1]
-                             152.405                         153 
+                             152.605                     152.903 
   2100 deliver_in_time[M,F2,S2]
-                              2.4051                         154 
+                              2.6049                      153.75 
   2101 deliver_in_time[M,F2,S3]
-                             152.405                         154 
+                             152.605                       153.9 
   2102 deliver_in_time[Tu,F1,S1]
-                             153.808                         154 
+                             153.758                      153.92 
   2103 deliver_in_time[Tu,F1,S2]
-                             153.808                         155 
+                             153.758                     154.947 
   2104 deliver_in_time[Tu,F1,S3]
-                              3.8082                         153 
+                              3.7582                     152.792 
   2105 deliver_in_time[Tu,F2,S1]
-                             152.585                         154 
+                             152.635                     153.903 
   2106 deliver_in_time[Tu,F2,S2]
-                               2.585                         155 
+                               2.635                      154.75 
   2107 deliver_in_time[Tu,F2,S3]
-                             152.585                         153 
+                             152.635                       152.9 
   2108 deliver_in_time[W,F1,S1]
-                             154.953                         155 
+                             154.787                      154.92 
   2109 deliver_in_time[W,F1,S2]
-                             154.953                         155 
+                             154.787                     154.947 
   2110 deliver_in_time[W,F1,S3]
-                             154.953                         155 
+                             154.787                     154.792 
   2111 deliver_in_time[W,F2,S1]
-                              151.44                         153 
+                             151.606                     152.903 
   2112 deliver_in_time[W,F2,S2]
-                              151.44                         153 
+                             151.606                      152.75 
   2113 deliver_in_time[W,F2,S3]
-                              1.4401                         153 
+                             1.60634                       152.9 
   2114 deliver_in_time[Th,F1,S1]
-                             153.358                         154 
+                             153.358                      153.92 
   2115 deliver_in_time[Th,F1,S2]
-                             153.358                         154 
+                             153.358                     153.947 
   2116 deliver_in_time[Th,F1,S3]
-                              3.3582                         154 
+                              3.3582                     153.792 
   2117 deliver_in_time[Th,F2,S1]
-                             153.035                         155 
+                             153.035                     154.903 
   2118 deliver_in_time[Th,F2,S2]
-                               3.035                         155 
+                               3.035                      154.75 
   2119 deliver_in_time[Th,F2,S3]
-                             153.035                         155 
+                             153.035                       154.9 
   2120 deliver_in_time[F,F1,S1]
-                             153.808                         156 
+                             153.808                      155.92 
   2121 deliver_in_time[F,F1,S2]
-                             153.808                         159 
+                             153.808                     158.947 
   2122 deliver_in_time[F,F1,S3]
-                              3.8082                         155 
+                              3.8082                     154.792 
   2123 deliver_in_time[F,F2,S1]
-                               2.585                         154 
+                             152.585                     153.903 
   2124 deliver_in_time[F,F2,S2]
-                             152.585                         157 
+                               2.585                      156.75 
   2125 deliver_in_time[F,F2,S3]
-                             152.585                         153 
+                             152.585                       152.9 
   2126 profit[M]             71126.6                             
   2127 profit[Tu]            71251.6                             
   2128 profit[W]             70901.3                             
   2129 profit[Th]            71251.6                             
-  2130 profit[F]             71102.2                             
+  2130 profit[F]             71251.6                             
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
@@ -4274,13 +4274,13 @@ Objective:  profit[M] = 71126.65 (MAXimum)
      4 Produce[M,F2,Mozart]
                     *              5                             
      5 Produce[M,F1,Sacher]
-                    *             12                             
+                    *             10                             
      6 Produce[M,F2,Sacher]
-                    *             18                             
+                    *             20                             
      7 Produce[M,F1,Schwarzwald]
-                    *             40                             
+                    *             36                             
      8 Produce[M,F2,Schwarzwald]
-                    *             15                             
+                    *             19                             
      9 Produce[M,F1,Tiramisu]
                     *             33                             
     10 Produce[M,F2,Tiramisu]
@@ -4302,9 +4302,9 @@ Objective:  profit[M] = 71126.65 (MAXimum)
     18 Produce[M,F2,Linzer]
                     *              4                             
     19 Produce[Tu,F1,Mignon]
-                    *             10                             
+                    *              9                             
     20 Produce[Tu,F2,Mignon]
-                    *              0                             
+                    *              1                             
     21 Produce[Tu,F1,Mozart]
                     *             16                             
     22 Produce[Tu,F2,Mozart]
@@ -4338,17 +4338,17 @@ Objective:  profit[M] = 71126.65 (MAXimum)
     36 Produce[Tu,F2,Linzer]
                     *              2                             
     37 Produce[W,F1,Mignon]
-                    *              7                             
+                    *              1                             
     38 Produce[W,F2,Mignon]
-                    *              3                             
+                    *              9                             
     39 Produce[W,F1,Mozart]
                     *              1                             
     40 Produce[W,F2,Mozart]
                     *             16                             
     41 Produce[W,F1,Sacher]
-                    *             15                             
+                    *             30                             
     42 Produce[W,F2,Sacher]
-                    *             15                             
+                    *              0                             
     43 Produce[W,F1,Schwarzwald]
                     *             55                             
     44 Produce[W,F2,Schwarzwald]
@@ -4358,21 +4358,21 @@ Objective:  profit[M] = 71126.65 (MAXimum)
     46 Produce[W,F2,Tiramisu]
                     *              0                             
     47 Produce[W,F1,Kremes]
-                    *             50                             
+                    *             36                             
     48 Produce[W,F2,Kremes]
-                    *              0                             
+                    *             14                             
     49 Produce[W,F1,Dobos]
                     *              1                             
     50 Produce[W,F2,Dobos]
                     *              3                             
     51 Produce[W,F1,Isler]
-                    *             17                             
+                    *             12                             
     52 Produce[W,F2,Isler]
-                    *              4                             
+                    *              9                             
     53 Produce[W,F1,Linzer]
-                    *             16                             
+                    *              9                             
     54 Produce[W,F2,Linzer]
-                    *              0                             
+                    *              7                             
     55 Produce[Th,F1,Mignon]
                     *              1                             
     56 Produce[Th,F2,Mignon]
@@ -4526,13 +4526,13 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    130 Deliver[M,F1,S3,Mozart]
                     *              0             0               
    131 Deliver[M,F2,S3,Sacher]
-                    *             13             0               
+                    *             15             0               
    132 Deliver[M,F1,S3,Sacher]
-                    *              2             0               
-   133 Deliver[M,F2,S3,Schwarzwald]
                     *              0             0               
+   133 Deliver[M,F2,S3,Schwarzwald]
+                    *              4             0               
    134 Deliver[M,F1,S3,Schwarzwald]
-                    *             30             0               
+                    *             26             0               
    135 Deliver[M,F2,S3,Tiramisu]
                     *              0             0               
    136 Deliver[M,F1,S3,Tiramisu]
@@ -4554,9 +4554,9 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    144 Deliver[M,F1,S3,Linzer]
                     *              2             0               
    145 Deliver[Tu,F2,S1,Mignon]
-                    *              0             0               
+                    *              1             0               
    146 Deliver[Tu,F1,S1,Mignon]
-                    *             10             0               
+                    *              9             0               
    147 Deliver[Tu,F2,S1,Mozart]
                     *              1             0               
    148 Deliver[Tu,F1,S1,Mozart]
@@ -4662,17 +4662,17 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    198 Deliver[Tu,F1,S3,Linzer]
                     *              0             0               
    199 Deliver[W,F2,S1,Mignon]
-                    *              3             0               
+                    *              9             0               
    200 Deliver[W,F1,S1,Mignon]
-                    *              7             0               
+                    *              1             0               
    201 Deliver[W,F2,S1,Mozart]
-                    *              5             0               
+                    *              4             0               
    202 Deliver[W,F1,S1,Mozart]
-                    *              0             0               
+                    *              1             0               
    203 Deliver[W,F2,S1,Sacher]
-                    *              5             0               
-   204 Deliver[W,F1,S1,Sacher]
                     *              0             0               
+   204 Deliver[W,F1,S1,Sacher]
+                    *              5             0               
    205 Deliver[W,F2,S1,Schwarzwald]
                     *              0             0               
    206 Deliver[W,F1,S1,Schwarzwald]
@@ -4682,9 +4682,9 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    208 Deliver[W,F1,S1,Tiramisu]
                     *              7             0               
    209 Deliver[W,F2,S1,Kremes]
-                    *              0             0               
+                    *              7             0               
    210 Deliver[W,F1,S1,Kremes]
-                    *             20             0               
+                    *             13             0               
    211 Deliver[W,F2,S1,Dobos]
                     *              0             0               
    212 Deliver[W,F1,S1,Dobos]
@@ -4694,21 +4694,21 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    214 Deliver[W,F1,S1,Isler]
                     *              0             0               
    215 Deliver[W,F2,S1,Linzer]
-                    *              0             0               
-   216 Deliver[W,F1,S1,Linzer]
                     *              4             0               
+   216 Deliver[W,F1,S1,Linzer]
+                    *              0             0               
    217 Deliver[W,F2,S2,Mignon]
                     *              0             0               
    218 Deliver[W,F1,S2,Mignon]
                     *              0             0               
    219 Deliver[W,F2,S2,Mozart]
-                    *             11             0               
+                    *             12             0               
    220 Deliver[W,F1,S2,Mozart]
-                    *              1             0               
-   221 Deliver[W,F2,S2,Sacher]
-                    *             10             0               
-   222 Deliver[W,F1,S2,Sacher]
                     *              0             0               
+   221 Deliver[W,F2,S2,Sacher]
+                    *              0             0               
+   222 Deliver[W,F1,S2,Sacher]
+                    *             10             0               
    223 Deliver[W,F2,S2,Schwarzwald]
                     *              0             0               
    224 Deliver[W,F1,S2,Schwarzwald]
@@ -4718,21 +4718,21 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    226 Deliver[W,F1,S2,Tiramisu]
                     *              8             0               
    227 Deliver[W,F2,S2,Kremes]
-                    *              0             0               
+                    *              7             0               
    228 Deliver[W,F1,S2,Kremes]
-                    *             15             0               
+                    *              8             0               
    229 Deliver[W,F2,S2,Dobos]
                     *              3             0               
    230 Deliver[W,F1,S2,Dobos]
                     *              1             0               
    231 Deliver[W,F2,S2,Isler]
-                    *              0             0               
-   232 Deliver[W,F1,S2,Isler]
                     *              5             0               
-   233 Deliver[W,F2,S2,Linzer]
+   232 Deliver[W,F1,S2,Isler]
                     *              0             0               
+   233 Deliver[W,F2,S2,Linzer]
+                    *              3             0               
    234 Deliver[W,F1,S2,Linzer]
-                    *             10             0               
+                    *              7             0               
    235 Deliver[W,F2,S3,Mignon]
                     *              0             0               
    236 Deliver[W,F1,S3,Mignon]
@@ -4882,9 +4882,9 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    308 Deliver[F,F1,S1,Mignon]
                     *             10             0               
    309 Deliver[F,F2,S1,Mozart]
-                    *              0             0               
+                    *              1             0               
    310 Deliver[F,F1,S1,Mozart]
-                    *              5             0               
+                    *              4             0               
    311 Deliver[F,F2,S1,Sacher]
                     *              0             0               
    312 Deliver[F,F1,S1,Sacher]
@@ -4918,9 +4918,9 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    326 Deliver[F,F1,S2,Mignon]
                     *              0             0               
    327 Deliver[F,F2,S2,Mozart]
-                    *              1             0               
+                    *              0             0               
    328 Deliver[F,F1,S2,Mozart]
-                    *             11             0               
+                    *             12             0               
    329 Deliver[F,F2,S2,Sacher]
                     *              0             0               
    330 Deliver[F,F1,S2,Sacher]
@@ -4990,35 +4990,35 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    362 DailyDelivery[M,F1,S2]
                     *             74                             
    363 DailyDelivery[M,F1,S3]
-                    *             86                             
+                    *             80                             
    364 DailyDelivery[M,F2,S1]
                     *             70                             
    365 DailyDelivery[M,F2,S2]
                     *              0                             
    366 DailyDelivery[M,F2,S3]
-                    *             13                             
+                    *             19                             
    367 DailyDelivery[Tu,F1,S1]
-                    *             69                             
+                    *             68                             
    368 DailyDelivery[Tu,F1,S2]
                     *             74                             
    369 DailyDelivery[Tu,F1,S3]
                     *              0                             
    370 DailyDelivery[Tu,F2,S1]
-                    *              1                             
+                    *              2                             
    371 DailyDelivery[Tu,F2,S2]
                     *              0                             
    372 DailyDelivery[Tu,F2,S3]
                     *             99                             
    373 DailyDelivery[W,F1,S1]
-                    *             53                             
+                    *             42                             
    374 DailyDelivery[W,F1,S2]
-                    *             50                             
+                    *             44                             
    375 DailyDelivery[W,F1,S3]
                     *             99                             
    376 DailyDelivery[W,F2,S1]
-                    *             17                             
+                    *             28                             
    377 DailyDelivery[W,F2,S2]
-                    *             24                             
+                    *             30                             
    378 DailyDelivery[W,F2,S3]
                     *              0                             
    379 DailyDelivery[Th,F1,S1]
@@ -5034,15 +5034,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    384 DailyDelivery[Th,F2,S3]
                     *             99                             
    385 DailyDelivery[F,F1,S1]
-                    *             70                             
+                    *             69                             
    386 DailyDelivery[F,F1,S2]
-                    *             73                             
+                    *             74                             
    387 DailyDelivery[F,F1,S3]
                     *              0                             
    388 DailyDelivery[F,F2,S1]
-                    *              0                             
-   389 DailyDelivery[F,F2,S2]
                     *              1                             
+   389 DailyDelivery[F,F2,S2]
+                    *              0                             
    390 DailyDelivery[F,F2,S3]
                     *             99                             
    391 ExistingDelivery[M,F1,S1]
@@ -5100,19 +5100,19 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    417 ExistingDelivery[F,F1,S3]
                     *              0             0             1 
    418 ExistingDelivery[F,F2,S1]
-                    *              0             0             1 
-   419 ExistingDelivery[F,F2,S2]
                     *              1             0             1 
+   419 ExistingDelivery[F,F2,S2]
+                    *              0             0             1 
    420 ExistingDelivery[F,F2,S3]
                     *              1             0             1 
    421 Start[M,F1,Mozart]
-                              2.9891             0               
+                              3.2891             0               
    422 Start[M,F1,Sacher]
-                              2.5895             0               
+                              2.9561             0               
    423 Start[M,F1,Schwarzwald]
-                              1.2575             0               
+                              1.7573             0               
    424 Start[M,F1,Tiramisu]
-                              0.4325             0               
+                              0.9323             0               
    425 Start[M,F1,Kremes]
                               0.4325             0               
    426 Start[M,F1,Dobos]
@@ -5122,11 +5122,11 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    428 Start[M,F1,Linzer]
                                    0             0               
    429 Start[M,F1,Mignon]
-                              3.4883             0               
+                              3.7883             0               
    430 Start[M,F2,Mozart]
                                    0             0               
    431 Start[M,F2,Sacher]
-                              1.0077             0               
+                              1.1409             0               
    432 Start[M,F2,Schwarzwald]
                               0.5082             0               
    433 Start[M,F2,Tiramisu]
@@ -5140,17 +5140,17 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    437 Start[M,F2,Linzer]
                                    0             0               
    438 Start[M,F2,Mignon]
-                              1.6071             0               
+                              1.8069             0               
    439 Start[Tu,F1,Mozart]
-                              2.2901             0               
+                              2.6426             0               
    440 Start[Tu,F1,Sacher]
-                              1.7906             0               
+                              2.1431             0               
    441 Start[Tu,F1,Schwarzwald]
-                              0.9581             0               
+                              1.3106             0               
    442 Start[Tu,F1,Tiramisu]
-                              0.5831             0               
+                              0.9356             0               
    443 Start[Tu,F1,Kremes]
-                                   0             0               
+                              0.3525             0               
    444 Start[Tu,F1,Dobos]
                               0.2525             0               
    445 Start[Tu,F1,Isler]
@@ -5158,7 +5158,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    446 Start[Tu,F1,Linzer]
                                    0             0               
    447 Start[Tu,F1,Mignon]
-                              2.9557             0               
+                              3.3082             0               
    448 Start[Tu,F2,Mozart]
                               2.3734             0               
    449 Start[Tu,F2,Sacher]
@@ -5176,35 +5176,35 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    455 Start[Tu,F2,Linzer]
                                    0             0               
    456 Start[Tu,F2,Mignon]
-                                   0             0               
+                               2.415             0               
    457 Start[W,F1,Mozart]
-                              4.5365             0               
+                             4.43026             0               
    458 Start[W,F1,Sacher]
-                               4.037             0               
+                             3.43126             0               
    459 Start[W,F1,Schwarzwald]
-                              2.2055             0               
+                             1.59976             0               
    460 Start[W,F1,Tiramisu]
-                              1.2055             0               
+                             0.59976             0               
    461 Start[W,F1,Kremes]
-                              0.3725             0               
+                                   0             0               
    462 Start[W,F1,Dobos]
                                    0             0               
    463 Start[W,F1,Isler]
-                                0.16             0               
+                                0.09             0               
    464 Start[W,F1,Linzer]
                                    0             0               
    465 Start[W,F1,Mignon]
-                              4.5781             0               
+                             4.47186             0               
    466 Start[W,F2,Mozart]
-                              0.5745             0               
+                             0.30824             0               
    467 Start[W,F2,Sacher]
-                               0.075             0               
+                                   0             0               
    468 Start[W,F2,Schwarzwald]
                                    0             0               
    469 Start[W,F2,Tiramisu]
                                    0             0               
    470 Start[W,F2,Kremes]
-                                   0             0               
+                               0.075             0               
    471 Start[W,F2,Dobos]
                                    0             0               
    472 Start[W,F2,Isler]
@@ -5286,15 +5286,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    510 Start[F,F2,Mignon]
                                    0             0               
    511 Finish[M,F1,Mignon]
-                              3.4883             0               
+                              3.7883             0               
    512 Finish[M,F1,Mozart]
-                              3.4883             0               
+                              3.7883             0               
    513 Finish[M,F1,Sacher]
-                              2.9891             0               
+                              3.2891             0               
    514 Finish[M,F1,Schwarzwald]
-                              2.5895             0               
+                              2.9561             0               
    515 Finish[M,F1,Tiramisu]
-                              1.2575             0               
+                              1.7573             0               
    516 Finish[M,F1,Kremes]
                               0.9323             0               
    517 Finish[M,F1,Dobos]
@@ -5304,13 +5304,13 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    519 Finish[M,F1,Linzer]
                                 0.12             0               
    520 Finish[M,F2,Mignon]
-                              2.1071             0               
+                              2.3069             0               
    521 Finish[M,F2,Mozart]
                                0.208             0               
    522 Finish[M,F2,Sacher]
-                              1.6071             0               
+                              1.8069             0               
    523 Finish[M,F2,Schwarzwald]
-                              1.0077             0               
+                              1.1409             0               
    524 Finish[M,F2,Tiramisu]
                               0.5082             0               
    525 Finish[M,F2,Kremes]
@@ -5322,17 +5322,17 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    528 Finish[M,F2,Linzer]
                                 0.04             0               
    529 Finish[Tu,F1,Mignon]
-                              3.4557             0               
+                              3.7582             0               
    530 Finish[Tu,F1,Mozart]
-                              2.9557             0               
+                              3.3082             0               
    531 Finish[Tu,F1,Sacher]
-                              2.2901             0               
+                              2.6426             0               
    532 Finish[Tu,F1,Schwarzwald]
-                              1.7906             0               
+                              2.1431             0               
    533 Finish[Tu,F1,Tiramisu]
-                              0.9581             0               
+                              1.3106             0               
    534 Finish[Tu,F1,Kremes]
-                              0.5831             0               
+                              0.9356             0               
    535 Finish[Tu,F1,Dobos]
                               0.3525             0               
    536 Finish[Tu,F1,Isler]
@@ -5340,7 +5340,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    537 Finish[Tu,F1,Linzer]
                                 0.14             0               
    538 Finish[Tu,F2,Mignon]
-                                   0             0               
+                               2.465             0               
    539 Finish[Tu,F2,Mozart]
                                2.415             0               
    540 Finish[Tu,F2,Sacher]
@@ -5358,41 +5358,41 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    546 Finish[Tu,F2,Linzer]
                                 0.02             0               
    547 Finish[W,F1,Mignon]
-                              4.9281             0               
+                             4.52186             0               
    548 Finish[W,F1,Mozart]
-                              4.5781             0               
+                             4.47186             0               
    549 Finish[W,F1,Sacher]
-                              4.5365             0               
+                             4.43026             0               
    550 Finish[W,F1,Schwarzwald]
-                               4.037             0               
+                             3.43126             0               
    551 Finish[W,F1,Tiramisu]
-                              2.2055             0               
+                             1.59976             0               
    552 Finish[W,F1,Kremes]
-                              1.2055             0               
+                             0.59976             0               
    553 Finish[W,F1,Dobos]
                                0.025             0               
    554 Finish[W,F1,Isler]
-                              0.3725             0               
+                                0.24             0               
    555 Finish[W,F1,Linzer]
-                                0.16             0               
+                                0.09             0               
    556 Finish[W,F2,Mignon]
-                                0.15             0               
+                                0.45             0               
    557 Finish[W,F2,Mozart]
-                              1.2401             0               
+                             0.97384             0               
    558 Finish[W,F2,Sacher]
-                              0.5745             0               
+                                   0             0               
    559 Finish[W,F2,Schwarzwald]
                                    0             0               
    560 Finish[W,F2,Tiramisu]
                                    0             0               
    561 Finish[W,F2,Kremes]
-                                   0             0               
+                             0.30824             0               
    562 Finish[W,F2,Dobos]
                                0.075             0               
    563 Finish[W,F2,Isler]
-                                0.05             0               
+                              0.1125             0               
    564 Finish[W,F2,Linzer]
-                                   0             0               
+                                0.07             0               
    565 Finish[Th,F1,Mignon]
                               3.0057             0               
    566 Finish[Th,F1,Mozart]
@@ -5570,7 +5570,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    652 Prec[M,Schwarzwald,Linzer,F1]
                     *              0             0             1 
    653 Prec[M,Kremes,Tiramisu,F1]
-                    *              0             0             1 
+                    *              1             0             1 
    654 Prec[M,Tiramisu,Kremes,F1]
                     *              0             0             1 
    655 Prec[M,Dobos,Tiramisu,F1]
@@ -5578,11 +5578,11 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    656 Prec[M,Tiramisu,Dobos,F1]
                     *              0             0             1 
    657 Prec[M,Isler,Tiramisu,F1]
-                    *              0             0             1 
+                    *              1             0             1 
    658 Prec[M,Tiramisu,Isler,F1]
                     *              0             0             1 
    659 Prec[M,Linzer,Tiramisu,F1]
-                    *              0             0             1 
+                    *              1             0             1 
    660 Prec[M,Tiramisu,Linzer,F1]
                     *              0             0             1 
    661 Prec[M,Dobos,Kremes,F1]
@@ -5706,11 +5706,11 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    720 Prec[M,Schwarzwald,Dobos,F2]
                     *              0             0             1 
    721 Prec[M,Isler,Schwarzwald,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    722 Prec[M,Schwarzwald,Isler,F2]
                     *              0             0             1 
    723 Prec[M,Linzer,Schwarzwald,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    724 Prec[M,Schwarzwald,Linzer,F2]
                     *              0             0             1 
    725 Prec[M,Kremes,Tiramisu,F2]
@@ -5874,15 +5874,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    804 Prec[Tu,Tiramisu,Linzer,F1]
                     *              0             0             1 
    805 Prec[Tu,Dobos,Kremes,F1]
-                    *              0             0             1 
+                    *              1             0             1 
    806 Prec[Tu,Kremes,Dobos,F1]
                     *              0             0             1 
    807 Prec[Tu,Isler,Kremes,F1]
-                    *              0             0             1 
+                    *              1             0             1 
    808 Prec[Tu,Kremes,Isler,F1]
                     *              0             0             1 
    809 Prec[Tu,Linzer,Kremes,F1]
-                    *              0             0             1 
+                    *              1             0             1 
    810 Prec[Tu,Kremes,Linzer,F1]
                     *              0             0             1 
    811 Prec[Tu,Isler,Dobos,F1]
@@ -5898,35 +5898,35 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    816 Prec[Tu,Isler,Linzer,F1]
                     *              0             0             1 
    817 Prec[Tu,Mozart,Mignon,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    818 Prec[Tu,Mignon,Mozart,F2]
                     *              0             0             1 
    819 Prec[Tu,Sacher,Mignon,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    820 Prec[Tu,Mignon,Sacher,F2]
                     *              0             0             1 
    821 Prec[Tu,Schwarzwald,Mignon,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    822 Prec[Tu,Mignon,Schwarzwald,F2]
                     *              0             0             1 
    823 Prec[Tu,Tiramisu,Mignon,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    824 Prec[Tu,Mignon,Tiramisu,F2]
                     *              0             0             1 
    825 Prec[Tu,Kremes,Mignon,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    826 Prec[Tu,Mignon,Kremes,F2]
                     *              0             0             1 
    827 Prec[Tu,Dobos,Mignon,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    828 Prec[Tu,Mignon,Dobos,F2]
                     *              0             0             1 
    829 Prec[Tu,Isler,Mignon,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    830 Prec[Tu,Mignon,Isler,F2]
                     *              0             0             1 
    831 Prec[Tu,Linzer,Mignon,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    832 Prec[Tu,Mignon,Linzer,F2]
                     *              0             0             1 
    833 Prec[Tu,Sacher,Mozart,F2]
@@ -6010,11 +6010,11 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    872 Prec[Tu,Tiramisu,Dobos,F2]
                     *              0             0             1 
    873 Prec[Tu,Isler,Tiramisu,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    874 Prec[Tu,Tiramisu,Isler,F2]
                     *              0             0             1 
    875 Prec[Tu,Linzer,Tiramisu,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    876 Prec[Tu,Tiramisu,Linzer,F2]
                     *              0             0             1 
    877 Prec[Tu,Dobos,Kremes,F2]
@@ -6162,15 +6162,15 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    948 Prec[W,Tiramisu,Linzer,F1]
                     *              0             0             1 
    949 Prec[W,Dobos,Kremes,F1]
-                    *              1             0             1 
+                    *              0             0             1 
    950 Prec[W,Kremes,Dobos,F1]
                     *              0             0             1 
    951 Prec[W,Isler,Kremes,F1]
-                    *              1             0             1 
+                    *              0             0             1 
    952 Prec[W,Kremes,Isler,F1]
                     *              0             0             1 
    953 Prec[W,Linzer,Kremes,F1]
-                    *              1             0             1 
+                    *              0             0             1 
    954 Prec[W,Kremes,Linzer,F1]
                     *              0             0             1 
    955 Prec[W,Isler,Dobos,F1]
@@ -6218,7 +6218,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    976 Prec[W,Mignon,Linzer,F2]
                     *              0             0             1 
    977 Prec[W,Sacher,Mozart,F2]
-                    *              1             0             1 
+                    *              0             0             1 
    978 Prec[W,Mozart,Sacher,F2]
                     *              0             0             1 
    979 Prec[W,Schwarzwald,Mozart,F2]
@@ -6230,7 +6230,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    982 Prec[W,Mozart,Tiramisu,F2]
                     *              0             0             1 
    983 Prec[W,Kremes,Mozart,F2]
-                    *              0             0             1 
+                    *              1             0             1 
    984 Prec[W,Mozart,Kremes,F2]
                     *              0             0             1 
    985 Prec[W,Dobos,Mozart,F2]
@@ -6238,11 +6238,11 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    986 Prec[W,Mozart,Dobos,F2]
                     *              0             0             1 
    987 Prec[W,Isler,Mozart,F2]
-                    *              1             0             1 
+                    *              0             0             1 
    988 Prec[W,Mozart,Isler,F2]
                     *              0             0             1 
    989 Prec[W,Linzer,Mozart,F2]
-                    *              1             0             1 
+                    *              0             0             1 
    990 Prec[W,Mozart,Linzer,F2]
                     *              0             0             1 
    991 Prec[W,Schwarzwald,Sacher,F2]
@@ -6258,7 +6258,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
    996 Prec[W,Sacher,Kremes,F2]
                     *              0             0             1 
    997 Prec[W,Dobos,Sacher,F2]
-                    *              1             0             1 
+                    *              0             0             1 
    998 Prec[W,Sacher,Dobos,F2]
                     *              0             0             1 
    999 Prec[W,Isler,Sacher,F2]
@@ -6306,7 +6306,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1020 Prec[W,Tiramisu,Linzer,F2]
                     *              0             0             1 
   1021 Prec[W,Dobos,Kremes,F2]
-                    *              0             0             1 
+                    *              1             0             1 
   1022 Prec[W,Kremes,Dobos,F2]
                     *              0             0             1 
   1023 Prec[W,Isler,Kremes,F2]
@@ -6810,7 +6810,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1272 Prec[F,Mozart,Kremes,F2]
                     *              0             0             1 
   1273 Prec[F,Dobos,Mozart,F2]
-                    *              0             0             1 
+                    *              1             0             1 
   1274 Prec[F,Mozart,Dobos,F2]
                     *              0             0             1 
   1275 Prec[F,Isler,Mozart,F2]
@@ -6922,7 +6922,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1328 Alloc[M,Schwarzwald,F2]
                     *              1             0             1 
   1329 Alloc[M,Tiramisu,F1]
-                    *              0             0             1 
+                    *              1             0             1 
   1330 Alloc[M,Tiramisu,F2]
                     *              1             0             1 
   1331 Alloc[M,Kremes,F1]
@@ -6944,7 +6944,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1339 Alloc[Tu,Mignon,F1]
                     *              1             0             1 
   1340 Alloc[Tu,Mignon,F2]
-                    *              0             0             1 
+                    *              1             0             1 
   1341 Alloc[Tu,Mozart,F1]
                     *              1             0             1 
   1342 Alloc[Tu,Mozart,F2]
@@ -6962,7 +6962,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1348 Alloc[Tu,Tiramisu,F2]
                     *              1             0             1 
   1349 Alloc[Tu,Kremes,F1]
-                    *              0             0             1 
+                    *              1             0             1 
   1350 Alloc[Tu,Kremes,F2]
                     *              1             0             1 
   1351 Alloc[Tu,Dobos,F1]
@@ -6988,7 +6988,7 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1361 Alloc[W,Sacher,F1]
                     *              1             0             1 
   1362 Alloc[W,Sacher,F2]
-                    *              1             0             1 
+                    *              0             0             1 
   1363 Alloc[W,Schwarzwald,F1]
                     *              1             0             1 
   1364 Alloc[W,Schwarzwald,F2]
@@ -6998,9 +6998,9 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1366 Alloc[W,Tiramisu,F2]
                     *              0             0             1 
   1367 Alloc[W,Kremes,F1]
-                    *              1             0             1 
-  1368 Alloc[W,Kremes,F2]
                     *              0             0             1 
+  1368 Alloc[W,Kremes,F2]
+                    *              1             0             1 
   1369 Alloc[W,Dobos,F1]
                     *              0             0             1 
   1370 Alloc[W,Dobos,F2]
@@ -7094,13 +7094,13 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1414 ProductionTimeProductSum[M,Mozart,F2]
                                0.208                             
   1415 ProductionTimeProductSum[M,Sacher,F1]
-                              0.3996                             
+                               0.333                             
   1416 ProductionTimeProductSum[M,Sacher,F2]
-                              0.5994                             
+                               0.666                             
   1417 ProductionTimeProductSum[M,Schwarzwald,F1]
-                               1.332                             
+                              1.1988                             
   1418 ProductionTimeProductSum[M,Schwarzwald,F2]
-                              0.4995                             
+                              0.6327                             
   1419 ProductionTimeProductSum[M,Tiramisu,F1]
                                0.825                             
   1420 ProductionTimeProductSum[M,Tiramisu,F2]
@@ -7122,9 +7122,9 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1428 ProductionTimeProductSum[M,Linzer,F2]
                                 0.04                             
   1429 ProductionTimeProductSum[Tu,Mignon,F1]
-                                 0.5                             
+                                0.45                             
   1430 ProductionTimeProductSum[Tu,Mignon,F2]
-                                   0                             
+                                0.05                             
   1431 ProductionTimeProductSum[Tu,Mozart,F1]
                               0.6656                             
   1432 ProductionTimeProductSum[Tu,Mozart,F2]
@@ -7158,17 +7158,17 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1446 ProductionTimeProductSum[Tu,Linzer,F2]
                                 0.02                             
   1447 ProductionTimeProductSum[W,Mignon,F1]
-                                0.35                             
+                                0.05                             
   1448 ProductionTimeProductSum[W,Mignon,F2]
-                                0.15                             
+                                0.45                             
   1449 ProductionTimeProductSum[W,Mozart,F1]
                               0.0416                             
   1450 ProductionTimeProductSum[W,Mozart,F2]
                               0.6656                             
   1451 ProductionTimeProductSum[W,Sacher,F1]
-                              0.4995                             
+                               0.999                             
   1452 ProductionTimeProductSum[W,Sacher,F2]
-                              0.4995                             
+                                   0                             
   1453 ProductionTimeProductSum[W,Schwarzwald,F1]
                               1.8315                             
   1454 ProductionTimeProductSum[W,Schwarzwald,F2]
@@ -7178,21 +7178,21 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1456 ProductionTimeProductSum[W,Tiramisu,F2]
                                    0                             
   1457 ProductionTimeProductSum[W,Kremes,F1]
-                               0.833                             
+                             0.59976                             
   1458 ProductionTimeProductSum[W,Kremes,F2]
-                                   0                             
+                             0.23324                             
   1459 ProductionTimeProductSum[W,Dobos,F1]
                                0.025                             
   1460 ProductionTimeProductSum[W,Dobos,F2]
                                0.075                             
   1461 ProductionTimeProductSum[W,Isler,F1]
-                              0.2125                             
+                                0.15                             
   1462 ProductionTimeProductSum[W,Isler,F2]
-                                0.05                             
+                              0.1125                             
   1463 ProductionTimeProductSum[W,Linzer,F1]
-                                0.16                             
+                                0.09                             
   1464 ProductionTimeProductSum[W,Linzer,F2]
-                                   0                             
+                                0.07                             
   1465 ProductionTimeProductSum[Th,Mignon,F1]
                                 0.05                             
   1466 ProductionTimeProductSum[Th,Mignon,F2]
@@ -7266,17 +7266,17 @@ Objective:  profit[M] = 71126.65 (MAXimum)
   1500 ProductionTimeProductSum[F,Linzer,F2]
                                 0.02                             
   1501 ProductionTimeFactorySum[M,F1]
-                              3.9881                             
+                              3.7883                             
   1502 ProductionTimeFactorySum[M,F2]
-                              2.4051                             
+                              2.6049                             
   1503 ProductionTimeFactorySum[Tu,F1]
-                              3.8082                             
+                              3.7582                             
   1504 ProductionTimeFactorySum[Tu,F2]
-                               2.585                             
+                               2.635                             
   1505 ProductionTimeFactorySum[W,F1]
-                              4.9531                             
+                             4.78686                             
   1506 ProductionTimeFactorySum[W,F2]
-                              1.4401                             
+                             1.60634                             
   1507 ProductionTimeFactorySum[Th,F1]
                               3.3582                             
   1508 ProductionTimeFactorySum[Th,F2]
@@ -7288,12 +7288,12 @@ Objective:  profit[M] = 71126.65 (MAXimum)
 
 Integer feasibility conditions:
 
-KKT.PE: max.abs.err = 2.84e-14 on row 1301
-        max.rel.err = 9.44e-17 on row 1558
+KKT.PE: max.abs.err = 2.84e-14 on row 1325
+        max.rel.err = 9.44e-17 on row 1556
         High quality
 
-KKT.PB: max.abs.err = 8.88e-16 on row 2032
-        max.rel.err = 8.88e-16 on row 2032
+KKT.PB: max.abs.err = 1.11e-15 on row 472
+        max.rel.err = 1.11e-15 on row 472
         High quality
 
 End of output
