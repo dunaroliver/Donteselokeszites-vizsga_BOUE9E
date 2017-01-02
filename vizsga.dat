@@ -47,18 +47,6 @@ param Demand:
 	S3	0	0	15	30	25	15	0	12	2
 	;
 
-param DailyDemand:=
-	Mignon	10
-	Mozart	17
-	Sacher	30
-	Schwarzwald	55
-	Tiramisu	40
-	Kremes	50
-	Dobos	4
-	Isler	21
-	Linzer	16
-	;
-
 param Consumption:=7;
 param FuelCost:=350;
 

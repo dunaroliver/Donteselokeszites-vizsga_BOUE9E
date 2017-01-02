@@ -8,7 +8,6 @@ param WorkStarting{D in Days,F in Factories}; /*Üzemek napi kezdése*/
 param Price{P in Products}; /*Egy termékfajta ára*/
 param Distance{F in Factories,S in Shops}; /*Üzemek és Boltok távolsága*/
 param Demand{S in Shops,P in Products}; /*Boltok kereslete*/
-param DailyDemand{P in Products}; /*Napi kereslet termékfajtánként*/
 param Consumption; /*Autó fogyasztása*/
 param FuelCost; /*Üzemanyag aktuális ára*/
 param ProductionTime{P in Products}; /*Egy termék elõállításának idõtartama*/
@@ -28,7 +27,7 @@ var ProductionTimeFactorySum{D in Days,F in Factories};/*Adott napon adott üzemb
 
 
 s.t. production_matching_demand{D in Days,P in Products}:
-	sum{F in Factories}(Produce[D,F,P])=DailyDemand[P];/*Napi igényt ki kell elégíteni.*/
+	sum{F in Factories}(Produce[D,F,P])=sum{S in Shops}(Demand[S,P]);/*Napi igényt ki kell elégíteni.*/
 
 s.t. deliveries{D in Days,S in Shops,P in Products}:
 	Deliver[D,'F1',S,P]+Deliver[D,'F2',S,P]=Demand[S,P];/*Napi igényt a boltba el is kell juttatni.*/
@@ -43,7 +42,7 @@ s.t. delivery_routes{D in Days,F in Factories,S in Shops}:
 	ExistingDelivery[D,F,S]*sum{P in Products}(Demand[S,P])>=DailyDelivery[D,F,S];/*Melyik szállítási útvonal létezik valójában.*/
 
 s.t. allocation{D in Days,P in Products}:
-	sum{F in Factories} Alloc[D,P,F]*DailyDemand[P]>=DailyDemand[P];/*Termékek allokációja az üzemekhez.*/
+	sum{F in Factories} Alloc[D,P,F]*sum{S in Shops}(Demand[S,P])>=sum{S in Shops}(Demand[S,P]);/*Termékek allokációja az üzemekhez.*/
 
 s.t. production_matching_allocation{D in Days,P in Products,F in Factories}:
 	Alloc[D,P,F]<=Produce[D,F,P];/*Nincs allokálva, ha nem termelünk.*/
