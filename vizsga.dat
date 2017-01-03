@@ -1,7 +1,7 @@
 set Factories:= F1 F2;
 set Shops:= S1 S2 S3;
 set Days:= M Tu W Th F;
-set Products:= Mignon Mozart Sacher Schwarzwald Tiramisu Kremes Dobos Isler Linzer;
+set Products:= Mignon Mozart Sacher Schwar Tiram Kremes Dobos Isler Linzer;
 
 param OpeningTimes:
 		S1	S2	S3:=
@@ -26,8 +26,8 @@ param Price:=
 	Mignon	315
 	Mozart	325
 	Sacher	320
-	Schwarzwald	350
-	Tiramisu	320
+	Schwar	350
+	Tiram	320
 	Kremes	240
 	Dobos	305
 	Isler	230
@@ -41,7 +41,7 @@ param Distance:
 	;
 
 param Demand:
-		Mignon	Mozart	Sacher	Schwarzwald	Tiramisu	Kremes	Dobos	Isler	Linzer:=
+		Mignon	Mozart	Sacher	Schwar	Tiram	Kremes	Dobos	Isler	Linzer:=
 	S1	10	5	5	15	7	20	0	4	4
 	S2	0	12	10	10	8	15	4	5	10
 	S3	0	0	15	30	25	15	0	12	2
@@ -54,8 +54,8 @@ param ProductionTime:=
 	Mignon	0.05
 	Mozart	0.0416
 	Sacher	0.0333
-	Schwarzwald	0.0333
-	Tiramisu	0.025
+	Schwar	0.0333
+	Tiram	0.025
 	Kremes	0.01666
 	Dobos	0.025
 	Isler	0.0125

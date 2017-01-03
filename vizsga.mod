@@ -134,3 +134,20 @@ for {P in Products}{
 	}
 	printf "---------------------------------------\n\n";
 }
+
+printf "\n\nDaily Precedence Matrix:\n\n";
+for {D in Days}{
+	printf "%4s\n",D;
+	printf "*************************************************\n";
+	for {F in Factories}{
+		printf "%s:\n",F;
+		for {P in Products} printf "\t   %s",P;
+		printf "\n";
+		for {P1 in Products}{
+			printf "%s\t\t",P1;
+			for {P2 in Products} printf "%1d\t\t",Prec[D,P1,P2,F];
+			printf "\n";
+		}
+		printf "\n";
+	}
+}
