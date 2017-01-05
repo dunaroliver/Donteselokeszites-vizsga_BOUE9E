@@ -10,21 +10,24 @@ param Distance{F in Factories,S in Shops}; /*Üzemek és Boltok távolsága*/
 param Demand{S in Shops,P in Products}; /*Boltok kereslete*/
 param Consumption; /*Autó fogyasztása*/
 param FuelCost; /*Üzemanyag aktuális ára*/
-param ProductionTime{P in Products}; /*Egy termék elõállításának idõtartama*/
+param ProductionTime{P in Products}; /*Egy termék eloállításának idotartama*/
+param ProductDeadline{P in Products}; /*Termékek elkészítésének határideje*/
 param AvgSpeed;
+param MinProductNumber;
 param BigM:=150; 
 
 
-var Produce{D in Days,F in Factories,P in Products},integer; /*Adott napon adott üzem adott termékbõl mennyit gyárt*/
-var Deliver{D in Days,F in Factories,S in Shops,P in Products},integer>=0;/*Adott napon adott üzem adott boltba adott termékbõl mennyit szállít*/
+var Produce{D in Days,F in Factories,P in Products},integer; /*Adott napon adott üzem adott termékbol mennyit gyárt*/
+var Deliver{D in Days,F in Factories,S in Shops,P in Products},integer>=0;/*Adott napon adott üzem adott boltba adott termékbol mennyit szállít*/
 var DailyDelivery{D in Days,F in Factories,S in Shops},integer;/*Adott napon adott üzem adott boltba összesen hány terméket szállít*/
 var ExistingDelivery{D in Days,F in Factories,S in Shops},binary;/*Adott napon adott üzem adott boltba szállít-e?*/
 var Start{D in Days,F in Factories,P in Products}>=0;/*Adott napon adott üzemben termékfajták gyártásának kezdeti ideje*/
 var Finish{D in Days,F in Factories,P in Products}>=0;/*Adott napon adott üzemben termékfajták gyártásának befejezési ideje*/
 var Prec{D in Days,P1 in Products,P2 in Products,F in Factories},binary;/*Adott napon adott üzemben termékfajták precedenciája*/
 var Alloc{D in Days,P in Products,F in Factories}, binary;/*Adott napon adott üzemben termékfajták gyártásának allokációja*/
-var ProductionTimeProductSum{D in Days,P in Products,F in Factories};/*Adott napon adott üzemben adott termékfajtára fordított össz. idõ*/
-var ProductionTimeFactorySum{D in Days,F in Factories};/*Adott napon adott üzemben a teljes termelésre fordított össz. idõ*/
+var ProductionTimeProductSum{D in Days,P in Products,F in Factories};/*Adott napon adott üzemben adott termékfajtára fordított össz. ido*/
+var ProductionTimeFactorySum{D in Days,F in Factories};/*Adott napon adott üzemben a teljes termelésre fordított össz. ido*/
+
 
 
 s.t. production_matching_demand{D in Days,P in Products}:
@@ -39,14 +42,14 @@ s.t. deliver_only_avalible{D in Days,P in Products,F in Factories}:
 s.t. daily_delivery_sum{D in Days,F in Factories,S in Shops}:
 	sum{P in Products}(Deliver[D,F,S,P])=DailyDelivery[D,F,S];/*Segédváltozó kiszámolása.*/
 
+s.t. daily_delivery_min{D in Days,F in Factories,S in Shops}:
+	DailyDelivery[D,F,S]>=MinProductNumber*ExistingDelivery[D,F,S];/*1 db süteményt külön nem szállítunk.*/
+
 s.t. delivery_routes{D in Days,F in Factories,S in Shops}:
 	ExistingDelivery[D,F,S]*sum{P in Products}(Demand[S,P])>=DailyDelivery[D,F,S];/*Melyik szállítási útvonal létezik valójában.*/
 
 s.t. allocation{D in Days,P in Products}:
-	sum{F in Factories} Alloc[D,P,F]*sum{S in Shops}(Demand[S,P])>=sum{S in Shops}(Demand[S,P]);/*Termékek allokációja az üzemekhez.*/
-
-s.t. production_matching_allocation{D in Days,P in Products,F in Factories}:
-	Alloc[D,P,F]<=Produce[D,F,P];/*Nincs allokálva, ha nem termelünk.*/
+	sum{F in Factories} Alloc[D,P,F]=2;/*Termékek allokációja az üzemekhez.*/
 
 s.t. production_time_per_product_per_factory{D in Days,P in Products,F in Factories}:
 	Produce[D,F,P]*ProductionTime[P]=ProductionTimeProductSum[D,P,F];/*Segédváltozó kiszámolása.*/
@@ -55,17 +58,20 @@ s.t. sequencing{D in Days,F in Factories,P1 in Products,P2 in Products: P1!=P2}:
 	Prec[D,P1,P2,F]+Prec[D,P2,P1,F]>=Alloc[D,P1,F]+Alloc[D,P2,F]-1;/*Gyártási sorrend üzemenként.*/
 
 s.t. timing{D in Days,F in Factories,P1 in Products, P2 in Products: P1!=P2}:
-	Start[D,F,P2] >= Finish[D,F,P1] - BigM * (1 - Prec[D,P1,P2,F]);/*Amelyik megelõzi a másikat,annak elõbb vége, mint a másik kezdete.*/
+	Start[D,F,P2] >= Finish[D,F,P1] - BigM * (1 - Prec[D,P1,P2,F]);/*Amelyik megelozi a másikat,annak elobb vége, mint a másik kezdete.*/
 
 s.t. processing_time{D in Days,F in Factories,P in Products}:
-	Finish[D,F,P]=Start[D,F,P]+Produce[D,F,P]*ProductionTime[P];/*Idõzítések kiszámítása üzemenként.*/
+	Finish[D,F,P]=Start[D,F,P]+Produce[D,F,P]*ProductionTime[P];/*Idozítések kiszámítása üzemenként.*/
+
+s.t. deadlines{D in Days,F in Factories,P in Products}:
+	Finish[D,F,P]<=ProductDeadline[P];/*Termékek gyártását határidõ elõtt be kell fejezni.*/
 
 s.t. production_time_per_factory{D in Days,F in Factories}:
-	sum{P in Products}(ProductionTimeProductSum[D,P,F])=ProductionTimeFactorySum[D,F];/*Üzemenkénti összes termelés idõtartama.*/
+	sum{P in Products}(ProductionTimeProductSum[D,P,F])=ProductionTimeFactorySum[D,F];/*Üzemenkénti összes termelés idotartama.*/
 
 s.t. deliver_in_time{D in Days,F in Factories,S in Shops}:
 	WorkStarting[D,F]+ProductionTimeFactorySum[D,F]+(Distance[F,S]/AvgSpeed)<=OpeningTimes[D,S]+BigM*(1-(ExistingDelivery[D,F,S]));
-/*Abban az esetben, ha az adott üzem szállít adott boltba, akkor az összes termeléssel és szállítással el kell készülnünk az elõtt, hogy a bolt kinyitna.*/
+/*Abban az esetben, ha az adott üzem szállít adott boltba, akkor az összes termeléssel és szállítással el kell készülnünk az elott, hogy a bolt kinyitna.*/
 
 maximize profit{D in Days}: sum{P in Products,F in Factories,S in Shops}(Deliver[D,F,S,P]*Price[P])-sum{F in Factories,S in Shops}(ExistingDelivery[D,F,S]*Distance[F,S]*(Consumption/100)*FuelCost);
 

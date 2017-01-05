@@ -62,4 +62,17 @@ param ProductionTime:=
 	Linzer	0.01
 	;
 
+param ProductDeadline:=
+	Mignon	1
+	Mozart	0.5
+	Sacher	2
+	Schwar	4
+	Tiram	3.5
+	Kremes	3.65
+	Dobos	1.5
+	Isler	3
+	Linzer	2.9
+	;
 param AvgSpeed:=40;
+
+param MinProductNumber:=2;
