@@ -43,7 +43,7 @@ s.t. daily_delivery_sum{D in Days,F in Factories,S in Shops}:
 	sum{P in Products}(Deliver[D,F,S,P])=DailyDelivery[D,F,S];/*Segédváltozó kiszámolása.*/
 
 s.t. daily_delivery_min{D in Days,F in Factories,S in Shops}:
-	DailyDelivery[D,F,S]>=MinProductNumber*ExistingDelivery[D,F,S];/*1 db süteményt külön nem szállítunk.*/
+	DailyDelivery[D,F,S]>=MinProductNumber*ExistingDelivery[D,F,S];/*Minimum n-db süteményt kell szállítanunk. Külön 1db-ot nem viszünk el egy fajtából.*/
 
 s.t. delivery_routes{D in Days,F in Factories,S in Shops}:
 	ExistingDelivery[D,F,S]*sum{P in Products}(Demand[S,P])>=DailyDelivery[D,F,S];/*Melyik szállítási útvonal létezik valójában.*/
