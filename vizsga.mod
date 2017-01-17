@@ -49,7 +49,10 @@ s.t. delivery_routes{D in Days,F in Factories,S in Shops}:
 	ExistingDelivery[D,F,S]*sum{P in Products}(Demand[S,P])>=DailyDelivery[D,F,S];/*Melyik szállítási útvonal létezik valójában.*/
 
 s.t. allocation{D in Days,P in Products}:
-	sum{F in Factories} Alloc[D,P,F]=2;/*Termékek allokációja az üzemekhez.*/
+	sum{F in Factories} Alloc[D,P,F]*sum{S in Shops}(Demand[S,P])>=sum{S in Shops}(Demand[S,P]);/*Termékek allokációja az üzemekhez.*/
+
+s.t. production_matching_allocation{D in Days,P in Products,F in Factories}:
+	Alloc[D,P,F]*BigM>=Produce[D,F,P];/*Nincs allokálva, ha nem termelünk.*/
 
 s.t. production_time_per_product_per_factory{D in Days,P in Products,F in Factories}:
 	Produce[D,F,P]*ProductionTime[P]=ProductionTimeProductSum[D,P,F];/*Segédváltozó kiszámolása.*/
